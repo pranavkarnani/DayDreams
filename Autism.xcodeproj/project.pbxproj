@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22533BECA98AB4A582FF59D2 /* Pods_AutismUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADE826F68A8F5A11E7412F11 /* Pods_AutismUITests.framework */; };
+		5D214E9C1B3632831851DE33 /* Pods_Autism.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EBC84404AA56A09B527FC2 /* Pods_Autism.framework */; };
+		6AEA14F9BAD581BFDCC7FE4C /* Pods_AutismTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51266568AD0D2A870C065D9 /* Pods_AutismTests.framework */; };
+		812C40FD22462AB100C70158 /* LessonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C40FC22462AB100C70158 /* LessonsCollectionViewCell.swift */; };
+		812C40FF2246303E00C70158 /* LiveLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C40FE2246303E00C70158 /* LiveLessonViewController.swift */; };
+		81CBDCD022458EF600DDA96C /* manrope in Resources */ = {isa = PBXBuildFile; fileRef = 81CBDCCF22458EF500DDA96C /* manrope */; };
+		81CBDCD722458F3F00DDA96C /* light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81CBDCD122458F3E00DDA96C /* light.otf */; };
+		81CBDCD822458F3F00DDA96C /* medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81CBDCD222458F3E00DDA96C /* medium.otf */; };
+		81CBDCD922458F3F00DDA96C /* bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81CBDCD322458F3E00DDA96C /* bold.otf */; };
+		81CBDCDA22458F3F00DDA96C /* thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81CBDCD422458F3E00DDA96C /* thin.otf */; };
+		81CBDCDB22458F3F00DDA96C /* semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81CBDCD522458F3F00DDA96C /* semibold.otf */; };
+		81CBDCDC22458F3F00DDA96C /* regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81CBDCD622458F3F00DDA96C /* regular.otf */; };
 		81F93AFA224573FA0010C2BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F93AF9224573FA0010C2BF /* AppDelegate.swift */; };
 		81F93AFC224573FA0010C2BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F93AFB224573FA0010C2BF /* ViewController.swift */; };
 		81F93AFF224573FA0010C2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F93AFD224573FA0010C2BF /* Main.storyboard */; };
@@ -15,6 +27,8 @@
 		81F93B07224573FB0010C2BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F93B05224573FB0010C2BF /* LaunchScreen.storyboard */; };
 		81F93B12224573FC0010C2BF /* AutismTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F93B11224573FC0010C2BF /* AutismTests.swift */; };
 		81F93B1D224573FC0010C2BF /* AutismUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F93B1C224573FC0010C2BF /* AutismUITests.swift */; };
+		81F93B2B224583C20010C2BF /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F93B2A224583C20010C2BF /* DataHandler.swift */; };
+		81F93B2D22458C450010C2BF /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F93B2C22458C450010C2BF /* LandingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24B530E1B6C2666B705809C6 /* Pods-AutismUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutismUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutismUITests/Pods-AutismUITests.release.xcconfig"; sourceTree = "<group>"; };
+		812C40FC22462AB100C70158 /* LessonsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsCollectionViewCell.swift; sourceTree = "<group>"; };
+		812C40FE2246303E00C70158 /* LiveLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLessonViewController.swift; sourceTree = "<group>"; };
+		81CBDCCF22458EF500DDA96C /* manrope */ = {isa = PBXFileReference; lastKnownFileType = folder; path = manrope; sourceTree = SOURCE_ROOT; };
+		81CBDCD122458F3E00DDA96C /* light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = light.otf; sourceTree = "<group>"; };
+		81CBDCD222458F3E00DDA96C /* medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = medium.otf; sourceTree = "<group>"; };
+		81CBDCD322458F3E00DDA96C /* bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bold.otf; sourceTree = "<group>"; };
+		81CBDCD422458F3E00DDA96C /* thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = thin.otf; sourceTree = "<group>"; };
+		81CBDCD522458F3F00DDA96C /* semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = semibold.otf; sourceTree = "<group>"; };
+		81CBDCD622458F3F00DDA96C /* regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = regular.otf; sourceTree = "<group>"; };
 		81F93AF6224573FA0010C2BF /* Autism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autism.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F93AF9224573FA0010C2BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81F93AFB224573FA0010C2BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +73,16 @@
 		81F93B18224573FC0010C2BF /* AutismUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutismUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F93B1C224573FC0010C2BF /* AutismUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutismUITests.swift; sourceTree = "<group>"; };
 		81F93B1E224573FC0010C2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F93B2A224583C20010C2BF /* DataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		81F93B2C22458C450010C2BF /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		84FE88F4148113999455F782 /* Pods-Autism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism.release.xcconfig"; path = "Pods/Target Support Files/Pods-Autism/Pods-Autism.release.xcconfig"; sourceTree = "<group>"; };
+		9C3A51F05034ED06FCFD80B9 /* Pods-AutismTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutismTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutismTests/Pods-AutismTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADE826F68A8F5A11E7412F11 /* Pods_AutismUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutismUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF31F571CF0DC8A0FF6D1038 /* Pods-Autism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autism.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Autism/Pods-Autism.debug.xcconfig"; sourceTree = "<group>"; };
+		C51266568AD0D2A870C065D9 /* Pods_AutismTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutismTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EBC84404AA56A09B527FC2 /* Pods_Autism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Autism.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6270ABFB8F5E3EAA62CE04A /* Pods-AutismUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutismUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutismUITests/Pods-AutismUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8BF4200C606A6D4C83C5348 /* Pods-AutismTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutismTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutismTests/Pods-AutismTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D214E9C1B3632831851DE33 /* Pods_Autism.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AEA14F9BAD581BFDCC7FE4C /* Pods_AutismTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +106,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22533BECA98AB4A582FF59D2 /* Pods_AutismUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		402CB352EA3538C26387FAC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3EBC84404AA56A09B527FC2 /* Pods_Autism.framework */,
+				C51266568AD0D2A870C065D9 /* Pods_AutismTests.framework */,
+				ADE826F68A8F5A11E7412F11 /* Pods_AutismUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81CBDCDD22458F6A00DDA96C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				81CBDCD322458F3E00DDA96C /* bold.otf */,
+				81CBDCD122458F3E00DDA96C /* light.otf */,
+				81CBDCD222458F3E00DDA96C /* medium.otf */,
+				81CBDCD622458F3F00DDA96C /* regular.otf */,
+				81CBDCD522458F3F00DDA96C /* semibold.otf */,
+				81CBDCD422458F3E00DDA96C /* thin.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		81F93AED224573FA0010C2BF = {
 			isa = PBXGroup;
 			children = (
+				81CBDCDD22458F6A00DDA96C /* fonts */,
 				81F93AF8224573FA0010C2BF /* Autism */,
 				81F93B10224573FC0010C2BF /* AutismTests */,
 				81F93B1B224573FC0010C2BF /* AutismUITests */,
 				81F93AF7224573FA0010C2BF /* Products */,
+				A30B1EF0279BE2CE560F39E9 /* Pods */,
+				402CB352EA3538C26387FAC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +162,14 @@
 		81F93AF8224573FA0010C2BF /* Autism */ = {
 			isa = PBXGroup;
 			children = (
+				81CBDCCF22458EF500DDA96C /* manrope */,
 				81F93AF9224573FA0010C2BF /* AppDelegate.swift */,
 				81F93AFB224573FA0010C2BF /* ViewController.swift */,
 				81F93AFD224573FA0010C2BF /* Main.storyboard */,
+				812C40FE2246303E00C70158 /* LiveLessonViewController.swift */,
+				812C40FC22462AB100C70158 /* LessonsCollectionViewCell.swift */,
+				81F93B2C22458C450010C2BF /* LandingViewController.swift */,
+				81F93B2A224583C20010C2BF /* DataHandler.swift */,
 				81F93B03224573FB0010C2BF /* Assets.xcassets */,
 				81F93B05224573FB0010C2BF /* LaunchScreen.storyboard */,
 				81F93B08224573FB0010C2BF /* Info.plist */,
@@ -128,6 +196,19 @@
 			path = AutismUITests;
 			sourceTree = "<group>";
 		};
+		A30B1EF0279BE2CE560F39E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF31F571CF0DC8A0FF6D1038 /* Pods-Autism.debug.xcconfig */,
+				84FE88F4148113999455F782 /* Pods-Autism.release.xcconfig */,
+				9C3A51F05034ED06FCFD80B9 /* Pods-AutismTests.debug.xcconfig */,
+				D8BF4200C606A6D4C83C5348 /* Pods-AutismTests.release.xcconfig */,
+				D6270ABFB8F5E3EAA62CE04A /* Pods-AutismUITests.debug.xcconfig */,
+				24B530E1B6C2666B705809C6 /* Pods-AutismUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81F93B21224573FC0010C2BF /* Build configuration list for PBXNativeTarget "Autism" */;
 			buildPhases = (
+				34C137C43842DEECD6C2976E /* [CP] Check Pods Manifest.lock */,
 				81F93AF2224573FA0010C2BF /* Sources */,
 				81F93AF3224573FA0010C2BF /* Frameworks */,
 				81F93AF4224573FA0010C2BF /* Resources */,
+				367F2AF473E526B6E20BE70F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81F93B24224573FC0010C2BF /* Build configuration list for PBXNativeTarget "AutismTests" */;
 			buildPhases = (
+				79AC8A948AFC3E3F210D8865 /* [CP] Check Pods Manifest.lock */,
 				81F93B09224573FC0010C2BF /* Sources */,
 				81F93B0A224573FC0010C2BF /* Frameworks */,
 				81F93B0B224573FC0010C2BF /* Resources */,
@@ -170,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81F93B27224573FC0010C2BF /* Build configuration list for PBXNativeTarget "AutismUITests" */;
 			buildPhases = (
+				EEA7F64762464A5B335AF6AF /* [CP] Check Pods Manifest.lock */,
 				81F93B14224573FC0010C2BF /* Sources */,
 				81F93B15224573FC0010C2BF /* Frameworks */,
 				81F93B16224573FC0010C2BF /* Resources */,
@@ -232,7 +317,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CBDCD722458F3F00DDA96C /* light.otf in Resources */,
+				81CBDCD822458F3F00DDA96C /* medium.otf in Resources */,
+				81CBDCD922458F3F00DDA96C /* bold.otf in Resources */,
+				81CBDCDA22458F3F00DDA96C /* thin.otf in Resources */,
+				81CBDCDB22458F3F00DDA96C /* semibold.otf in Resources */,
+				81CBDCDC22458F3F00DDA96C /* regular.otf in Resources */,
 				81F93B07224573FB0010C2BF /* LaunchScreen.storyboard in Resources */,
+				81CBDCD022458EF600DDA96C /* manrope in Resources */,
 				81F93B04224573FB0010C2BF /* Assets.xcassets in Resources */,
 				81F93AFF224573FA0010C2BF /* Main.storyboard in Resources */,
 			);
@@ -254,13 +346,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34C137C43842DEECD6C2976E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Autism-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		367F2AF473E526B6E20BE70F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Autism/Pods-Autism-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CollectionKit/CollectionKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollectionKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Autism/Pods-Autism-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79AC8A948AFC3E3F210D8865 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutismTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEA7F64762464A5B335AF6AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutismUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81F93AF2224573FA0010C2BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81F93B2B224583C20010C2BF /* DataHandler.swift in Sources */,
+				812C40FF2246303E00C70158 /* LiveLessonViewController.swift in Sources */,
 				81F93B02224573FA0010C2BF /* Autism.xcdatamodeld in Sources */,
 				81F93AFC224573FA0010C2BF /* ViewController.swift in Sources */,
+				81F93B2D22458C450010C2BF /* LandingViewController.swift in Sources */,
+				812C40FD22462AB100C70158 /* LessonsCollectionViewCell.swift in Sources */,
 				81F93AFA224573FA0010C2BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,11 +605,13 @@
 		};
 		81F93B22224573FC0010C2BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF31F571CF0DC8A0FF6D1038 /* Pods-Autism.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7Q45HP436;
 				INFOPLIST_FILE = Autism/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +625,13 @@
 		};
 		81F93B23224573FC0010C2BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84FE88F4148113999455F782 /* Pods-Autism.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7Q45HP436;
 				INFOPLIST_FILE = Autism/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,6 +645,7 @@
 		};
 		81F93B25224573FC0010C2BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C3A51F05034ED06FCFD80B9 /* Pods-AutismTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +667,7 @@
 		};
 		81F93B26224573FC0010C2BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8BF4200C606A6D4C83C5348 /* Pods-AutismTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +689,7 @@
 		};
 		81F93B28224573FC0010C2BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6270ABFB8F5E3EAA62CE04A /* Pods-AutismUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +710,7 @@
 		};
 		81F93B29224573FC0010C2BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B530E1B6C2666B705809C6 /* Pods-AutismUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
