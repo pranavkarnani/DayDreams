@@ -3,11 +3,13 @@ PODS:
     - Starscream (~> 3.0.6)
   - Starscream (3.0.6)
   - SwiftVideoBackground (3.2.0)
+  - SwiftyJSON (4.2.0)
   - ViewAnimator (2.2.2)
 
 DEPENDENCIES:
   - Socket.IO-Client-Swift (~> 14.0.0)
   - SwiftVideoBackground (~> 3.0)
+  - SwiftyJSON
   - ViewAnimator
 
 SPEC REPOS:
@@ -15,14 +17,16 @@ SPEC REPOS:
     - Socket.IO-Client-Swift
     - Starscream
     - SwiftVideoBackground
+    - SwiftyJSON
     - ViewAnimator
 
 SPEC CHECKSUMS:
   Socket.IO-Client-Swift: 21e6a8a23a7d367d5ddfab6cbbd3c679cf3c25d6
   Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
   SwiftVideoBackground: 28c37a2cb1bb6162ef179cfd9bb2b08de967b632
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   ViewAnimator: 6eaa112663b6a2d9e6b2573df65b416dd051cbe4
 
-PODFILE CHECKSUM: 3a1b3fcedc413e34806962bdcc16f85315018cba
+PODFILE CHECKSUM: 023c0bf873213eea9d553f4f95ebba900a501dbc
 
 COCOAPODS: 1.5.0

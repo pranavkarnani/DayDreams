@@ -28,7 +28,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         else {
             item.lessonImage.image = UIImage(named: lessons[indexPath.item])
             item.lessonTitle.text = lessons[indexPath.item]
-            item.lessonImage.contentMode = .scaleToFill
         }
         return item
     }

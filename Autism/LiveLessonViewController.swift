@@ -10,7 +10,7 @@ import UIKit
 import Speech
 
 class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
-
+    var prev = ""
     @IBOutlet weak var collectionLesson: UICollectionView!
     @IBOutlet weak var dayText: UILabel!
     @IBOutlet weak var dreamsText: UILabel!
@@ -78,18 +78,24 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
             
             var isFinal = false
             if result != nil {
-                print(result?.bestTranscription.formattedString)
-                
-                DataHandler.shared.sendMessage(text: "Tell me about air travel", completion: { (status) in
-                    if(status == 0) {
-                        print(lessonImages)
-                        self.collectionLesson.reloadData()
-                    }
-                    else {
-                        
-                    }
-                })
-                isFinal = (result?.isFinal)!
+                var decode = result?.bestTranscription.formattedString ?? ""
+                print(decode)
+                print(self.prev)
+                if(self.prev != decode && decode != "") {
+                    print("inside")
+                    self.prev = decode
+                    DataHandler.shared.sendMessage(text: "Tell me about air travel", completion: { (status) in
+                        if(status == 0) {
+                            print(lessonImages)
+                            decode = ""
+                            self.collectionLesson.reloadData()
+                        }
+                        else {
+                            
+                        }
+                    })
+                    isFinal = (result?.isFinal)!
+                }
             }
             
             if error != nil || isFinal {
@@ -120,13 +126,15 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
 
 extension LiveLessonViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return lessonImages.data.count
+        return lessonImages.count
     }
-
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let item = collectionView.dequeueReusableCell(withReuseIdentifier: "newLesson", for: indexPath) as! LessonsCollectionViewCell
-        item.lessonImage.downloaded(from: lessonImages.data[indexPath.row].imageURL)
-        item.lessonTitle.text = lessonImages.data[indexPath.row].desc
+        DispatchQueue.main.async {
+            item.lessonImage.downloaded(from: lessonImages[indexPath.row].imageURL)
+        }
+        item.lessonTitle.text = lessonImages[indexPath.row].desc
         return item
     }
 }

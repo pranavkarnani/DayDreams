@@ -8,14 +8,12 @@
 
 import Foundation
 import SocketIO
+import SwiftyJSON
 
-var lessonImages = Images(data: [])
+var lessonImages : [Description] = []
+
 struct KeyWords : Codable {
     var body : String = "N/A"
-}
-
-struct Images : Decodable {
-    var data : [Description]
 }
 
 struct Description : Decodable {
@@ -80,12 +78,14 @@ class DataHandler {
         socket.emit("getText",text)
         
         socket.on("addImage") { data,ack in
-            guard let dataImages = data.last as? Data else { return }
             do {
-                lessonImages = try JSONDecoder().decode(Images.self, from: dataImages)
-                completion(0)
+                let clustered = data[0] as! String
+                if let j = clustered.data(using: .utf8, allowLossyConversion: false) {
+                    lessonImages = try JSONDecoder().decode([Description].self, from: j)
+                    print(lessonImages)
+                    completion(0)
+                }
             }
-                
             catch {
                 completion(1)
                 print("\(error.localizedDescription)")

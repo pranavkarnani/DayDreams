@@ -117,14 +117,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="388" height="475"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StartCard" translatesAutoresizingMaskIntoConstraints="NO" id="I9d-ZH-nHz">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StartCard" translatesAutoresizingMaskIntoConstraints="NO" id="I9d-ZH-nHz">
                                                     <rect key="frame" x="0.0" y="0.0" width="388" height="475"/>
                                                 </imageView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nmq-XO-D3f">
                                                     <rect key="frame" x="0.0" y="390" width="388" height="85"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSp-hW-2Ta">
-                                                            <rect key="frame" x="32" y="32.5" width="42" height="20"/>
+                                                            <rect key="frame" x="32" y="31" width="344" height="23.5"/>
                                                             <fontDescription key="fontDescription" name="Manrope-Semibold" family="Manrope" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -132,6 +132,7 @@
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="tSp-hW-2Ta" secondAttribute="trailing" constant="12" id="EDi-Eq-qoS"/>
                                                         <constraint firstItem="tSp-hW-2Ta" firstAttribute="leading" secondItem="Nmq-XO-D3f" secondAttribute="leading" constant="32" id="HAN-sN-35J"/>
                                                         <constraint firstItem="tSp-hW-2Ta" firstAttribute="centerY" secondItem="Nmq-XO-D3f" secondAttribute="centerY" id="TSL-wb-4OM"/>
                                                         <constraint firstAttribute="height" constant="85" id="WWC-DC-fBo"/>
@@ -231,19 +232,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usA-eJ-Yso">
-                                <rect key="frame" x="72" y="55" width="68" height="45.5"/>
+                                <rect key="frame" x="72" y="55" width="75.5" height="54"/>
                                 <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="39"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dreams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4Q-IU-bE6">
-                                <rect key="frame" x="72" y="82.5" width="134.5" height="45.5"/>
+                                <rect key="frame" x="72" y="91" width="155" height="54"/>
                                 <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="39"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5P7-Gf-jr7">
-                                <rect key="frame" x="72" y="163" width="952" height="570"/>
+                                <rect key="frame" x="72" y="180" width="952" height="553"/>
                                 <color key="backgroundColor" white="0.96999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HUd-bA-jcO">
                                     <size key="itemSize" width="388" height="475"/>
@@ -252,68 +253,50 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="wmh-nK-PLx">
-                                        <rect key="frame" x="0.0" y="47.5" width="388" height="475"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="newLesson" id="wmh-nK-PLx" customClass="LessonsCollectionViewCell" customModule="Autism" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="39" width="388" height="475"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="388" height="475"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tUv-xq-heU">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tUv-xq-heU">
                                                     <rect key="frame" x="0.0" y="0.0" width="388" height="475"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJG-mB-MrY">
-                                                    <rect key="frame" x="20" y="425.5" width="348" height="22.5"/>
-                                                    <fontDescription key="fontDescription" name="Manrope-Semibold" family="Manrope" pointSize="19"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4d3-h8-N44">
+                                                    <rect key="frame" x="0.0" y="390" width="388" height="85"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gz4-a0-Gsx">
+                                                            <rect key="frame" x="32" y="31" width="344" height="23.5"/>
+                                                            <fontDescription key="fontDescription" name="Manrope-Semibold" family="Manrope" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="gz4-a0-Gsx" firstAttribute="leading" secondItem="4d3-h8-N44" secondAttribute="leading" constant="32" id="5ls-ux-1ji"/>
+                                                        <constraint firstAttribute="height" constant="85" id="91h-rY-bMN"/>
+                                                        <constraint firstAttribute="trailing" secondItem="gz4-a0-Gsx" secondAttribute="trailing" constant="12" id="UrB-GP-TJS"/>
+                                                        <constraint firstItem="gz4-a0-Gsx" firstAttribute="centerY" secondItem="4d3-h8-N44" secondAttribute="centerY" id="k2f-zT-xm4"/>
+                                                    </constraints>
+                                                </view>
                                             </subviews>
                                         </view>
                                         <constraints>
                                             <constraint firstItem="tUv-xq-heU" firstAttribute="centerY" secondItem="wmh-nK-PLx" secondAttribute="centerY" id="3Iw-W2-HUQ"/>
-                                            <constraint firstAttribute="trailingMargin" secondItem="uJG-mB-MrY" secondAttribute="trailing" constant="12" id="UAz-YG-0X3"/>
+                                            <constraint firstItem="4d3-h8-N44" firstAttribute="leading" secondItem="wmh-nK-PLx" secondAttribute="leading" id="AG3-MJ-kWS"/>
+                                            <constraint firstAttribute="bottom" secondItem="4d3-h8-N44" secondAttribute="bottom" id="IjK-FU-Hn1"/>
                                             <constraint firstItem="tUv-xq-heU" firstAttribute="height" secondItem="wmh-nK-PLx" secondAttribute="height" id="UdI-kj-B6l"/>
-                                            <constraint firstItem="uJG-mB-MrY" firstAttribute="centerX" secondItem="tUv-xq-heU" secondAttribute="centerX" id="eMr-bk-9yd"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="uJG-mB-MrY" secondAttribute="bottom" constant="12" id="gDd-Hu-7mY"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="uJG-mB-MrY" secondAttribute="bottom" constant="19" id="iTu-vc-Gqn"/>
-                                            <constraint firstItem="uJG-mB-MrY" firstAttribute="leading" secondItem="wmh-nK-PLx" secondAttribute="leadingMargin" constant="12" id="jOg-Fp-evf"/>
+                                            <constraint firstAttribute="trailing" secondItem="4d3-h8-N44" secondAttribute="trailing" id="iEU-Bp-Et8"/>
                                             <constraint firstItem="tUv-xq-heU" firstAttribute="width" secondItem="wmh-nK-PLx" secondAttribute="width" id="l4v-mT-Rnd"/>
-                                            <constraint firstItem="uJG-mB-MrY" firstAttribute="leading" secondItem="wmh-nK-PLx" secondAttribute="leadingMargin" id="uZd-Eh-DkS"/>
                                             <constraint firstItem="tUv-xq-heU" firstAttribute="centerX" secondItem="wmh-nK-PLx" secondAttribute="centerX" id="w1n-56-aiL"/>
                                         </constraints>
-                                    </collectionViewCell>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dxO-CJ-IN9">
-                                        <rect key="frame" x="398" y="176" width="507" height="218"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                            <rect key="frame" x="0.0" y="0.0" width="507" height="218"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P8D-RF-6Ur">
-                                                    <rect key="frame" x="-6" y="0.0" width="507" height="218"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ia1-mF-dS8">
-                                                    <rect key="frame" x="8" y="28" width="479" height="22.5"/>
-                                                    <fontDescription key="fontDescription" name="Manrope-Semibold" family="Manrope" pointSize="19"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </view>
-                                        <constraints>
-                                            <constraint firstItem="P8D-RF-6Ur" firstAttribute="width" secondItem="dxO-CJ-IN9" secondAttribute="width" id="11e-tc-CU0"/>
-                                            <constraint firstItem="Ia1-mF-dS8" firstAttribute="top" secondItem="dxO-CJ-IN9" secondAttribute="topMargin" constant="12" id="1kQ-C2-4fP"/>
-                                            <constraint firstItem="Ia1-mF-dS8" firstAttribute="leading" secondItem="dxO-CJ-IN9" secondAttribute="leadingMargin" constant="12" id="4hQ-nB-hIJ"/>
-                                            <constraint firstItem="Ia1-mF-dS8" firstAttribute="centerX" secondItem="P8D-RF-6Ur" secondAttribute="centerX" id="8Lo-st-Q59"/>
-                                            <constraint firstItem="P8D-RF-6Ur" firstAttribute="centerX" secondItem="dxO-CJ-IN9" secondAttribute="centerX" id="RZV-17-Iex"/>
-                                            <constraint firstItem="Ia1-mF-dS8" firstAttribute="top" secondItem="dxO-CJ-IN9" secondAttribute="topMargin" constant="20" id="Z1e-e6-tcx"/>
-                                            <constraint firstAttribute="trailingMargin" secondItem="Ia1-mF-dS8" secondAttribute="trailing" constant="12" id="cXh-d7-ogU"/>
-                                            <constraint firstItem="Ia1-mF-dS8" firstAttribute="leading" secondItem="dxO-CJ-IN9" secondAttribute="leadingMargin" id="gpS-hI-DjM"/>
-                                            <constraint firstItem="P8D-RF-6Ur" firstAttribute="height" secondItem="dxO-CJ-IN9" secondAttribute="height" id="joD-do-bPa"/>
-                                            <constraint firstItem="P8D-RF-6Ur" firstAttribute="centerY" secondItem="dxO-CJ-IN9" secondAttribute="centerY" id="kyu-qO-Iry"/>
-                                        </constraints>
-                                        <size key="customSize" width="507" height="218"/>
+                                        <connections>
+                                            <outlet property="lessonImage" destination="tUv-xq-heU" id="WWV-w5-OsF"/>
+                                            <outlet property="lessonTitle" destination="gz4-a0-Gsx" id="sUY-iQ-iRR"/>
+                                            <outlet property="lessonView" destination="4d3-h8-N44" id="egu-JG-gAB"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -365,7 +348,7 @@
                         <viewLayoutGuide key="safeArea" id="7Su-pj-Yhf"/>
                     </view>
                     <connections>
-                        <outlet property="collectionLesson" destination="5P7-Gf-jr7" id="JZJ-WS-VRl"/>
+                        <outlet property="collectionLesson" destination="5P7-Gf-jr7" id="bZj-5J-1aM"/>
                         <outlet property="dayText" destination="usA-eJ-Yso" id="A3K-wd-zZL"/>
                         <outlet property="dreamsText" destination="X4Q-IU-bE6" id="Ozk-HG-dlq"/>
                         <outlet property="lessonButton" destination="vJS-ce-tDG" id="f9L-y7-2Qx"/>
