@@ -6,6 +6,7 @@ target 'Autism' do
   use_frameworks!
 
 pod "CollectionKit"
+pod 'Socket.IO-Client-Swift', '~> 14.0.0'
   # Pods for Autism
 
   target 'AutismTests' do
@@ -17,5 +18,4 @@ pod "CollectionKit"
     inherit! :search_paths
     # Pods for testing
   end
-
 end

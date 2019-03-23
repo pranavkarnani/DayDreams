@@ -96,3 +96,13 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
         }
     }
 }
+
+//extension LiveLessonViewController: UICollectionViewDataSource, UICollectionViewDelegate {
+//    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+//        return
+//    }
+//
+//    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+//        
+//    }
+//}

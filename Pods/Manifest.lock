@@ -2,17 +2,25 @@ PODS:
   - CollectionKit (2.3.0):
     - CollectionKit/Core (= 2.3.0)
   - CollectionKit/Core (2.3.0)
+  - Socket.IO-Client-Swift (14.0.0):
+    - Starscream (~> 3.0.6)
+  - Starscream (3.0.6)
 
 DEPENDENCIES:
   - CollectionKit
+  - Socket.IO-Client-Swift (~> 14.0.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - CollectionKit
+    - Socket.IO-Client-Swift
+    - Starscream
 
 SPEC CHECKSUMS:
   CollectionKit: 6910479bf865bfe49040e73322ce4b8fe8991231
+  Socket.IO-Client-Swift: 21e6a8a23a7d367d5ddfab6cbbd3c679cf3c25d6
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
 
-PODFILE CHECKSUM: c0b912be97f273cbe0f7e62a99f20e9025429173
+PODFILE CHECKSUM: 023cb869a485e4b22904b21f79c9d725a6a6aba9
 
 COCOAPODS: 1.5.0
