@@ -11,6 +11,9 @@ import Speech
 
 class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
 
+    @IBOutlet weak var collectionLesson: UICollectionView!
+    @IBOutlet weak var dayText: UILabel!
+    @IBOutlet weak var dreamsText: UILabel!
     @IBOutlet weak var lessonButton: UIButton!
     let speechRecognizer = SFSpeechRecognizer(locale: Locale.init(identifier: "en-US"))
     private var recognitionRequest: SFSpeechAudioBufferRecognitionRequest?
@@ -19,15 +22,23 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        lessonButton.alpha = 1
-        lessonButton.layer.borderWidth = 2
-        lessonButton.layer.cornerRadius = 8
-        lessonButton.layer.borderColor = UIColor(red:255/255, green:36/255, blue:36/255, alpha: 1).cgColor
+    }
+    
+    @IBAction func backButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "backToHome", sender: Any?.self)
     }
     
     override func viewDidAppear(_ animated: Bool) {
         startRecording()
-    
+        dayText.alpha = 1
+        dreamsText.alpha = 1
+        dayText.textColor = .black
+        dreamsText.textColor = .black
+        lessonButton.alpha = 1
+        lessonButton.layer.borderWidth = 2
+        lessonButton.layer.cornerRadius = 8
+        lessonButton.titleLabel?.textColor = UIColor(red:255/255, green:36/255, blue:36/255, alpha: 1)
+        lessonButton.layer.borderColor = UIColor(red:255/255, green:36/255, blue:36/255, alpha: 1).cgColor
     }
     
     @IBAction func endLessonTapped(_ sender: Any) {
@@ -35,6 +46,7 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
             audioEngine.stop()
             recognitionRequest?.endAudio()
             lessonButton.isEnabled = false
+            lessonButton.alpha = 0.5
         }
     }
     
@@ -46,6 +58,7 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
         }
         
         let audioSession = AVAudioSession.sharedInstance()
+        
         do {
             try audioSession.setCategory(AVAudioSession.Category.record, mode: AVAudioSession.Mode.measurement)
             try audioSession.setActive(true, options: .notifyOthersOnDeactivation)
@@ -54,7 +67,6 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
         }
         
         recognitionRequest = SFSpeechAudioBufferRecognitionRequest()
-        
         let inputNode = audioEngine.inputNode
         
         guard let recognitionRequest = recognitionRequest else {
@@ -62,12 +74,21 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
         }
         
         recognitionRequest.shouldReportPartialResults = true
-        
         recognitionTask = speechRecognizer!.recognitionTask(with: recognitionRequest, resultHandler: { (result, error) in
             
             var isFinal = false
             if result != nil {
                 print(result?.bestTranscription.formattedString)
+                
+                DataHandler.shared.sendMessage(text: "Tell me about air travel", completion: { (status) in
+                    if(status == 0) {
+                        print(lessonImages)
+                        self.collectionLesson.reloadData()
+                    }
+                    else {
+                        
+                    }
+                })
                 isFinal = (result?.isFinal)!
             }
             
@@ -97,12 +118,37 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
     }
 }
 
-//extension LiveLessonViewController: UICollectionViewDataSource, UICollectionViewDelegate {
-//    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-//        return
-//    }
-//
-//    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-//        
-//    }
-//}
+extension LiveLessonViewController: UICollectionViewDataSource, UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return lessonImages.data.count
+    }
+
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let item = collectionView.dequeueReusableCell(withReuseIdentifier: "newLesson", for: indexPath) as! LessonsCollectionViewCell
+        item.lessonImage.downloaded(from: lessonImages.data[indexPath.row].imageURL)
+        item.lessonTitle.text = lessonImages.data[indexPath.row].desc
+        return item
+    }
+}
+
+extension UIImageView {
+    func downloaded(from url: URL, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
+        contentMode = mode
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            guard
+                let httpURLResponse = response as? HTTPURLResponse, httpURLResponse.statusCode == 200,
+                let mimeType = response?.mimeType, mimeType.hasPrefix("image"),
+                let data = data, error == nil,
+                let image = UIImage(data: data)
+                else { return }
+            DispatchQueue.main.async() {
+                self.image = image
+            }
+            }.resume()
+    }
+    
+    func downloaded(from link: String, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
+        guard let url = URL(string: link) else { return }
+        downloaded(from: url, contentMode: mode)
+    }
+}

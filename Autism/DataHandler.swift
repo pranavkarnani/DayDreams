@@ -7,16 +7,33 @@
 //
 
 import Foundation
+import SocketIO
 
+var lessonImages = Images(data: [])
 struct KeyWords : Codable {
     var body : String = "N/A"
+}
+
+struct Images : Decodable {
+    var data : [Description]
+}
+
+struct Description : Decodable {
+    var imageURL : String
+    var desc : String
 }
 
 var details = KeyWords()
 
 class DataHandler {
+
+    static let manager = SocketManager(socketURL: URL(string: "https://protected-falls-97522.herokuapp.com/")!, config: [.log(false), .compress])
+    let socket = manager.defaultSocket
+    
+    
     let keywordsURL = "http://api.cortical.io:80/rest/text/keywords?retina_name=en_associative"
     static let shared : DataHandler = DataHandler()
+    
     func getKeywords(text: String, completion : @escaping ([String]) -> ()) {
         
         details.body = text
@@ -43,5 +60,44 @@ class DataHandler {
                 }
             }
         }.resume()
+    }
+    
+    func getImages(completion : @escaping() -> ()) {
+        socket.on("addImage") { data,ack in
+            print(data)
+        }
+    }
+    
+    func connectSocket(completion : @escaping (Bool) -> ()) {
+        socket.on(clientEvent: .connect) {data, ack in
+            print("socket connected")
+            completion(true)
+        }
+        establishConnection()
+    }
+    
+    func sendMessage(text: String, completion : @escaping(Int) -> ()) {
+        socket.emit("getText",text)
+        
+        socket.on("addImage") { data,ack in
+            guard let dataImages = data.last as? Data else { return }
+            do {
+                lessonImages = try JSONDecoder().decode(Images.self, from: dataImages)
+                completion(0)
+            }
+                
+            catch {
+                completion(1)
+                print("\(error.localizedDescription)")
+            }
+        }
+    }
+    
+    func establishConnection() {
+        socket.connect()
+    }
+    
+    func closeConnection() {
+        socket.disconnect()
     }
 }

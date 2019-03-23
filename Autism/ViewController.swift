@@ -8,9 +8,14 @@
 
 import UIKit
 import Speech
+import ViewAnimator
 
 var lessons : [String] = ["New Lesson","Space","Space","Space"]
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, SFSpeechRecognizerDelegate {
+    
+    @IBAction func unwindToMenu(segue: UIStoryboardSegue) {}
+    @IBOutlet weak var collection: UICollectionView!
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return lessons.count
     }
@@ -33,6 +38,14 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     @IBOutlet weak var pinnedView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        let cells = collection.visibleCells(in: 1)
+        let zoomAnimation = AnimationType.zoom(scale: 0.2)
+        let rotateAnimation = AnimationType.rotate(angle: CGFloat.pi/6)
+        UIView.animate(views: cells, animations: [rotateAnimation, zoomAnimation])
     }
     
     override func viewDidLayoutSubviews() {

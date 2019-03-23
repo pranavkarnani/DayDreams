@@ -12,7 +12,7 @@
 		6AEA14F9BAD581BFDCC7FE4C /* Pods_AutismTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C51266568AD0D2A870C065D9 /* Pods_AutismTests.framework */; };
 		812C40FD22462AB100C70158 /* LessonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C40FC22462AB100C70158 /* LessonsCollectionViewCell.swift */; };
 		812C40FF2246303E00C70158 /* LiveLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812C40FE2246303E00C70158 /* LiveLessonViewController.swift */; };
-		81CBDCD022458EF600DDA96C /* manrope in Resources */ = {isa = PBXBuildFile; fileRef = 81CBDCCF22458EF500DDA96C /* manrope */; };
+		812E1E51224651A500497396 /* Final Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 812C410022464F5F00C70158 /* Final Video.mp4 */; };
 		81CBDCD722458F3F00DDA96C /* light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81CBDCD122458F3E00DDA96C /* light.otf */; };
 		81CBDCD822458F3F00DDA96C /* medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81CBDCD222458F3E00DDA96C /* medium.otf */; };
 		81CBDCD922458F3F00DDA96C /* bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81CBDCD322458F3E00DDA96C /* bold.otf */; };
@@ -52,7 +52,7 @@
 		24B530E1B6C2666B705809C6 /* Pods-AutismUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutismUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutismUITests/Pods-AutismUITests.release.xcconfig"; sourceTree = "<group>"; };
 		812C40FC22462AB100C70158 /* LessonsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsCollectionViewCell.swift; sourceTree = "<group>"; };
 		812C40FE2246303E00C70158 /* LiveLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLessonViewController.swift; sourceTree = "<group>"; };
-		81CBDCCF22458EF500DDA96C /* manrope */ = {isa = PBXFileReference; lastKnownFileType = folder; path = manrope; sourceTree = SOURCE_ROOT; };
+		812C410022464F5F00C70158 /* Final Video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Final Video.mp4"; sourceTree = "<group>"; };
 		81CBDCD122458F3E00DDA96C /* light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = light.otf; sourceTree = "<group>"; };
 		81CBDCD222458F3E00DDA96C /* medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = medium.otf; sourceTree = "<group>"; };
 		81CBDCD322458F3E00DDA96C /* bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bold.otf; sourceTree = "<group>"; };
@@ -162,7 +162,6 @@
 		81F93AF8224573FA0010C2BF /* Autism */ = {
 			isa = PBXGroup;
 			children = (
-				81CBDCCF22458EF500DDA96C /* manrope */,
 				81F93AF9224573FA0010C2BF /* AppDelegate.swift */,
 				81F93AFB224573FA0010C2BF /* ViewController.swift */,
 				81F93AFD224573FA0010C2BF /* Main.storyboard */,
@@ -174,6 +173,7 @@
 				81F93B05224573FB0010C2BF /* LaunchScreen.storyboard */,
 				81F93B08224573FB0010C2BF /* Info.plist */,
 				81F93B00224573FA0010C2BF /* Autism.xcdatamodeld */,
+				812C410022464F5F00C70158 /* Final Video.mp4 */,
 			);
 			path = Autism;
 			sourceTree = "<group>";
@@ -317,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				812E1E51224651A500497396 /* Final Video.mp4 in Resources */,
 				81CBDCD722458F3F00DDA96C /* light.otf in Resources */,
 				81CBDCD822458F3F00DDA96C /* medium.otf in Resources */,
 				81CBDCD922458F3F00DDA96C /* bold.otf in Resources */,
@@ -324,7 +325,6 @@
 				81CBDCDB22458F3F00DDA96C /* semibold.otf in Resources */,
 				81CBDCDC22458F3F00DDA96C /* regular.otf in Resources */,
 				81F93B07224573FB0010C2BF /* LaunchScreen.storyboard in Resources */,
-				81CBDCD022458EF600DDA96C /* manrope in Resources */,
 				81F93B04224573FB0010C2BF /* Assets.xcassets in Resources */,
 				81F93AFF224573FA0010C2BF /* Main.storyboard in Resources */,
 			);
@@ -372,15 +372,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Autism/Pods-Autism-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CollectionKit/CollectionKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftVideoBackground/SwiftVideoBackground.framework",
+				"${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollectionKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftVideoBackground.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewAnimator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -616,7 +618,10 @@
 				DEVELOPMENT_TEAM = P7Q45HP436;
 				INFOPLIST_FILE = Autism/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pk.Autism;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -633,7 +638,10 @@
 				DEVELOPMENT_TEAM = P7Q45HP436;
 				INFOPLIST_FILE = Autism/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pk.Autism;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -650,7 +658,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7Q45HP436;
 				INFOPLIST_FILE = AutismTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pk.AutismTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -668,7 +680,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7Q45HP436;
 				INFOPLIST_FILE = AutismTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pk.AutismTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -685,7 +701,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7Q45HP436;
 				INFOPLIST_FILE = AutismUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pk.AutismUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -702,7 +722,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7Q45HP436;
 				INFOPLIST_FILE = AutismUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pk.AutismUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

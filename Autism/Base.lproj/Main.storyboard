@@ -26,24 +26,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 6" translatesAutoresizingMaskIntoConstraints="NO" id="Ji1-B7-EFj">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xd-bN-4bn">
+                                <rect key="frame" x="396.5" y="673" width="231" height="55"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="6gs-WG-wRZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Manrope-Semibold" family="Manrope" pointSize="17"/>
+                                <state key="normal" title="Start Dreaming">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6i8-ge-XI0"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 6" translatesAutoresizingMaskIntoConstraints="NO" id="vhj-CL-83c">
                                 <rect key="frame" x="396.5" y="319" width="231" height="130"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Ji1-B7-EFj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ho6-ON-rpy"/>
-                            <constraint firstItem="Ji1-B7-EFj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qFG-R0-RHR"/>
+                            <constraint firstItem="7xd-bN-4bn" firstAttribute="width" secondItem="vhj-CL-83c" secondAttribute="width" id="gjj-e4-7gm"/>
+                            <constraint firstItem="7xd-bN-4bn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="guF-Zv-YIm"/>
+                            <constraint firstItem="vhj-CL-83c" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jUb-Xv-Xo4"/>
+                            <constraint firstItem="vhj-CL-83c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sGE-eA-eQq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7xd-bN-4bn" secondAttribute="bottom" constant="40" id="uoS-km-nAe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="startBttn" destination="7xd-bN-4bn" id="HFx-P1-G4U"/>
                         <segue destination="uRa-gL-QZg" kind="show" identifier="dashboard" id="ETh-61-N84"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="301" y="107"/>
+            <point key="canvasLocation" x="300.5859375" y="106.25"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WPh-ua-UVP">
@@ -53,14 +71,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P8U-DW-cgX">
-                                <rect key="frame" x="72" y="55" width="75.5" height="54"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P8U-DW-cgX">
+                                <rect key="frame" x="72" y="55" width="89" height="46"/>
                                 <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="39"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dreams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4E-Dd-SON">
-                                <rect key="frame" x="72" y="91" width="155" height="54"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Dreams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4E-Dd-SON">
+                                <rect key="frame" x="72" y="91" width="171" height="54"/>
                                 <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="39"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -106,7 +124,7 @@
                                                     <rect key="frame" x="0.0" y="390" width="388" height="85"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSp-hW-2Ta">
-                                                            <rect key="frame" x="32" y="31" width="46.5" height="23.5"/>
+                                                            <rect key="frame" x="32" y="32.5" width="42" height="20"/>
                                                             <fontDescription key="fontDescription" name="Manrope-Semibold" family="Manrope" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -159,6 +177,7 @@
                         <viewLayoutGuide key="safeArea" id="bdV-ku-Esd"/>
                     </view>
                     <connections>
+                        <outlet property="collection" destination="L4G-1c-i41" id="X6g-XB-yHM"/>
                         <outlet property="pinnedView" destination="fHW-R5-Aax" id="xyO-Lx-GMt"/>
                         <segue destination="ZTC-jf-2DA" kind="show" id="pkl-sy-1NJ"/>
                         <segue destination="a49-b1-kcM" kind="show" identifier="newLesson" id="WOx-vj-7kK"/>
@@ -166,7 +185,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6t2-vH-Iar" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="301" y="851"/>
+            <point key="canvasLocation" x="300.5859375" y="850.78125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="R4C-Uh-uKB">
@@ -212,19 +231,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usA-eJ-Yso">
-                                <rect key="frame" x="72" y="55" width="75.5" height="54"/>
+                                <rect key="frame" x="72" y="55" width="68" height="45.5"/>
                                 <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="39"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dreams" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4Q-IU-bE6">
-                                <rect key="frame" x="72" y="91" width="155" height="54"/>
+                                <rect key="frame" x="72" y="82.5" width="134.5" height="45.5"/>
                                 <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="39"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5P7-Gf-jr7">
-                                <rect key="frame" x="72" y="180" width="952" height="553"/>
+                                <rect key="frame" x="72" y="163" width="952" height="570"/>
                                 <color key="backgroundColor" white="0.96999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HUd-bA-jcO">
                                     <size key="itemSize" width="388" height="475"/>
@@ -234,7 +253,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="wmh-nK-PLx">
-                                        <rect key="frame" x="0.0" y="39" width="388" height="475"/>
+                                        <rect key="frame" x="0.0" y="47.5" width="388" height="475"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="388" height="475"/>
@@ -244,7 +263,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="388" height="475"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJG-mB-MrY">
-                                                    <rect key="frame" x="20" y="428.5" width="348" height="26.5"/>
+                                                    <rect key="frame" x="20" y="425.5" width="348" height="22.5"/>
                                                     <fontDescription key="fontDescription" name="Manrope-Semibold" family="Manrope" pointSize="19"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -255,24 +274,27 @@
                                             <constraint firstItem="tUv-xq-heU" firstAttribute="centerY" secondItem="wmh-nK-PLx" secondAttribute="centerY" id="3Iw-W2-HUQ"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="uJG-mB-MrY" secondAttribute="trailing" constant="12" id="UAz-YG-0X3"/>
                                             <constraint firstItem="tUv-xq-heU" firstAttribute="height" secondItem="wmh-nK-PLx" secondAttribute="height" id="UdI-kj-B6l"/>
+                                            <constraint firstItem="uJG-mB-MrY" firstAttribute="centerX" secondItem="tUv-xq-heU" secondAttribute="centerX" id="eMr-bk-9yd"/>
                                             <constraint firstAttribute="bottomMargin" secondItem="uJG-mB-MrY" secondAttribute="bottom" constant="12" id="gDd-Hu-7mY"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="uJG-mB-MrY" secondAttribute="bottom" constant="19" id="iTu-vc-Gqn"/>
                                             <constraint firstItem="uJG-mB-MrY" firstAttribute="leading" secondItem="wmh-nK-PLx" secondAttribute="leadingMargin" constant="12" id="jOg-Fp-evf"/>
                                             <constraint firstItem="tUv-xq-heU" firstAttribute="width" secondItem="wmh-nK-PLx" secondAttribute="width" id="l4v-mT-Rnd"/>
+                                            <constraint firstItem="uJG-mB-MrY" firstAttribute="leading" secondItem="wmh-nK-PLx" secondAttribute="leadingMargin" id="uZd-Eh-DkS"/>
                                             <constraint firstItem="tUv-xq-heU" firstAttribute="centerX" secondItem="wmh-nK-PLx" secondAttribute="centerX" id="w1n-56-aiL"/>
                                         </constraints>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dxO-CJ-IN9">
-                                        <rect key="frame" x="398" y="167.5" width="507" height="218"/>
+                                        <rect key="frame" x="398" y="176" width="507" height="218"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="507" height="218"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P8D-RF-6Ur">
-                                                    <rect key="frame" x="0.0" y="0.0" width="507" height="218"/>
+                                                    <rect key="frame" x="-6" y="0.0" width="507" height="218"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ia1-mF-dS8">
-                                                    <rect key="frame" x="20" y="20" width="467" height="26.5"/>
+                                                    <rect key="frame" x="8" y="28" width="479" height="22.5"/>
                                                     <fontDescription key="fontDescription" name="Manrope-Semibold" family="Manrope" pointSize="19"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -283,8 +305,11 @@
                                             <constraint firstItem="P8D-RF-6Ur" firstAttribute="width" secondItem="dxO-CJ-IN9" secondAttribute="width" id="11e-tc-CU0"/>
                                             <constraint firstItem="Ia1-mF-dS8" firstAttribute="top" secondItem="dxO-CJ-IN9" secondAttribute="topMargin" constant="12" id="1kQ-C2-4fP"/>
                                             <constraint firstItem="Ia1-mF-dS8" firstAttribute="leading" secondItem="dxO-CJ-IN9" secondAttribute="leadingMargin" constant="12" id="4hQ-nB-hIJ"/>
+                                            <constraint firstItem="Ia1-mF-dS8" firstAttribute="centerX" secondItem="P8D-RF-6Ur" secondAttribute="centerX" id="8Lo-st-Q59"/>
                                             <constraint firstItem="P8D-RF-6Ur" firstAttribute="centerX" secondItem="dxO-CJ-IN9" secondAttribute="centerX" id="RZV-17-Iex"/>
+                                            <constraint firstItem="Ia1-mF-dS8" firstAttribute="top" secondItem="dxO-CJ-IN9" secondAttribute="topMargin" constant="20" id="Z1e-e6-tcx"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="Ia1-mF-dS8" secondAttribute="trailing" constant="12" id="cXh-d7-ogU"/>
+                                            <constraint firstItem="Ia1-mF-dS8" firstAttribute="leading" secondItem="dxO-CJ-IN9" secondAttribute="leadingMargin" id="gpS-hI-DjM"/>
                                             <constraint firstItem="P8D-RF-6Ur" firstAttribute="height" secondItem="dxO-CJ-IN9" secondAttribute="height" id="joD-do-bPa"/>
                                             <constraint firstItem="P8D-RF-6Ur" firstAttribute="centerY" secondItem="dxO-CJ-IN9" secondAttribute="centerY" id="kyu-qO-Iry"/>
                                         </constraints>
@@ -310,27 +335,45 @@
                                     <action selector="endLessonTapped:" destination="a49-b1-kcM" eventType="touchUpInside" id="Koy-BC-xhJ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acw-rn-npo">
+                                <rect key="frame" x="0.0" y="668" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Oea-0n-6f7"/>
+                                </constraints>
+                                <state key="normal" image="back"/>
+                                <connections>
+                                    <action selector="backButton:" destination="a49-b1-kcM" eventType="touchUpInside" id="0Fz-g5-VMM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.96999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="acw-rn-npo" firstAttribute="leading" secondItem="6N0-cD-FUH" secondAttribute="leading" id="8Jg-DR-mI3"/>
                             <constraint firstItem="5P7-Gf-jr7" firstAttribute="top" secondItem="X4Q-IU-bE6" secondAttribute="bottom" constant="35" id="9yf-pm-1sb"/>
                             <constraint firstItem="usA-eJ-Yso" firstAttribute="top" secondItem="7Su-pj-Yhf" secondAttribute="top" constant="35" id="DZp-9U-qnW"/>
                             <constraint firstItem="usA-eJ-Yso" firstAttribute="leading" secondItem="7Su-pj-Yhf" secondAttribute="leading" constant="72" id="Ed3-8u-VFG"/>
                             <constraint firstItem="X4Q-IU-bE6" firstAttribute="leading" secondItem="7Su-pj-Yhf" secondAttribute="leading" constant="72" id="JLx-PH-Vhq"/>
                             <constraint firstItem="7Su-pj-Yhf" firstAttribute="bottom" secondItem="5P7-Gf-jr7" secondAttribute="bottom" constant="35" id="Vnw-1v-RKb"/>
                             <constraint firstItem="vJS-ce-tDG" firstAttribute="top" secondItem="7Su-pj-Yhf" secondAttribute="top" constant="59" id="X5t-1E-17s"/>
+                            <constraint firstItem="7Su-pj-Yhf" firstAttribute="bottom" secondItem="acw-rn-npo" secondAttribute="bottom" id="bmb-QX-fOH"/>
                             <constraint firstItem="5P7-Gf-jr7" firstAttribute="trailing" secondItem="7Su-pj-Yhf" secondAttribute="trailing" id="eJV-BW-zLM"/>
                             <constraint firstItem="7Su-pj-Yhf" firstAttribute="trailing" secondItem="vJS-ce-tDG" secondAttribute="trailing" constant="20" id="gWN-P1-hHe"/>
                             <constraint firstItem="X4Q-IU-bE6" firstAttribute="top" secondItem="usA-eJ-Yso" secondAttribute="bottom" constant="-18" id="ggP-um-i7c"/>
                             <constraint firstItem="5P7-Gf-jr7" firstAttribute="leading" secondItem="7Su-pj-Yhf" secondAttribute="leading" constant="72" id="hOr-3k-p3S"/>
+                            <constraint firstItem="7Su-pj-Yhf" firstAttribute="trailing" secondItem="acw-rn-npo" secondAttribute="trailing" constant="924" id="ryJ-xC-Ehb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7Su-pj-Yhf"/>
                     </view>
                     <connections>
+                        <outlet property="collectionLesson" destination="5P7-Gf-jr7" id="JZJ-WS-VRl"/>
+                        <outlet property="dayText" destination="usA-eJ-Yso" id="A3K-wd-zZL"/>
+                        <outlet property="dreamsText" destination="X4Q-IU-bE6" id="Ozk-HG-dlq"/>
                         <outlet property="lessonButton" destination="vJS-ce-tDG" id="f9L-y7-2Qx"/>
+                        <segue destination="Mew-5h-CQr" kind="unwind" identifier="backToHome" unwindAction="unwindToMenuWithSegue:" id="8dU-4E-eRz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PxH-yH-xWd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Mew-5h-CQr" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="300.5859375" y="1563.28125"/>
         </scene>
@@ -339,5 +382,6 @@
         <image name="Group 6" width="231" height="130"/>
         <image name="Pinned" width="95.5" height="95.5"/>
         <image name="StartCard" width="388" height="475"/>
+        <image name="back" width="159" height="159"/>
     </resources>
 </document>
