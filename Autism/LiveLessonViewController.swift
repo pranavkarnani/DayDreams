@@ -161,7 +161,7 @@ extension UIImageView {
             DispatchQueue.main.async() {
                 self.image = image
             }
-            }.resume()
+        }.resume()
     }
     
     func downloaded(from link: String, contentMode mode: UIView.ContentMode = .scaleAspectFit) {

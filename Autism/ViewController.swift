@@ -10,7 +10,7 @@ import UIKit
 import Speech
 import ViewAnimator
 
-var lessons : [String] = ["New Lesson","Independent India","Space","Democracy"]
+var lessons : [String] = ["New Lesson","Independent-India","Avengers Endgame","Democracy"]
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, SFSpeechRecognizerDelegate {
     
     private let animations = [AnimationType.from(direction: .left, offset: 30.0),AnimationType.from(direction: .right, offset: 30.0)]
