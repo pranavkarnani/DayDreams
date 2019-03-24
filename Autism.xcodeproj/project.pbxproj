@@ -163,11 +163,11 @@
 			isa = PBXGroup;
 			children = (
 				81F93AF9224573FA0010C2BF /* AppDelegate.swift */,
-				81F93AFB224573FA0010C2BF /* ViewController.swift */,
-				81F93AFD224573FA0010C2BF /* Main.storyboard */,
-				812C40FE2246303E00C70158 /* LiveLessonViewController.swift */,
-				812C40FC22462AB100C70158 /* LessonsCollectionViewCell.swift */,
 				81F93B2C22458C450010C2BF /* LandingViewController.swift */,
+				812C40FC22462AB100C70158 /* LessonsCollectionViewCell.swift */,
+				81F93AFD224573FA0010C2BF /* Main.storyboard */,
+				81F93AFB224573FA0010C2BF /* ViewController.swift */,
+				812C40FE2246303E00C70158 /* LiveLessonViewController.swift */,
 				81F93B2A224583C20010C2BF /* DataHandler.swift */,
 				81F93B03224573FB0010C2BF /* Assets.xcassets */,
 				81F93B05224573FB0010C2BF /* LaunchScreen.storyboard */,
@@ -620,7 +620,10 @@
 				DEVELOPMENT_TEAM = P7Q45HP436;
 				INFOPLIST_FILE = Autism/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pk.Autism;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -637,7 +640,10 @@
 				DEVELOPMENT_TEAM = P7Q45HP436;
 				INFOPLIST_FILE = Autism/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pk.Autism;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -654,7 +660,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7Q45HP436;
 				INFOPLIST_FILE = AutismTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pk.AutismTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -672,7 +682,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7Q45HP436;
 				INFOPLIST_FILE = AutismTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pk.AutismTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -689,7 +703,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7Q45HP436;
 				INFOPLIST_FILE = AutismUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pk.AutismUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -706,7 +724,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7Q45HP436;
 				INFOPLIST_FILE = AutismUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pk.AutismUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

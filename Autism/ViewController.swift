@@ -10,10 +10,13 @@ import UIKit
 import Speech
 import ViewAnimator
 
-var lessons : [String] = ["New Lesson","Space","Space","Space"]
+var lessons : [String] = ["New Lesson","Independent India","Space","Democracy"]
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, SFSpeechRecognizerDelegate {
     
+    private let animations = [AnimationType.from(direction: .left, offset: 30.0),AnimationType.from(direction: .right, offset: 30.0)]
+    
     @IBAction func unwindToMenu(segue: UIStoryboardSegue) {}
+    
     @IBOutlet weak var collection: UICollectionView!
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -26,7 +29,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             item.lessonView.alpha = 0
         }
         else {
-            item.lessonImage.image = UIImage(named: lessons[indexPath.item])
+            item.lessonImage.image = UIImage(named: lessons[indexPath.item]) ?? nil
             item.lessonTitle.text = lessons[indexPath.item]
         }
         return item
@@ -38,6 +41,13 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        collection?.performBatchUpdates({
+            UIView.animate(views: self.collection!.orderedVisibleCells,
+                           animations: animations, completion: {
+                        //    sender.isEnabled = true
+            })
+        }, completion: nil)
+
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -57,7 +67,16 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             switch authStatus {
             case .authorized:
                 isButtonEnabled = true
-                self.performSegue(withIdentifier: "newLesson", sender: Any?.self)
+                if indexPath.item != 0 {
+                    DataHandler.shared.sendMessage(text: lessons[indexPath.row], completion: { (status) in
+                        if status == 0 {
+                            self.performSegue(withIdentifier: "newLesson", sender: Any?.self)
+                        }
+                    })
+                }
+                else {
+                    self.performSegue(withIdentifier: "newLesson", sender: Any?.self)
+                }
             case .denied:
                 isButtonEnabled = false
                 print("User denied access to speech recognition")
@@ -70,6 +89,4 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             }
         }
     }
-    
-    
 }

@@ -100,7 +100,7 @@
                                     <constraint firstItem="LzX-JH-nft" firstAttribute="height" secondItem="fHW-R5-Aax" secondAttribute="height" id="sml-J0-Y65"/>
                                 </constraints>
                             </view>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="L4G-1c-i41">
+                            <collectionView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="L4G-1c-i41">
                                 <rect key="frame" x="72" y="180" width="952" height="553"/>
                                 <color key="backgroundColor" white="0.96999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Waa-JC-ARu">
@@ -117,14 +117,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="388" height="475"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StartCard" translatesAutoresizingMaskIntoConstraints="NO" id="I9d-ZH-nHz">
+                                                <imageView autoresizesSubviews="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StartCard" translatesAutoresizingMaskIntoConstraints="NO" id="I9d-ZH-nHz">
                                                     <rect key="frame" x="0.0" y="0.0" width="388" height="475"/>
                                                 </imageView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nmq-XO-D3f">
                                                     <rect key="frame" x="0.0" y="390" width="388" height="85"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSp-hW-2Ta">
-                                                            <rect key="frame" x="32" y="31" width="344" height="23.5"/>
+                                                            <rect key="frame" x="12" y="30.5" width="364" height="24"/>
                                                             <fontDescription key="fontDescription" name="Manrope-Semibold" family="Manrope" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -132,22 +132,24 @@
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="trailing" secondItem="tSp-hW-2Ta" secondAttribute="trailing" constant="12" id="EDi-Eq-qoS"/>
-                                                        <constraint firstItem="tSp-hW-2Ta" firstAttribute="leading" secondItem="Nmq-XO-D3f" secondAttribute="leading" constant="32" id="HAN-sN-35J"/>
-                                                        <constraint firstItem="tSp-hW-2Ta" firstAttribute="centerY" secondItem="Nmq-XO-D3f" secondAttribute="centerY" id="TSL-wb-4OM"/>
-                                                        <constraint firstAttribute="height" constant="85" id="WWC-DC-fBo"/>
+                                                        <constraint firstItem="tSp-hW-2Ta" firstAttribute="centerY" secondItem="Nmq-XO-D3f" secondAttribute="centerY" id="6AM-Jd-IRQ"/>
+                                                        <constraint firstItem="tSp-hW-2Ta" firstAttribute="leading" secondItem="Nmq-XO-D3f" secondAttribute="leading" constant="12" id="d4G-zt-8e4"/>
+                                                        <constraint firstAttribute="trailing" secondItem="tSp-hW-2Ta" secondAttribute="trailing" constant="12" id="iI2-if-kKB"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="Nmq-XO-D3f" firstAttribute="centerX" secondItem="x2h-BK-5BE" secondAttribute="centerX" id="NdM-vM-huu"/>
-                                            <constraint firstItem="Nmq-XO-D3f" firstAttribute="width" secondItem="I9d-ZH-nHz" secondAttribute="width" id="bXW-uP-kyX"/>
+                                            <constraint firstItem="Nmq-XO-D3f" firstAttribute="top" secondItem="x2h-BK-5BE" secondAttribute="top" constant="390" id="6R2-zm-Fgb"/>
+                                            <constraint firstAttribute="trailing" secondItem="I9d-ZH-nHz" secondAttribute="trailing" id="8Jo-mT-zET"/>
+                                            <constraint firstItem="Nmq-XO-D3f" firstAttribute="bottom" secondItem="I9d-ZH-nHz" secondAttribute="bottom" id="GIx-6q-Dmp"/>
+                                            <constraint firstItem="I9d-ZH-nHz" firstAttribute="leading" secondItem="x2h-BK-5BE" secondAttribute="leading" id="IKD-Wf-oKg"/>
+                                            <constraint firstItem="Nmq-XO-D3f" firstAttribute="leading" secondItem="I9d-ZH-nHz" secondAttribute="leading" id="NTd-tm-hcS"/>
+                                            <constraint firstAttribute="bottom" secondItem="I9d-ZH-nHz" secondAttribute="bottom" id="Zvv-fj-kPl"/>
                                             <constraint firstItem="I9d-ZH-nHz" firstAttribute="centerY" secondItem="x2h-BK-5BE" secondAttribute="centerY" id="cqT-LI-5vL"/>
-                                            <constraint firstItem="I9d-ZH-nHz" firstAttribute="height" secondItem="x2h-BK-5BE" secondAttribute="height" id="dgE-oR-tso"/>
-                                            <constraint firstAttribute="bottom" secondItem="Nmq-XO-D3f" secondAttribute="bottom" id="iBr-iC-bqq"/>
+                                            <constraint firstItem="I9d-ZH-nHz" firstAttribute="top" secondItem="x2h-BK-5BE" secondAttribute="top" id="h2u-IN-vl8"/>
                                             <constraint firstItem="I9d-ZH-nHz" firstAttribute="centerX" secondItem="x2h-BK-5BE" secondAttribute="centerX" id="lfn-wR-gbP"/>
-                                            <constraint firstItem="I9d-ZH-nHz" firstAttribute="width" secondItem="x2h-BK-5BE" secondAttribute="width" id="sBL-ne-N7l"/>
+                                            <constraint firstItem="Nmq-XO-D3f" firstAttribute="trailing" secondItem="I9d-ZH-nHz" secondAttribute="trailing" id="ybG-Hd-zn9"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="lessonImage" destination="I9d-ZH-nHz" id="fYD-ez-hVb"/>
@@ -284,12 +286,14 @@
                                             </subviews>
                                         </view>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="tUv-xq-heU" secondAttribute="bottom" id="0Q8-of-VkU"/>
                                             <constraint firstItem="tUv-xq-heU" firstAttribute="centerY" secondItem="wmh-nK-PLx" secondAttribute="centerY" id="3Iw-W2-HUQ"/>
                                             <constraint firstItem="4d3-h8-N44" firstAttribute="leading" secondItem="wmh-nK-PLx" secondAttribute="leading" id="AG3-MJ-kWS"/>
                                             <constraint firstAttribute="bottom" secondItem="4d3-h8-N44" secondAttribute="bottom" id="IjK-FU-Hn1"/>
-                                            <constraint firstItem="tUv-xq-heU" firstAttribute="height" secondItem="wmh-nK-PLx" secondAttribute="height" id="UdI-kj-B6l"/>
+                                            <constraint firstItem="tUv-xq-heU" firstAttribute="leading" secondItem="wmh-nK-PLx" secondAttribute="leading" id="clO-ye-gfR"/>
+                                            <constraint firstItem="tUv-xq-heU" firstAttribute="top" secondItem="wmh-nK-PLx" secondAttribute="top" id="e0i-Oo-QlY"/>
                                             <constraint firstAttribute="trailing" secondItem="4d3-h8-N44" secondAttribute="trailing" id="iEU-Bp-Et8"/>
-                                            <constraint firstItem="tUv-xq-heU" firstAttribute="width" secondItem="wmh-nK-PLx" secondAttribute="width" id="l4v-mT-Rnd"/>
+                                            <constraint firstAttribute="trailing" secondItem="tUv-xq-heU" secondAttribute="trailing" id="jvP-4N-dyq"/>
                                             <constraint firstItem="tUv-xq-heU" firstAttribute="centerX" secondItem="wmh-nK-PLx" secondAttribute="centerX" id="w1n-56-aiL"/>
                                         </constraints>
                                         <connections>

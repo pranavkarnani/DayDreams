@@ -29,7 +29,9 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        startRecording()
+        if(lessonImages.count == 0) {
+            startRecording()
+        }
         dayText.alpha = 1
         dreamsText.alpha = 1
         dayText.textColor = .black
@@ -84,16 +86,11 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
                 if(self.prev != decode && decode != "") {
                     print("inside")
                     self.prev = decode
-                    DataHandler.shared.sendMessage(text: "Tell me about air travel", completion: { (status) in
-                        if(status == 0) {
-                            print(lessonImages)
-                            decode = ""
-                            self.collectionLesson.reloadData()
-                        }
-                        else {
-                            
-                        }
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 3.0, execute: {
+                        self.triggerSocket(decode : decode)
+                        decode = ""
                     })
+                    
                     isFinal = (result?.isFinal)!
                 }
             }
@@ -121,6 +118,18 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
         } catch {
             print("audioEngine couldn't start because of an error.")
         }
+    }
+    
+    func triggerSocket(decode : String) {
+        DataHandler.shared.sendMessage(text: decode, completion: { (status) in
+            if(status == 0) {
+                print(lessonImages)
+                self.collectionLesson.reloadData()
+            }
+            else {
+                
+            }
+        })
     }
 }
 
