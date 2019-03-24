@@ -13,7 +13,7 @@ import ViewAnimator
 var lessons : [String] = ["New Lesson","Independent-India","Avengers Endgame","Democracy"]
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, SFSpeechRecognizerDelegate {
     
-    private let animations = [AnimationType.from(direction: .left, offset: 30.0),AnimationType.from(direction: .right, offset: 30.0)]
+    private let animations = [AnimationType.from(direction: .left, offset: 30.0),AnimationType.from(direction: .right, offset: 30.0), AnimationType.zoom(scale: 1.3)]
     
     @IBAction func unwindToMenu(segue: UIStoryboardSegue) {}
     
@@ -35,8 +35,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         return item
     }
     
-    
-    
     @IBOutlet weak var pinnedView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,7 +42,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         collection?.performBatchUpdates({
             UIView.animate(views: self.collection!.orderedVisibleCells,
                            animations: animations, completion: {
-                        //    sender.isEnabled = true
             })
         }, completion: nil)
 

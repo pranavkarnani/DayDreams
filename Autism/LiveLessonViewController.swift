@@ -11,6 +11,9 @@ import Speech
 
 class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
     var prev = ""
+    var x_index = 0
+    var y_index = 0
+    var first = 0
     @IBOutlet weak var collectionLesson: UICollectionView!
     @IBOutlet weak var dayText: UILabel!
     @IBOutlet weak var dreamsText: UILabel!
@@ -123,8 +126,19 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
     func triggerSocket(decode : String) {
         DataHandler.shared.sendMessage(text: decode, completion: { (status) in
             if(status == 0) {
-                print(lessonImages)
-                self.collectionLesson.reloadData()
+                if(self.first == 0) {
+                    print(lessonImages)
+                    self.collectionLesson.reloadData()
+                    self.first = 1
+                }
+                else {
+                    print(lessonImages)
+                    self.x_index = lessonImages.count
+                    let indexPaths = Array(self.y_index ... self.x_index).map { IndexPath(item: $0, section: 0) }
+                    self.collectionLesson.insertItems(at: indexPaths)
+                    self.y_index = self.x_index
+                }
+                
             }
             else {
                 
@@ -134,6 +148,10 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
 }
 
 extension LiveLessonViewController: UICollectionViewDataSource, UICollectionViewDelegate {
+    
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return lessonImages.count
     }
