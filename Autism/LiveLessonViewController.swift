@@ -8,9 +8,11 @@
 
 import UIKit
 import Speech
-
+var flag = 1
 class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
     var prev = ""
+    var decode = ""
+    
     var x_index = 0
     var y_index = 0
     var first = 0
@@ -24,8 +26,11 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
     private let audioEngine = AVAudioEngine()
     
     override func viewDidLoad() {
+        prev = ""
+        decode = ""
         super.viewDidLoad()
     }
+    
     
     @IBAction func backButton(_ sender: Any) {
         self.performSegue(withIdentifier: "backToHome", sender: Any?.self)
@@ -35,6 +40,7 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
         if(lessonImages.count == 0) {
             startRecording()
         }
+        flag = 1
         dayText.alpha = 1
         dreamsText.alpha = 1
         dayText.textColor = .black
@@ -44,6 +50,7 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
         lessonButton.layer.cornerRadius = 8
         lessonButton.titleLabel?.textColor = UIColor(red:255/255, green:36/255, blue:36/255, alpha: 1)
         lessonButton.layer.borderColor = UIColor(red:255/255, green:36/255, blue:36/255, alpha: 1).cgColor
+        collectionLesson.reloadData()
     }
     
     @IBAction func endLessonTapped(_ sender: Any) {
@@ -80,33 +87,29 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
         
         recognitionRequest.shouldReportPartialResults = true
         recognitionTask = speechRecognizer!.recognitionTask(with: recognitionRequest, resultHandler: { (result, error) in
-            
-            var isFinal = false
+
             if result != nil {
-                var decode = result?.bestTranscription.formattedString ?? ""
-                print(decode)
-                print(self.prev)
-                if(self.prev != decode && decode != "") {
-                    print("inside")
-                    self.prev = decode
+                if(flag == 1) {
+                    flag = 0
                     DispatchQueue.main.asyncAfter(deadline: .now() + 3.0, execute: {
-                        self.triggerSocket(decode : decode)
-                        decode = ""
+                        self.decode = result?.bestTranscription.formattedString ?? ""
+                        self.triggerSocket(completion: { (stats) in
+                            if stats == 1 {
+                                flag = 1
+                            }
+                            else {
+                                flag = 1
+                            }
+                            
+                        })
+                        self.prev = self.decode
                     })
-                    
-                    isFinal = (result?.isFinal)!
                 }
             }
-            
-            if error != nil || isFinal {
-                self.audioEngine.stop()
-                inputNode.removeTap(onBus: 0)
-                
-                self.recognitionRequest = nil
-                self.recognitionTask = nil
-                
-                self.lessonButton.isEnabled = true
+            else {
+    
             }
+            
         })
         
         let recordingFormat = inputNode.outputFormat(forBus: 0)
@@ -123,25 +126,18 @@ class LiveLessonViewController: UIViewController, SFSpeechRecognizerDelegate {
         }
     }
     
-    func triggerSocket(decode : String) {
-        DataHandler.shared.sendMessage(text: decode, completion: { (status) in
+    func triggerSocket(completion : @escaping(Int) -> ()) {
+        print(decode)
+        DataHandler.shared.getMessageData(text: decode, completion: { (status) in
             if(status == 0) {
-                if(self.first == 0) {
-                    print(lessonImages)
+                print(lessonImages)
+                DispatchQueue.main.async {
                     self.collectionLesson.reloadData()
-                    self.first = 1
+                    completion(1)
                 }
-                else {
-                    print(lessonImages)
-                    self.x_index = lessonImages.count
-                    let indexPaths = Array(self.y_index ... self.x_index).map { IndexPath(item: $0, section: 0) }
-                    self.collectionLesson.insertItems(at: indexPaths)
-                    self.y_index = self.x_index
-                }
-                
             }
             else {
-                
+                completion(0)
             }
         })
     }
@@ -157,11 +153,13 @@ extension LiveLessonViewController: UICollectionViewDataSource, UICollectionView
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
         let item = collectionView.dequeueReusableCell(withReuseIdentifier: "newLesson", for: indexPath) as! LessonsCollectionViewCell
         DispatchQueue.main.async {
             item.lessonImage.downloaded(from: lessonImages[indexPath.row].imageURL)
-        }
+        
         item.lessonTitle.text = lessonImages[indexPath.row].desc
+        }
         return item
     }
 }
@@ -179,7 +177,7 @@ extension UIImageView {
             DispatchQueue.main.async() {
                 self.image = image
             }
-        }.resume()
+            }.resume()
     }
     
     func downloaded(from link: String, contentMode mode: UIView.ContentMode = .scaleAspectFit) {

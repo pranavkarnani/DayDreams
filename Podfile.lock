@@ -1,4 +1,5 @@
 PODS:
+  - Sketch (2.0)
   - Socket.IO-Client-Swift (14.0.0):
     - Starscream (~> 3.0.6)
   - Starscream (3.0.6)
@@ -7,6 +8,7 @@ PODS:
   - ViewAnimator (2.2.2)
 
 DEPENDENCIES:
+  - Sketch
   - Socket.IO-Client-Swift (~> 14.0.0)
   - SwiftVideoBackground (~> 3.0)
   - SwiftyJSON
@@ -14,6 +16,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Sketch
     - Socket.IO-Client-Swift
     - Starscream
     - SwiftVideoBackground
@@ -21,12 +24,13 @@ SPEC REPOS:
     - ViewAnimator
 
 SPEC CHECKSUMS:
+  Sketch: c54b898799ba34cb282b57ff42b5d0a6071e855f
   Socket.IO-Client-Swift: 21e6a8a23a7d367d5ddfab6cbbd3c679cf3c25d6
   Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
   SwiftVideoBackground: 28c37a2cb1bb6162ef179cfd9bb2b08de967b632
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   ViewAnimator: 6eaa112663b6a2d9e6b2573df65b416dd051cbe4
 
-PODFILE CHECKSUM: 023c0bf873213eea9d553f4f95ebba900a501dbc
+PODFILE CHECKSUM: a45770a57790686774aed28b156504fe46ff2c46
 
 COCOAPODS: 1.5.0

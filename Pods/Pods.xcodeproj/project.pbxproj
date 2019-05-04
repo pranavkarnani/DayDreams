@@ -7,246 +7,267 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		008EE3AD613B83EA705C283E6119BBA3 /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40575678EC458FE6D1708921A86009D4 /* SSLClientCertificate.swift */; };
+		02BAB8D9DB7D67F4D7DA56FA4D7F9A38 /* VideoBackgroundError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F45C5951F99D5209C029D73E062E0 /* VideoBackgroundError.swift */; };
 		03A3074F63A27EC0A54E5C321DFD5F67 /* Pods-AutismUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF01FE60858EDC0C9B92E416115214B /* Pods-AutismUITests-dummy.m */; };
-		05FEEAC5BB19215A528B42D18C74759C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DC4CD5F6324CB0346D716885CD78F7 /* SwiftyJSON.swift */; };
+		05A709C26B11E242F7650F7E8E649A60 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF4159E80B53174E6E0211A0F699114 /* SocketEngine.swift */; };
+		06EC2626A61110700787A63E9D696367 /* ViewAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 815E1E82B49DCF2A917B95143B3F21F5 /* ViewAnimator-dummy.m */; };
 		0908EE7578ED39BBBCCEAB85BD339F35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
-		0966465B48EB12F0F5BD6E80EA55DA47 /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02A8475D73AD18AE59A742AE5BB41DB /* SocketExtensions.swift */; };
-		0BDD4DD8B9E3E4F4DC54A0BF5697DB9F /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825C19DA364F30A05ACABA4BB6E37DEE /* AnimationType.swift */; };
-		147807850D220ADA7D697E97CF79D737 /* ViewAnimatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC94317CF6157B4A3FAE28FB0AE390 /* ViewAnimatorConfig.swift */; };
-		14B57C226B9C9CDF51D03C025405DA72 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051A5E32FF6631C31E7A5CBE54B6DDE0 /* Direction.swift */; };
-		1505728636667D49267B314FA08B832E /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E28013680103965FD2FAF3A370B38C8 /* SocketParsable.swift */; };
-		161213CA48BC5C785B2DA1983BC50AC7 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A4FBA16B97507AD71BC56714F306E /* SocketEventHandler.swift */; };
-		255AF4BF5EF309497B491069C787137E /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E731884FE378AFAFC65A172C7856A8E2 /* Compression.swift */; };
-		2B6FA1A2C67FE0F90C448962F8290897 /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22BA5EEE9ABB6DA52DC48493A9BD583 /* SocketAckEmitter.swift */; };
-		2CCB12AFE7448399C3B43FD941F566AF /* Socket.IO-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 921C9396EF599E7A7AB5D75D69345AF3 /* Socket.IO-Client-Swift-dummy.m */; };
-		2FB408F672783EEE7C12A477583A5451 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6391C4CE0748F2496A2468C413E1FD0 /* SocketManager.swift */; };
-		32779DE26D76B6FF7AF4A43E50839B5B /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D60C043D91072EC704CDDF28E0DBD3 /* SocketLogger.swift */; };
+		09B4B22DFB5DC50AFA393C9EF995C8D2 /* Pods-Autism-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 945C159E6418F1C656B0754A64991494 /* Pods-Autism-dummy.m */; };
+		120EF9635628976DEDD420A4859859B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
+		129CE1BFA2DD486BC9DCD500F3BB1F61 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F22481970A9F655789C7B98B88364AA /* SocketStringReader.swift */; };
+		14C04C81758A47C28A25CD0A2673EAB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
+		16B7232AE0397E9170F333D1782B2239 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA64E0903410EFA20463A9E3B40CEA17 /* SSLSecurity.swift */; };
+		197340BD3C3BFC6BF5896C43C9214C24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
+		19F02A21CCF441A4375D3C89B04F1B2B /* SketchTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE8FDF97E95E659C8C859DEFFBD2F17 /* SketchTool.swift */; };
+		20C27C3E558EB867EB5CCDA28883A14E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF911E20A6F42319D790E727E5BF138 /* Utilities.swift */; };
+		214120C261DC7779A2475D055A2878A7 /* SocketManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2090BA48EF02A863F2162C064F10E1E1 /* SocketManagerSpec.swift */; };
+		283DD57501AB47C1A57AAF0EB9FA964E /* Sketch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E661575C4FB92A5E9392E0F512962 /* Sketch-dummy.m */; };
+		2C11A20300000A21B75995E10638B8A5 /* SwiftVideoBackground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B896271808064B21CF164FCD4C17A42 /* SwiftVideoBackground-dummy.m */; };
+		31D8B2DEBF343378CC2044DC737370FF /* SocketIOStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7C2CF38DEB6FBFA0B5305DC3DA6508 /* SocketIOStatus.swift */; };
 		385175EA43C93DF43F773D88D7FD656B /* Pods-AutismTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B88F0E89143914BE6D87CF3EFD81118D /* Pods-AutismTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A7F909D78794E93BA065D02E937819D /* ViewAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DF13F990A79C23140649F19ECEC707 /* ViewAnimator-dummy.m */; };
-		3BEF3261EE665F27016CED5947B5290F /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE71ADBAAE43C49666886D81A51C334 /* Starscream-dummy.m */; };
-		3D364238D832E21C5457EB172C671FD3 /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F576C97132CA596DA0B0F58B07BEB29D /* SSLClientCertificate.swift */; };
-		40D17DE8C01C7D498064F0F4F75950F3 /* UITableView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B455233C30A44D7A8EF4A406E18E66 /* UITableView + ViewAnimator.swift */; };
-		418EF5ED6214F2381811DE61B9B8BF0A /* SwiftVideoBackground-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B9EC3E654347304771A1A735003E4E /* SwiftVideoBackground-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43C5F33730E01CD06325B2E7E3284558 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4D79F475777012E1F8F5AC6382AB19 /* WebSocket.swift */; };
+		453B4876EB1A22145B9E0F961B1EA814 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6ABBD13E3F9226D1FBA1764322BD0C /* SocketPacket.swift */; };
 		457F1699A3CC60B66CA153AA2C9D1B0B /* Pods-AutismUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 982432C54EDFFD11DAAA6597A88072C0 /* Pods-AutismUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		487D54D09FCB0949811E12EF01D26F82 /* Pods-Autism-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F54F8963D2F4F2A8224762682E3F64 /* Pods-Autism-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A8A3222C4FD8B48745EF5EEF204357B /* Pods-AutismTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC6BD53B9EA542692C7A30EFD728793 /* Pods-AutismTests-dummy.m */; };
-		4F8815B2BCF3D77DCCEBA775E35EE7C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
-		50072E029D5955D7BD9308920D1BCAAC /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E577B723F68E1B9776A3C89CF549A47E /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		588B62690D453EAEC0C3398A12926691 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DAAA57FA841D8C55C3EF6C351B6F96 /* Animation.swift */; };
-		5937907EC1B06B5174B421C2E7C6DCF3 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB16C03480C525EE37765A0446756D3C /* SSLSecurity.swift */; };
-		599AB3C816A09A662EB5C26E2C7F8988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
-		59D00E955C14BF19156A23BA83DCC382 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D307CC050D4B5D1103447CAD94C430D /* SocketIOClientSpec.swift */; };
-		5A355912E769F214D85216BFA7E20981 /* Pods-Autism-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 945C159E6418F1C656B0754A64991494 /* Pods-Autism-dummy.m */; };
-		5CE2073480BEF02E58ADD11DA1921BCB /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A226734AAE4F37796765A1073F9E247 /* SwiftyJSON-dummy.m */; };
-		5D261AB72FE2B02B47BE09F9C9116450 /* Pods-Autism-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F54F8963D2F4F2A8224762682E3F64 /* Pods-Autism-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63F60456FA4CC883FB21604904D31536 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC4B5EEC2FBD5B955AD8335B55F3B0 /* SocketStringReader.swift */; };
-		6576650490475A1D81D950C029012002 /* VideoBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E010F50CD810553E954590FC325159 /* VideoBackground.swift */; };
-		66921F2CCC3B1072C8DE3A2E9F26D2C4 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B7316E4763313FFD9585088ABD012 /* SocketEngineSpec.swift */; };
-		6A94ACB7594309E86E4E66008DD0E243 /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BE9E27889E8FD0708906060A06FA72 /* SocketEngineWebsocket.swift */; };
-		6C032AF394DCB6E5C4542AE6F3B2F86C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
-		6E069DFAC0B25D06C05C0692850CBBDA /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A07FA0BA2324D763FB85E25EF5E0D6 /* SocketPacket.swift */; };
-		6EA865FDA28E4F733506A9AFB454C2BD /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9993D281F6D5A3A311F727F53EF7BE5 /* SocketEngineClient.swift */; };
-		6F1F7DE030D034492A04088E0933980D /* SwiftVideoBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 9296F4488333B70D4F54946FC9B7EA89 /* SwiftVideoBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		767B218CD9565F63A513BCA5E0A7CD13 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8DA469FF0D3B76ADBD0B7081791F9A /* SocketIOClient.swift */; };
-		785732B42A5924CF1A232570553F8B18 /* VideoBackgroundError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DA116CC836D164CBF5FA7C49026C68 /* VideoBackgroundError.swift */; };
-		7CF5BDFCA17137DB47BBC71FBA3A3256 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150B2B9D3583F98749634E0AC705DA90 /* SocketAnyEvent.swift */; };
-		7EC1D54FB3640FB563D6D8161852A0EF /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F52249DD4D3DD3159B64A42F2E7349B /* Starscream.framework */; };
-		7FB52ACE1C5BDFCB5B8DB0765A57DE19 /* ViewAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB7BE477DAD6E6E3826D1E542233A2BF /* ViewAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BD866096969EADA5C5BF5212F21853C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
+		5EE0DC435CAC0055290D25D459F47379 /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDF6C67DE26C4E58BF131B1789CFC1A /* SocketParsable.swift */; };
+		6817C8A77AB3563EADAFC6E36C770487 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7AD9443727A791613DE0498002BE29 /* WebSocket.swift */; };
+		682A733FED54D3BECE1DCA4FA7BA2C16 /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFEDD2B3CCDC8CB73939EE513ABEE2A /* SocketExtensions.swift */; };
+		6D07BE392C1158C4A710F458B2361E11 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CCFABC80C6853122583D752F805D2A /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7132127B82F2E6E2142806229BFF5110 /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E82B610A5AC797E4A9D73C5946EB11 /* SocketIOClientConfiguration.swift */; };
+		74F8382B0239333790F351C73D661FFC /* ViewAnimatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C480D60F64D7348932127540992F48 /* ViewAnimatorConfig.swift */; };
+		756AFF60A8CD7CDEEB6356B4DA8FF89A /* Sketch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CB41371A0F9E7AD16234441372C71A /* Sketch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790E68DA4AF4CFC080BCCF45982B5979 /* VideoBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8685CB0751453289F36355C146778A /* VideoBackground.swift */; };
+		877C79C0522A8DD0B4F0FBF5C76C7576 /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECBCCA8424C69966D23240949E67ECB /* SocketEnginePollable.swift */; };
+		887C12CA7B7FB32466C8F2293DC185BE /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80908D8A148D1B4823559ED8B356A9E3 /* SocketEngineSpec.swift */; };
+		8C719D4AA45E5BC6546C82898065C673 /* SwiftVideoBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = EDED572263024A9CCF23620C053F37CB /* SwiftVideoBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F7888CF562572D4029DB5AC9A33C723 /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29DA19B40DCF9E2B003B28A20AC71D2 /* SocketEngineWebsocket.swift */; };
+		99F23D218F794E261866DE7D06FF86AD /* UITableView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E89F2179380D2F758CD014ABB7825 /* UITableView + ViewAnimator.swift */; };
 		9B6B28D44E9309B2937CAB5FA6F57099 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
-		A0E3D44654177378E41B9AD68B6BE5DA /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB0878F3C3844A3C3D213FF89F36CD4 /* SocketEnginePollable.swift */; };
-		A115825D42911B8C2D79CC6563C0F0F4 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E3CDF1C8D57E6C7EEDBA1DBA2911C /* Utilities.swift */; };
-		A29FC06CF409006261F02C0FE4345BA4 /* Socket.IO-Client-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD1F7DEF1298221F83236B1B5E6884F4 /* Socket.IO-Client-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A361D0FF7605D292B97D976822508E61 /* UICollectionView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF57F212D984A37BDFE75426BBA2FC27 /* UICollectionView + ViewAnimator.swift */; };
-		A46331D35FAE798DD668787E4715C414 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487627E7325B4FD444D04CCF166721D6 /* SocketAckManager.swift */; };
-		A80F0D5BBAB92DB906BF485F33CCC0D3 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D4BCA8EE0077550D8C6F3C8080D0D4 /* SocketTypes.swift */; };
-		A99BC99D69FE2891509F76999E0F8F01 /* SwiftVideoBackground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F18EE17E30384D1ED9D0D74B7B29A92 /* SwiftVideoBackground-dummy.m */; };
-		ADECA54AC3D05D627544F871FB823C9B /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAF5926A92B59D0522573029A84879D /* SSLSecurity.swift */; };
-		AFBEAE97772FBEEEC6E5C9942BBCB1C1 /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF4C3D6398BAB09335D6BB53D05FB6 /* SocketIOClientOption.swift */; };
-		BC637F3F943834D347936F074476D603 /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83000A201CAC0E80B51BF62B16DE660 /* SocketIOClientConfiguration.swift */; };
-		C25298E5154CBF689CE9571B30FA1F10 /* SocketRawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846363A4371F341DF796151A1D06F439 /* SocketRawView.swift */; };
-		D16B3D9E485A4E35148024A1DAC56266 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3F2E8606D15D6650E5BAF09B2D2FAA /* SocketEngine.swift */; };
-		D2D2BCDA60352B1B7E4994BE2B472448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
-		DDE981B95EECD96DBC2DA620BB43EEB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
-		ED5005AFE6322312E2DDE17BDD6027FF /* ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D21E332202854FFD97518CE0BE66107 /* ViewAnimator.swift */; };
-		EEA88140EA94854A23291ECE845447F4 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB526C0D666DA4086C2B3D207FC89B7E /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F009B7215B4FF3E6FAFBEF79AC1AA682 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B1F4410C09329D6C9E594154F10368 /* SocketEnginePacketType.swift */; };
-		F03C84D2FD7035087FE5587539962C42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
-		F2FF926D3AB5214BD0176DF151E999FD /* SocketManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF1E08E16A0792D8D265DE8F86F908E /* SocketManagerSpec.swift */; };
-		FD218BD693FCBCAC2F184E715E41E27D /* SocketIOStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD4B7B7CA2CD70CD0EED4028D1B879A /* SocketIOStatus.swift */; };
+		9B6D9112BE292F15ECE62EE6F977AAC2 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4D2E85E24ECFB930AE37A31C4E32D5 /* Starscream-dummy.m */; };
+		9C2B6D776FF58A19243E45B795870411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
+		9D747023E42A8F8E4D177E06A7EFF8FA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF7C89B4FBDDB4988DC47629F8B9CDD /* SwiftyJSON.swift */; };
+		A57905A9379F93A236D5E33C48831231 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F526BAE649326A1A1C6748B41BA3CB30 /* AnimationType.swift */; };
+		A6EF2091A9AC072882EC102726D3BACE /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693051A7B15B31B1AA0243297300AC6A /* SSLSecurity.swift */; };
+		A6EF896BDFA0E492F4232095279ADDB5 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C27251A2DBE668E10060D9497F232F /* SocketLogger.swift */; };
+		A86DAC0B201555D7D24CA8F2BEFC5F10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
+		AA72E2265B1362E4BA6A7023CCCC0CC1 /* SocketRawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332C98F16261DD0FB0CD16D2E7B3AAFC /* SocketRawView.swift */; };
+		AC228592A6D5FAFC1E17DFC295055149 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA83892C557BA56C627D17141AE26C5 /* Animation.swift */; };
+		AC4068F1799F50B5066336EC516865F8 /* SwiftVideoBackground-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BD1831EC042262D7FABD032B44CE21 /* SwiftVideoBackground-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEB4083F912FB7282727A3AE7B5653C4 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DEAF1133ADC1E28F6DE67931CBFE8EB /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0D344ABB71152594F1893B4615309E4 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCABCDA05E2F028B381853E00F40BEC9 /* SocketIOClientSpec.swift */; };
+		B2943364201925B7811CFA8E91299A6C /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E83E92CA65E4BEC234C487C9BF12F23 /* SocketIOClientOption.swift */; };
+		B6DAC2BD0F7E7B0F97CFD4A6AE30A645 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16EF1704F58CA3E5A2E40B4C09EEF9B /* SocketManager.swift */; };
+		BB1ED76AEC67E4D61C3B2EA344F22A84 /* Socket.IO-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F29F58968BE96A7E51B73F05CFDC973 /* Socket.IO-Client-Swift-dummy.m */; };
+		C3C4498AC466D74240F3B31817964E38 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42FE52FA0E87E6AACB96D00476E4F0 /* SocketAckManager.swift */; };
+		C93686C734B9401AC853EEE67C119FFD /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50650693ED78133F5BFB0DA3345B3739 /* SocketAnyEvent.swift */; };
+		D393041925118CF21D1E27CBDFF6B528 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF87F1226608552D509359967CD765B /* SocketEventHandler.swift */; };
+		D52525DFC0F2A1FFB93DFBAD41DA24C1 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FDC56F56F3FC9BE7B39784A1BA86CF /* Direction.swift */; };
+		D82C6C7D47C9593FA3DF415E5C1E0870 /* SketchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46342DF8168F466CB2609348DFEA5729 /* SketchView.swift */; };
+		DF71A5C0B6A1AAC8D41CE01AA571E753 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B10FE4B85610D88A6E2B8B35032959 /* SocketIOClient.swift */; };
+		DFFFE23AF802E5DEE4BD5402F4620138 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C0EA96AFDE288EC45CF2A37C2B78A2 /* SwiftyJSON-dummy.m */; };
+		E1C72D095D6757E83C1BA787687B1108 /* UICollectionView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83D265DA9BD092AD16A053C2D844C7F /* UICollectionView + ViewAnimator.swift */; };
+		E3A0FCACCA1D1E2A58C60D312512CF95 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9260E2C4B7A93E49870A00E1BE5A97 /* Compression.swift */; };
+		E57B293232FF7C76E00EAFAA087C9435 /* ViewAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20678CD994645429BEB8C6C8205574E2 /* ViewAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8A900CAA78DE13841C21F99CBB13F5D /* ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F0C3FE3B696A6797B7F795C416B48 /* ViewAnimator.swift */; };
+		EEDBF58DBDF93AF49981BBBF65C67568 /* Socket.IO-Client-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CDC80D1FA6B04833EF0D76F00A07C7A /* Socket.IO-Client-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF6CE79F8CD3944AE6A7C97A4E999997 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5297077EC5F55A0FF3B55DAD8320EF /* SocketEnginePacketType.swift */; };
+		F63A9712DFFE6CB3BB259763EC941284 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8DFBFC8F809100DC25FC714B800D6E /* SocketEngineClient.swift */; };
+		F93A8334C1118F4545FD5591C155D3D3 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F52249DD4D3DD3159B64A42F2E7349B /* Starscream.framework */; };
+		FD89418CAEAAF5E0C49B2FBE1D00811E /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46251B738ACB68824270ADFEDE193A10 /* SocketAckEmitter.swift */; };
+		FF4C5D44424FB7AE9E04C8176EB7D1C8 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CD5774AA072693775BE3B4F0997689 /* SocketTypes.swift */; };
+		FFAAA0078E551CEBC88B77F309294AAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B220DE9811768A33367A37972807704 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		32170036C50925886A6B42DC54447094 /* PBXContainerItemProxy */ = {
+		61241BACCF7AE8CCCE36487871D66578 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C8D50E3E65327368F8C18311ADBBE6AB;
-			remoteInfo = "Socket.IO-Client-Swift";
+			remoteGlobalIDString = 96A06A12243E5E5E0C94C216FC9C7732;
+			remoteInfo = SwiftVideoBackground;
 		};
-		3CE3342DA979F60A27EDB147C78518CD /* PBXContainerItemProxy */ = {
+		619B605C9FDD83CA50434B5FDA071160 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BAA91187E1B5EFA47B4C25F4FC0883FF;
-			remoteInfo = Starscream;
+			remoteGlobalIDString = 8D1BD944B40E3411288080571E551F37;
+			remoteInfo = ViewAnimator;
 		};
-		620218018FAB7218C1306DF09543EA7F /* PBXContainerItemProxy */ = {
+		73F0A9C79E4C2F3E35D7EDA9BCDB1304 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BAA91187E1B5EFA47B4C25F4FC0883FF;
-			remoteInfo = Starscream;
+			remoteGlobalIDString = D937364EDB2A42857F7F27203C840E31;
+			remoteInfo = Sketch;
 		};
 		7A276928D603422595A973483E327819 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D1E19AEF7A63BE533BD181A9BF31B9A;
+			remoteGlobalIDString = 64A2EDBD87948195B01FF9BE554B5858;
 			remoteInfo = "Pods-Autism";
 		};
-		7B26EDA18F286D967F521222C511C446 /* PBXContainerItemProxy */ = {
+		A468688750A78B723FF7D48CC52E6608 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2685A9CAF46B88771DAC79FBD1B1EA6F;
+			remoteGlobalIDString = CC29DAAC844DC1A0A630B1539E92BD35;
+			remoteInfo = Starscream;
+		};
+		B854F9094A9E1E7C0900980805F7E98A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F573C40BE372D18817DD506940AE215E;
+			remoteInfo = "Socket.IO-Client-Swift";
+		};
+		BAC176759EA10DD7C7E6569A3AE55FAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC29DAAC844DC1A0A630B1539E92BD35;
+			remoteInfo = Starscream;
+		};
+		FB740C4D561E9C2F35B879306CDBA9EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B621CFC2865D6FDCA8CAD8EF7318302;
 			remoteInfo = SwiftyJSON;
-		};
-		8AAFEC3FB1184ADC36F11F7E0380C404 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A84F0939A17FFE5A90C2B4AF7508A2E0;
-			remoteInfo = ViewAnimator;
-		};
-		FA671D68A5BECAB0B40ABDBB432A7DFF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9614BD921D7E4C67A347081CEFD280E3;
-			remoteInfo = SwiftVideoBackground;
 		};
 		FD400A79F152C43C6A2DBABB420FAD48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D1E19AEF7A63BE533BD181A9BF31B9A;
+			remoteGlobalIDString = 64A2EDBD87948195B01FF9BE554B5858;
 			remoteInfo = "Pods-Autism";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		051A5E32FF6631C31E7A5CBE54B6DDE0 /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Direction.swift; path = ViewAnimator/Classes/Models/Direction.swift; sourceTree = "<group>"; };
 		05D38AF337865E023E36B06ABAEA6D7D /* Pods-Autism.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Autism.modulemap"; sourceTree = "<group>"; };
+		0880195F1A8C47CB246D4BD176D2019F /* Socket.IO-Client-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-prefix.pch"; sourceTree = "<group>"; };
+		08D25CE5163F43F61A7C41805AA001CC /* Sketch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sketch-prefix.pch"; sourceTree = "<group>"; };
 		0A95D9B6926454F3DE1929A3EB691CF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0ABF9273628B8C2ECD98E25DA02F7CDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CAFFEAA39D96E07EE63C2364CAC8462 /* ViewAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ViewAnimator.framework; path = ViewAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D3FCCB8939F5A83820745AF61ECE627 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B313CDB5728C0734CF31D645C0C8F94 /* ViewAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.xcconfig; sourceTree = "<group>"; };
+		0ECBCCA8424C69966D23240949E67ECB /* SocketEnginePollable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePollable.swift; path = Source/SocketIO/Engine/SocketEnginePollable.swift; sourceTree = "<group>"; };
+		0F29F58968BE96A7E51B73F05CFDC973 /* Socket.IO-Client-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Socket.IO-Client-Swift-dummy.m"; sourceTree = "<group>"; };
 		0F52249DD4D3DD3159B64A42F2E7349B /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E4C94EE57F58CA9B28E6B474156B22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		150B2B9D3583F98749634E0AC705DA90 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = Source/SocketIO/Client/SocketAnyEvent.swift; sourceTree = "<group>"; };
+		1217ED31312CB796FA036CD7726DCD5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1617AE4ADC795D61734433D614809C5D /* ViewAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ViewAnimator.framework; path = ViewAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1627283CD9CBF1739A9FB85DE59CA9BF /* Sketch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Sketch.modulemap; sourceTree = "<group>"; };
+		17CD5774AA072693775BE3B4F0997689 /* SocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = Source/SocketIO/Util/SocketTypes.swift; sourceTree = "<group>"; };
 		1879CA8DDF33EA1C303F60A72C961FD3 /* Pods-AutismUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutismUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2078BE574D146DE6CC0C7ABDB3F1BC95 /* ViewAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ViewAnimator.modulemap; sourceTree = "<group>"; };
-		22437992BEC4CD05952D3A67EA57FBE1 /* SwiftVideoBackground-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoBackground-prefix.pch"; sourceTree = "<group>"; };
-		2A226734AAE4F37796765A1073F9E247 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		2E28013680103965FD2FAF3A370B38C8 /* SocketParsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketParsable.swift; path = Source/SocketIO/Parse/SocketParsable.swift; sourceTree = "<group>"; };
-		30D4BCA8EE0077550D8C6F3C8080D0D4 /* SocketTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = Source/SocketIO/Util/SocketTypes.swift; sourceTree = "<group>"; };
-		30DAAA57FA841D8C55C3EF6C351B6F96 /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = ViewAnimator/Classes/Protocols/Animation.swift; sourceTree = "<group>"; };
-		32DA116CC836D164CBF5FA7C49026C68 /* VideoBackgroundError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoBackgroundError.swift; path = SwiftVideoBackground/Sources/VideoBackgroundError.swift; sourceTree = "<group>"; };
-		35E79D3EE09D2E0C5E285C4E3631E925 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		1D94FA1FD6DCDA8FE89D63AE17AC2CA0 /* ViewAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-prefix.pch"; sourceTree = "<group>"; };
+		1DEAF1133ADC1E28F6DE67931CBFE8EB /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
+		20678CD994645429BEB8C6C8205574E2 /* ViewAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-umbrella.h"; sourceTree = "<group>"; };
+		2090BA48EF02A863F2162C064F10E1E1 /* SocketManagerSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketManagerSpec.swift; path = Source/SocketIO/Manager/SocketManagerSpec.swift; sourceTree = "<group>"; };
+		22D35DCC73AACCA3482C91C0CF740B41 /* SwiftVideoBackground.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftVideoBackground.modulemap; sourceTree = "<group>"; };
+		29CB41371A0F9E7AD16234441372C71A /* Sketch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sketch-umbrella.h"; sourceTree = "<group>"; };
+		2AF7C89B4FBDDB4988DC47629F8B9CDD /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		2B4D2E85E24ECFB930AE37A31C4E32D5 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		2CE6A5CCCDA2F8C34C62D26EAA23342D /* SwiftVideoBackground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftVideoBackground.framework; path = SwiftVideoBackground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		331E2D56B574CAF28AA0526613B5463D /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		332C98F16261DD0FB0CD16D2E7B3AAFC /* SocketRawView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketRawView.swift; path = Source/SocketIO/Client/SocketRawView.swift; sourceTree = "<group>"; };
 		37F54F8963D2F4F2A8224762682E3F64 /* Pods-Autism-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Autism-umbrella.h"; sourceTree = "<group>"; };
-		3D055FE36788C8E4613B3BE24DBFD311 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
+		3AF911E20A6F42319D790E727E5BF138 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ViewAnimator/Classes/Utilities/Utilities.swift; sourceTree = "<group>"; };
+		3B5297077EC5F55A0FF3B55DAD8320EF /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePacketType.swift; path = Source/SocketIO/Engine/SocketEnginePacketType.swift; sourceTree = "<group>"; };
+		3B6E661575C4FB92A5E9392E0F512962 /* Sketch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sketch-dummy.m"; sourceTree = "<group>"; };
+		3B8685CB0751453289F36355C146778A /* VideoBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoBackground.swift; path = SwiftVideoBackground/Sources/VideoBackground.swift; sourceTree = "<group>"; };
+		3E4E89F2179380D2F758CD014ABB7825 /* UITableView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView + ViewAnimator.swift"; path = "ViewAnimator/Classes/Extensions/UITableView + ViewAnimator.swift"; sourceTree = "<group>"; };
+		3E83E92CA65E4BEC234C487C9BF12F23 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientOption.swift; path = Source/SocketIO/Client/SocketIOClientOption.swift; sourceTree = "<group>"; };
 		3E8A0D1CDC11700C0648A22C05DD0271 /* Pods-Autism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Autism.release.xcconfig"; sourceTree = "<group>"; };
-		40E010F50CD810553E954590FC325159 /* VideoBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoBackground.swift; path = SwiftVideoBackground/Sources/VideoBackground.swift; sourceTree = "<group>"; };
+		40575678EC458FE6D1708921A86009D4 /* SSLClientCertificate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLClientCertificate.swift; path = Sources/Starscream/SSLClientCertificate.swift; sourceTree = "<group>"; };
+		431BF370F878967717F8145EEFB3A064 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		442D75DBC06A45D3A5C96261BBE8994B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46251B738ACB68824270ADFEDE193A10 /* SocketAckEmitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckEmitter.swift; path = Source/SocketIO/Ack/SocketAckEmitter.swift; sourceTree = "<group>"; };
+		46342DF8168F466CB2609348DFEA5729 /* SketchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SketchView.swift; path = Sketch/Classes/SketchView.swift; sourceTree = "<group>"; };
 		46473727EB6AE96CE8D356E19D1A181E /* Pods-AutismUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AutismUITests.modulemap"; sourceTree = "<group>"; };
-		48240EDD59DF1A1002BC900FEE4C893A /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		487627E7325B4FD444D04CCF166721D6 /* SocketAckManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = Source/SocketIO/Ack/SocketAckManager.swift; sourceTree = "<group>"; };
-		488B7316E4763313FFD9585088ABD012 /* SocketEngineSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineSpec.swift; path = Source/SocketIO/Engine/SocketEngineSpec.swift; sourceTree = "<group>"; };
-		4A8DA469FF0D3B76ADBD0B7081791F9A /* SocketIOClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = Source/SocketIO/Client/SocketIOClient.swift; sourceTree = "<group>"; };
+		46BC6DE8B365C41F6932221C873D1AF1 /* Pods_Autism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Autism.framework; path = "Pods-Autism.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B42FE52FA0E87E6AACB96D00476E4F0 /* SocketAckManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = Source/SocketIO/Ack/SocketAckManager.swift; sourceTree = "<group>"; };
 		4C01FEE942C2614DE997C2CA445FB090 /* Pods-AutismUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutismUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4DDEE36B6E6B0EF1DA984F3EF4D8B308 /* SwiftVideoBackground.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftVideoBackground.xcconfig; sourceTree = "<group>"; };
-		4EF1E08E16A0792D8D265DE8F86F908E /* SocketManagerSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketManagerSpec.swift; path = Source/SocketIO/Manager/SocketManagerSpec.swift; sourceTree = "<group>"; };
+		4CDC80D1FA6B04833EF0D76F00A07C7A /* Socket.IO-Client-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-umbrella.h"; sourceTree = "<group>"; };
+		4F22481970A9F655789C7B98B88364AA /* SocketStringReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketStringReader.swift; path = Source/SocketIO/Util/SocketStringReader.swift; sourceTree = "<group>"; };
+		50650693ED78133F5BFB0DA3345B3739 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = Source/SocketIO/Client/SocketAnyEvent.swift; sourceTree = "<group>"; };
 		50A4C5CED1403EE1B4798A0D675FFE0E /* Pods-AutismTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutismTests.release.xcconfig"; sourceTree = "<group>"; };
+		5477DC9FDF4C101E4630999241065F3A /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		590C37F25A2878479E19DA48EAF6F7F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B220DE9811768A33367A37972807704 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5C17519AAC4E2F4BE3993A776194CC4D /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketIO.framework; path = "Socket.IO-Client-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8C4D58E84D9C41A1F5E64C38E81EE9 /* Pods-Autism-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Autism-acknowledgements.plist"; sourceTree = "<group>"; };
-		5CDCC06ACA6E651521A8DE519BB60915 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		5C9260E2C4B7A93E49870A00E1BE5A97 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Starscream/Compression.swift; sourceTree = "<group>"; };
+		5ECD32040CF2F1296C226C54F7398352 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8DFBFC8F809100DC25FC714B800D6E /* SocketEngineClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = Source/SocketIO/Engine/SocketEngineClient.swift; sourceTree = "<group>"; };
+		60FFB9FF2F34B250826D2DB71455754C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6124A0E1FC61AA5E8A278116CEC0B6D3 /* Pods-AutismTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AutismTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		625B75ADB9076B52192F151ED7CF8B92 /* Pods_AutismUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutismUITests.framework; path = "Pods-AutismUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		62DC4B5EEC2FBD5B955AD8335B55F3B0 /* SocketStringReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketStringReader.swift; path = Source/SocketIO/Util/SocketStringReader.swift; sourceTree = "<group>"; };
-		64DC4CD5F6324CB0346D716885CD78F7 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		693051A7B15B31B1AA0243297300AC6A /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SocketIO/Util/SSLSecurity.swift; sourceTree = "<group>"; };
 		6AF01FE60858EDC0C9B92E416115214B /* Pods-AutismUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutismUITests-dummy.m"; sourceTree = "<group>"; };
-		6BBF4C3D6398BAB09335D6BB53D05FB6 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientOption.swift; path = Source/SocketIO/Client/SocketIOClientOption.swift; sourceTree = "<group>"; };
+		6B896271808064B21CF164FCD4C17A42 /* SwiftVideoBackground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftVideoBackground-dummy.m"; sourceTree = "<group>"; };
 		6CF65F69C14EC7E307A97E4EDB2E47DC /* Pods-Autism-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Autism-frameworks.sh"; sourceTree = "<group>"; };
-		6DD64B7E52E5DE226C92369067669DA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F18EE17E30384D1ED9D0D74B7B29A92 /* SwiftVideoBackground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftVideoBackground-dummy.m"; sourceTree = "<group>"; };
+		6F3E18CE8F98CC08AA0489875F7567AE /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketIO.framework; path = "Socket.IO-Client-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70B10FE4B85610D88A6E2B8B35032959 /* SocketIOClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = Source/SocketIO/Client/SocketIOClient.swift; sourceTree = "<group>"; };
+		71E82B610A5AC797E4A9D73C5946EB11 /* SocketIOClientConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientConfiguration.swift; path = Source/SocketIO/Client/SocketIOClientConfiguration.swift; sourceTree = "<group>"; };
 		74DFAFE57D93B07652935941D3A9B85C /* Pods-AutismTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AutismTests.modulemap"; sourceTree = "<group>"; };
 		764AC5A85D0A1DDE495FDE1411073DB0 /* Pods-AutismTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutismTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7CD4B7B7CA2CD70CD0EED4028D1B879A /* SocketIOStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOStatus.swift; path = Source/SocketIO/Client/SocketIOStatus.swift; sourceTree = "<group>"; };
-		7D307CC050D4B5D1103447CAD94C430D /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientSpec.swift; path = Source/SocketIO/Client/SocketIOClientSpec.swift; sourceTree = "<group>"; };
-		7D3F2E8606D15D6650E5BAF09B2D2FAA /* SocketEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = Source/SocketIO/Engine/SocketEngine.swift; sourceTree = "<group>"; };
+		77C27251A2DBE668E10060D9497F232F /* SocketLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = Source/SocketIO/Util/SocketLogger.swift; sourceTree = "<group>"; };
+		7A752C8E030AEC6C4614CFEDFE0CDADF /* Pods_AutismUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutismUITests.framework; path = "Pods-AutismUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEEFA326C34C6B61787CC105081B3DA /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFEDD2B3CCDC8CB73939EE513ABEE2A /* SocketExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketExtensions.swift; path = Source/SocketIO/Util/SocketExtensions.swift; sourceTree = "<group>"; };
 		7DFBEEE9457C15A9861E0278529E6944 /* Pods-Autism-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Autism-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8211B6044FDD96AAC5093C54559E2B53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		825C19DA364F30A05ACABA4BB6E37DEE /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationType.swift; path = ViewAnimator/Classes/Models/AnimationType.swift; sourceTree = "<group>"; };
-		840E3CDF1C8D57E6C7EEDBA1DBA2911C /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ViewAnimator/Classes/Utilities/Utilities.swift; sourceTree = "<group>"; };
-		846363A4371F341DF796151A1D06F439 /* SocketRawView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketRawView.swift; path = Source/SocketIO/Client/SocketRawView.swift; sourceTree = "<group>"; };
+		80908D8A148D1B4823559ED8B356A9E3 /* SocketEngineSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineSpec.swift; path = Source/SocketIO/Engine/SocketEngineSpec.swift; sourceTree = "<group>"; };
+		815E1E82B49DCF2A917B95143B3F21F5 /* ViewAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewAnimator-dummy.m"; sourceTree = "<group>"; };
+		82197E5B0657054D062C597B82151EB6 /* Pods_AutismTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutismTests.framework; path = "Pods-AutismTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EBA3E0B17B84945285831F309B9F57 /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
+		876612A7D8858A06864AD2E8DA9030C8 /* Sketch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Sketch.framework; path = Sketch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		887FAB447D7A892C122105F1FC36A8B3 /* Pods-AutismTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutismTests-resources.sh"; sourceTree = "<group>"; };
-		8A4D79F475777012E1F8F5AC6382AB19 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
-		8D21E332202854FFD97518CE0BE66107 /* ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimator.swift; path = ViewAnimator/Classes/ViewAnimator.swift; sourceTree = "<group>"; };
 		904E2875C50888240083CDA440C9504D /* Pods-Autism-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Autism-resources.sh"; sourceTree = "<group>"; };
-		921C9396EF599E7A7AB5D75D69345AF3 /* Socket.IO-Client-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Socket.IO-Client-Swift-dummy.m"; sourceTree = "<group>"; };
-		9296F4488333B70D4F54946FC9B7EA89 /* SwiftVideoBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftVideoBackground.h; path = SwiftVideoBackground/Sources/SwiftVideoBackground.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		945C159E6418F1C656B0754A64991494 /* Pods-Autism-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Autism-dummy.m"; sourceTree = "<group>"; };
-		94FF6232D14FA2F6517D51824D4158BA /* Socket.IO-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Socket.IO-Client-Swift.modulemap"; sourceTree = "<group>"; };
 		982432C54EDFFD11DAAA6597A88072C0 /* Pods-AutismUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutismUITests-umbrella.h"; sourceTree = "<group>"; };
-		99B9EC3E654347304771A1A735003E4E /* SwiftVideoBackground-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoBackground-umbrella.h"; sourceTree = "<group>"; };
-		9AD9A08078717406395691B1D18CDEA1 /* SwiftVideoBackground.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftVideoBackground.modulemap; sourceTree = "<group>"; };
-		9FDC94317CF6157B4A3FAE28FB0AE390 /* ViewAnimatorConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimatorConfig.swift; path = ViewAnimator/Classes/ViewAnimatorConfig.swift; sourceTree = "<group>"; };
-		9FF65D3ECB70E12E863C4AE327F65EC3 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
-		A3B455233C30A44D7A8EF4A406E18E66 /* UITableView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView + ViewAnimator.swift"; path = "ViewAnimator/Classes/Extensions/UITableView + ViewAnimator.swift"; sourceTree = "<group>"; };
-		A4A07FA0BA2324D763FB85E25EF5E0D6 /* SocketPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = Source/SocketIO/Parse/SocketPacket.swift; sourceTree = "<group>"; };
-		A6391C4CE0748F2496A2468C413E1FD0 /* SocketManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketManager.swift; path = Source/SocketIO/Manager/SocketManager.swift; sourceTree = "<group>"; };
+		9A7C2CF38DEB6FBFA0B5305DC3DA6508 /* SocketIOStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOStatus.swift; path = Source/SocketIO/Client/SocketIOStatus.swift; sourceTree = "<group>"; };
+		9CF87F1226608552D509359967CD765B /* SocketEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = Source/SocketIO/Client/SocketEventHandler.swift; sourceTree = "<group>"; };
+		9FA83892C557BA56C627D17141AE26C5 /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = ViewAnimator/Classes/Protocols/Animation.swift; sourceTree = "<group>"; };
+		A3859438386FD401A904C129E38C8097 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
+		A45F74E5627ABDEB2F7FEE34E98B4704 /* Sketch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sketch.xcconfig; sourceTree = "<group>"; };
+		A7C0EA96AFDE288EC45CF2A37C2B78A2 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		A7CCFABC80C6853122583D752F805D2A /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		A7DD3A71FA2553151E6E45CF6D4C29E5 /* Pods-AutismUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutismUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AB526C0D666DA4086C2B3D207FC89B7E /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
-		ADAF5926A92B59D0522573029A84879D /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Sources/Starscream/SSLSecurity.swift; sourceTree = "<group>"; };
-		B0167E3CA621E73D6B27C454DBBB29E7 /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
-		B02A8475D73AD18AE59A742AE5BB41DB /* SocketExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketExtensions.swift; path = Source/SocketIO/Util/SocketExtensions.swift; sourceTree = "<group>"; };
+		A8BD1831EC042262D7FABD032B44CE21 /* SwiftVideoBackground-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoBackground-umbrella.h"; sourceTree = "<group>"; };
+		A9C480D60F64D7348932127540992F48 /* ViewAnimatorConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimatorConfig.swift; path = ViewAnimator/Classes/ViewAnimatorConfig.swift; sourceTree = "<group>"; };
+		AA08609441124DD72AC7B7187B2CEA7F /* Socket.IO-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Socket.IO-Client-Swift.modulemap"; sourceTree = "<group>"; };
+		ACE8FDF97E95E659C8C859DEFFBD2F17 /* SketchTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SketchTool.swift; path = Sketch/Classes/SketchTool.swift; sourceTree = "<group>"; };
+		B47F45C5951F99D5209C029D73E062E0 /* VideoBackgroundError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoBackgroundError.swift; path = SwiftVideoBackground/Sources/VideoBackgroundError.swift; sourceTree = "<group>"; };
 		B88F0E89143914BE6D87CF3EFD81118D /* Pods-AutismTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AutismTests-umbrella.h"; sourceTree = "<group>"; };
-		BD1F7DEF1298221F83236B1B5E6884F4 /* Socket.IO-Client-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-umbrella.h"; sourceTree = "<group>"; };
-		BFB0878F3C3844A3C3D213FF89F36CD4 /* SocketEnginePollable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePollable.swift; path = Source/SocketIO/Engine/SocketEnginePollable.swift; sourceTree = "<group>"; };
-		C39A4FBA16B97507AD71BC56714F306E /* SocketEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = Source/SocketIO/Client/SocketEventHandler.swift; sourceTree = "<group>"; };
-		C4D6510CC8B8728179D703544AB65BEE /* ViewAnimator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.xcconfig; sourceTree = "<group>"; };
-		C5DF13F990A79C23140649F19ECEC707 /* ViewAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewAnimator-dummy.m"; sourceTree = "<group>"; };
-		C9AD6B3BEE10D24B232F85BCC44F6354 /* Socket.IO-Client-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Socket.IO-Client-Swift-prefix.pch"; sourceTree = "<group>"; };
-		C9FB98B792CE441725EEC63335A93F63 /* Socket.IO-Client-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Socket.IO-Client-Swift.xcconfig"; sourceTree = "<group>"; };
+		C02B7A132BB5D889B2521F2E795FFD8C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B36FF8D40B881ECABF4DB3979EF5C3 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		C24F4CF1052CC7296BFDFE316EA38076 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		C83D265DA9BD092AD16A053C2D844C7F /* UICollectionView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView + ViewAnimator.swift"; path = "ViewAnimator/Classes/Extensions/UICollectionView + ViewAnimator.swift"; sourceTree = "<group>"; };
+		C9FDC56F56F3FC9BE7B39784A1BA86CF /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Direction.swift; path = ViewAnimator/Classes/Models/Direction.swift; sourceTree = "<group>"; };
 		CA38860225BFACCE402DDAB4F1E53CFB /* Pods-AutismTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AutismTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB6A144A22CD2F26EDCA82B715B061F4 /* SwiftVideoBackground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftVideoBackground.framework; path = SwiftVideoBackground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA64E0903410EFA20463A9E3B40CEA17 /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Sources/Starscream/SSLSecurity.swift; sourceTree = "<group>"; };
+		CADBA2BF4AA70F4A6582AFA1935379CD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1DAAF8B2C9D9D08F9D4FB689DB543E /* SwiftVideoBackground-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoBackground-prefix.pch"; sourceTree = "<group>"; };
+		CDDF6C67DE26C4E58BF131B1789CFC1A /* SocketParsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketParsable.swift; path = Source/SocketIO/Parse/SocketParsable.swift; sourceTree = "<group>"; };
 		CEAD0BCBB04A51D27FC4A91C5098B122 /* Pods-Autism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Autism.debug.xcconfig"; sourceTree = "<group>"; };
-		CF57F212D984A37BDFE75426BBA2FC27 /* UICollectionView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView + ViewAnimator.swift"; path = "ViewAnimator/Classes/Extensions/UICollectionView + ViewAnimator.swift"; sourceTree = "<group>"; };
-		D1D92FB028D4D7A23C310971E14B8636 /* Pods_AutismTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AutismTests.framework; path = "Pods-AutismTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D22BA5EEE9ABB6DA52DC48493A9BD583 /* SocketAckEmitter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketAckEmitter.swift; path = Source/SocketIO/Ack/SocketAckEmitter.swift; sourceTree = "<group>"; };
-		D362D3963AF87C7E42D145D8072BA2D2 /* ViewAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-prefix.pch"; sourceTree = "<group>"; };
-		D83000A201CAC0E80B51BF62B16DE660 /* SocketIOClientConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientConfiguration.swift; path = Source/SocketIO/Client/SocketIOClientConfiguration.swift; sourceTree = "<group>"; };
-		D9993D281F6D5A3A311F727F53EF7BE5 /* SocketEngineClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = Source/SocketIO/Engine/SocketEngineClient.swift; sourceTree = "<group>"; };
-		DDA5A48FB43E3E7E1F7A040E5D504722 /* Pods_Autism.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Autism.framework; path = "Pods-Autism.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFE71ADBAAE43C49666886D81A51C334 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
-		E561A84F98A29C6AC585B550B7B388AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E577B723F68E1B9776A3C89CF549A47E /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		D13D7094BA2690B4C3C39EB3E9FEA891 /* ViewAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ViewAnimator.modulemap; sourceTree = "<group>"; };
+		D29DA19B40DCF9E2B003B28A20AC71D2 /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineWebsocket.swift; path = Source/SocketIO/Engine/SocketEngineWebsocket.swift; sourceTree = "<group>"; };
+		D42F0C3FE3B696A6797B7F795C416B48 /* ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimator.swift; path = ViewAnimator/Classes/ViewAnimator.swift; sourceTree = "<group>"; };
+		DCABCDA05E2F028B381853E00F40BEC9 /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketIOClientSpec.swift; path = Source/SocketIO/Client/SocketIOClientSpec.swift; sourceTree = "<group>"; };
+		DD7AD9443727A791613DE0498002BE29 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
+		E3794332634871D2E6975AC234E6FD1D /* Socket.IO-Client-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Socket.IO-Client-Swift.xcconfig"; sourceTree = "<group>"; };
+		E5D04236F036BF05A47709AE7FA2E863 /* SwiftVideoBackground.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftVideoBackground.xcconfig; sourceTree = "<group>"; };
 		E68D56DA3B5D7AAF53F0B9026C023051 /* Pods-AutismUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AutismUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E731884FE378AFAFC65A172C7856A8E2 /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Starscream/Compression.swift; sourceTree = "<group>"; };
 		E733B4EB915D493C2CF9683D5EC1E774 /* Pods-AutismUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutismUITests-frameworks.sh"; sourceTree = "<group>"; };
-		EB16C03480C525EE37765A0446756D3C /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Source/SocketIO/Util/SSLSecurity.swift; sourceTree = "<group>"; };
-		EB7BE477DAD6E6E3826D1E542233A2BF /* ViewAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-umbrella.h"; sourceTree = "<group>"; };
+		EC6ABBD13E3F9226D1FBA1764322BD0C /* SocketPacket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = Source/SocketIO/Parse/SocketPacket.swift; sourceTree = "<group>"; };
+		EDED572263024A9CCF23620C053F37CB /* SwiftVideoBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftVideoBackground.h; path = SwiftVideoBackground/Sources/SwiftVideoBackground.h; sourceTree = "<group>"; };
 		F16D5B63109826120A6DAB2B4FB16416 /* Pods-AutismTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutismTests-frameworks.sh"; sourceTree = "<group>"; };
-		F4761562D8530BF2AAB92F7745B91BE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F576C97132CA596DA0B0F58B07BEB29D /* SSLClientCertificate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLClientCertificate.swift; path = Sources/Starscream/SSLClientCertificate.swift; sourceTree = "<group>"; };
-		F5B1F4410C09329D6C9E594154F10368 /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEnginePacketType.swift; path = Source/SocketIO/Engine/SocketEnginePacketType.swift; sourceTree = "<group>"; };
-		F7FDDE03B9F9C7D71B982F87412F406D /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		F16EF1704F58CA3E5A2E40B4C09EEF9B /* SocketManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketManager.swift; path = Source/SocketIO/Manager/SocketManager.swift; sourceTree = "<group>"; };
+		F526BAE649326A1A1C6748B41BA3CB30 /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationType.swift; path = ViewAnimator/Classes/Models/AnimationType.swift; sourceTree = "<group>"; };
 		F862960D3A18E337A47CA50BC32D82B8 /* Pods-AutismUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AutismUITests-resources.sh"; sourceTree = "<group>"; };
-		F8D60C043D91072EC704CDDF28E0DBD3 /* SocketLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = Source/SocketIO/Util/SocketLogger.swift; sourceTree = "<group>"; };
-		F9BE9E27889E8FD0708906060A06FA72 /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngineWebsocket.swift; path = Source/SocketIO/Engine/SocketEngineWebsocket.swift; sourceTree = "<group>"; };
 		FAC6BD53B9EA542692C7A30EFD728793 /* Pods-AutismTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AutismTests-dummy.m"; sourceTree = "<group>"; };
+		FAF4159E80B53174E6E0211A0F699114 /* SocketEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = Source/SocketIO/Engine/SocketEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,28 +279,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		164771C602CA57353954626E94331A2C /* Frameworks */ = {
+		0601F722BC45CF6764C8543A76D34289 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2D2BCDA60352B1B7E4994BE2B472448 /* Foundation.framework in Frameworks */,
-				7EC1D54FB3640FB563D6D8161852A0EF /* Starscream.framework in Frameworks */,
+				120EF9635628976DEDD420A4859859B6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D7461DDC83B567BD8714E93CB024E50 /* Frameworks */ = {
+		100445B0FBDEE66E01C5394F6D8DD19D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				599AB3C816A09A662EB5C26E2C7F8988 /* Foundation.framework in Frameworks */,
+				4BD866096969EADA5C5BF5212F21853C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92B2CC35AD93A358386993AACA0F27C0 /* Frameworks */ = {
+		264C782E0849559FB2600060C8384DF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE981B95EECD96DBC2DA620BB43EEB3 /* Foundation.framework in Frameworks */,
+				9C2B6D776FF58A19243E45B795870411 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36BA9386F0E26D14ACE8802B9EF73FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAAA0078E551CEBC88B77F309294AAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F0973E097B510BC211A7B50C2E9017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C04C81758A47C28A25CD0A2673EAB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4277A1CF5A5E6DE7F31BF06F827E7768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197340BD3C3BFC6BF5896C43C9214C24 /* Foundation.framework in Frameworks */,
+				F93A8334C1118F4545FD5591C155D3D3 /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,71 +336,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BEC9EBF6C8FDAA35A799FC27E669EA3 /* Frameworks */ = {
+		D765596A6DFD92A3F334BDA46136A573 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F03C84D2FD7035087FE5587539962C42 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC76D03D42499C33721309A989A01FD4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6C032AF394DCB6E5C4542AE6F3B2F86C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F1E875F5497C7BB0D8697625F9B90CA1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F8815B2BCF3D77DCCEBA775E35EE7C4 /* Foundation.framework in Frameworks */,
+				A86DAC0B201555D7D24CA8F2BEFC5F10 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E4B02D19FDC58655BFC3F278B6739A1 /* Support Files */ = {
+		06B7FBB5218583C8B229DF8FD9B2FC26 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				F4761562D8530BF2AAB92F7745B91BE0 /* Info.plist */,
-				F7FDDE03B9F9C7D71B982F87412F406D /* SwiftyJSON.modulemap */,
-				5CDCC06ACA6E651521A8DE519BB60915 /* SwiftyJSON.xcconfig */,
-				2A226734AAE4F37796765A1073F9E247 /* SwiftyJSON-dummy.m */,
-				35E79D3EE09D2E0C5E285C4E3631E925 /* SwiftyJSON-prefix.pch */,
-				E577B723F68E1B9776A3C89CF549A47E /* SwiftyJSON-umbrella.h */,
+				2AF7C89B4FBDDB4988DC47629F8B9CDD /* SwiftyJSON.swift */,
+				F87BB79ECD0198F9F037B8E9A05F8F3B /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyJSON";
+			name = SwiftyJSON;
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
-		34CB1914863A64D854123A348523CF84 /* SwiftVideoBackground */ = {
+		257BBE5A90CCEE08A7DE68796A93292A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9296F4488333B70D4F54946FC9B7EA89 /* SwiftVideoBackground.h */,
-				40E010F50CD810553E954590FC325159 /* VideoBackground.swift */,
-				32DA116CC836D164CBF5FA7C49026C68 /* VideoBackgroundError.swift */,
-				8BEB662823A1C9C181132834DA28F5AD /* Support Files */,
-			);
-			name = SwiftVideoBackground;
-			path = SwiftVideoBackground;
-			sourceTree = "<group>";
-		};
-		3CF5BF6CF4E72A8C519FC511D6F4C139 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8211B6044FDD96AAC5093C54559E2B53 /* Info.plist */,
-				94FF6232D14FA2F6517D51824D4158BA /* Socket.IO-Client-Swift.modulemap */,
-				C9FB98B792CE441725EEC63335A93F63 /* Socket.IO-Client-Swift.xcconfig */,
-				921C9396EF599E7A7AB5D75D69345AF3 /* Socket.IO-Client-Swift-dummy.m */,
-				C9AD6B3BEE10D24B232F85BCC44F6354 /* Socket.IO-Client-Swift-prefix.pch */,
-				BD1F7DEF1298221F83236B1B5E6884F4 /* Socket.IO-Client-Swift-umbrella.h */,
+				1217ED31312CB796FA036CD7726DCD5D /* Info.plist */,
+				22D35DCC73AACCA3482C91C0CF740B41 /* SwiftVideoBackground.modulemap */,
+				E5D04236F036BF05A47709AE7FA2E863 /* SwiftVideoBackground.xcconfig */,
+				6B896271808064B21CF164FCD4C17A42 /* SwiftVideoBackground-dummy.m */,
+				CD1DAAF8B2C9D9D08F9D4FB689DB543E /* SwiftVideoBackground-prefix.pch */,
+				A8BD1831EC042262D7FABD032B44CE21 /* SwiftVideoBackground-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Socket.IO-Client-Swift";
+			path = "../Target Support Files/SwiftVideoBackground";
+			sourceTree = "<group>";
+		};
+		340585B21A50939CC03B9DAB1874A995 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60FFB9FF2F34B250826D2DB71455754C /* Info.plist */,
+				A3859438386FD401A904C129E38C8097 /* Starscream.modulemap */,
+				82EBA3E0B17B84945285831F309B9F57 /* Starscream.xcconfig */,
+				2B4D2E85E24ECFB930AE37A31C4E32D5 /* Starscream-dummy.m */,
+				C0B36FF8D40B881ECABF4DB3979EF5C3 /* Starscream-prefix.pch */,
+				1DEAF1133ADC1E28F6DE67931CBFE8EB /* Starscream-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
 			sourceTree = "<group>";
 		};
 		3E5F18E9F67278679F0E5D19778880E6 /* Pods-AutismUITests */ = {
@@ -376,20 +403,6 @@
 			path = "Target Support Files/Pods-AutismUITests";
 			sourceTree = "<group>";
 		};
-		430190417DB618537717F5361B124211 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6DD64B7E52E5DE226C92369067669DA5 /* Info.plist */,
-				2078BE574D146DE6CC0C7ABDB3F1BC95 /* ViewAnimator.modulemap */,
-				C4D6510CC8B8728179D703544AB65BEE /* ViewAnimator.xcconfig */,
-				C5DF13F990A79C23140649F19ECEC707 /* ViewAnimator-dummy.m */,
-				D362D3963AF87C7E42D145D8072BA2D2 /* ViewAnimator-prefix.pch */,
-				EB7BE477DAD6E6E3826D1E542233A2BF /* ViewAnimator-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ViewAnimator";
-			sourceTree = "<group>";
-		};
 		4316041A3F2617A7CD642CA95E824D45 /* Pods-Autism */ = {
 			isa = PBXGroup;
 			children = (
@@ -408,35 +421,49 @@
 			path = "Target Support Files/Pods-Autism";
 			sourceTree = "<group>";
 		};
-		47AFF147FA6662A71B7E68CDE50FB746 /* Socket.IO-Client-Swift */ = {
+		45E9BDAF6D9A2D2938A5987967AEFBFB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D22BA5EEE9ABB6DA52DC48493A9BD583 /* SocketAckEmitter.swift */,
-				487627E7325B4FD444D04CCF166721D6 /* SocketAckManager.swift */,
-				150B2B9D3583F98749634E0AC705DA90 /* SocketAnyEvent.swift */,
-				7D3F2E8606D15D6650E5BAF09B2D2FAA /* SocketEngine.swift */,
-				D9993D281F6D5A3A311F727F53EF7BE5 /* SocketEngineClient.swift */,
-				F5B1F4410C09329D6C9E594154F10368 /* SocketEnginePacketType.swift */,
-				BFB0878F3C3844A3C3D213FF89F36CD4 /* SocketEnginePollable.swift */,
-				488B7316E4763313FFD9585088ABD012 /* SocketEngineSpec.swift */,
-				F9BE9E27889E8FD0708906060A06FA72 /* SocketEngineWebsocket.swift */,
-				C39A4FBA16B97507AD71BC56714F306E /* SocketEventHandler.swift */,
-				B02A8475D73AD18AE59A742AE5BB41DB /* SocketExtensions.swift */,
-				4A8DA469FF0D3B76ADBD0B7081791F9A /* SocketIOClient.swift */,
-				D83000A201CAC0E80B51BF62B16DE660 /* SocketIOClientConfiguration.swift */,
-				6BBF4C3D6398BAB09335D6BB53D05FB6 /* SocketIOClientOption.swift */,
-				7D307CC050D4B5D1103447CAD94C430D /* SocketIOClientSpec.swift */,
-				7CD4B7B7CA2CD70CD0EED4028D1B879A /* SocketIOStatus.swift */,
-				F8D60C043D91072EC704CDDF28E0DBD3 /* SocketLogger.swift */,
-				A6391C4CE0748F2496A2468C413E1FD0 /* SocketManager.swift */,
-				4EF1E08E16A0792D8D265DE8F86F908E /* SocketManagerSpec.swift */,
-				A4A07FA0BA2324D763FB85E25EF5E0D6 /* SocketPacket.swift */,
-				2E28013680103965FD2FAF3A370B38C8 /* SocketParsable.swift */,
-				846363A4371F341DF796151A1D06F439 /* SocketRawView.swift */,
-				62DC4B5EEC2FBD5B955AD8335B55F3B0 /* SocketStringReader.swift */,
-				30D4BCA8EE0077550D8C6F3C8080D0D4 /* SocketTypes.swift */,
-				EB16C03480C525EE37765A0446756D3C /* SSLSecurity.swift */,
-				3CF5BF6CF4E72A8C519FC511D6F4C139 /* Support Files */,
+				5ECD32040CF2F1296C226C54F7398352 /* Info.plist */,
+				AA08609441124DD72AC7B7187B2CEA7F /* Socket.IO-Client-Swift.modulemap */,
+				E3794332634871D2E6975AC234E6FD1D /* Socket.IO-Client-Swift.xcconfig */,
+				0F29F58968BE96A7E51B73F05CFDC973 /* Socket.IO-Client-Swift-dummy.m */,
+				0880195F1A8C47CB246D4BD176D2019F /* Socket.IO-Client-Swift-prefix.pch */,
+				4CDC80D1FA6B04833EF0D76F00A07C7A /* Socket.IO-Client-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Socket.IO-Client-Swift";
+			sourceTree = "<group>";
+		};
+		504F5C7A10EFF5A63610FF84399D9DD2 /* Socket.IO-Client-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				46251B738ACB68824270ADFEDE193A10 /* SocketAckEmitter.swift */,
+				4B42FE52FA0E87E6AACB96D00476E4F0 /* SocketAckManager.swift */,
+				50650693ED78133F5BFB0DA3345B3739 /* SocketAnyEvent.swift */,
+				FAF4159E80B53174E6E0211A0F699114 /* SocketEngine.swift */,
+				5F8DFBFC8F809100DC25FC714B800D6E /* SocketEngineClient.swift */,
+				3B5297077EC5F55A0FF3B55DAD8320EF /* SocketEnginePacketType.swift */,
+				0ECBCCA8424C69966D23240949E67ECB /* SocketEnginePollable.swift */,
+				80908D8A148D1B4823559ED8B356A9E3 /* SocketEngineSpec.swift */,
+				D29DA19B40DCF9E2B003B28A20AC71D2 /* SocketEngineWebsocket.swift */,
+				9CF87F1226608552D509359967CD765B /* SocketEventHandler.swift */,
+				7CFEDD2B3CCDC8CB73939EE513ABEE2A /* SocketExtensions.swift */,
+				70B10FE4B85610D88A6E2B8B35032959 /* SocketIOClient.swift */,
+				71E82B610A5AC797E4A9D73C5946EB11 /* SocketIOClientConfiguration.swift */,
+				3E83E92CA65E4BEC234C487C9BF12F23 /* SocketIOClientOption.swift */,
+				DCABCDA05E2F028B381853E00F40BEC9 /* SocketIOClientSpec.swift */,
+				9A7C2CF38DEB6FBFA0B5305DC3DA6508 /* SocketIOStatus.swift */,
+				77C27251A2DBE668E10060D9497F232F /* SocketLogger.swift */,
+				F16EF1704F58CA3E5A2E40B4C09EEF9B /* SocketManager.swift */,
+				2090BA48EF02A863F2162C064F10E1E1 /* SocketManagerSpec.swift */,
+				EC6ABBD13E3F9226D1FBA1764322BD0C /* SocketPacket.swift */,
+				CDDF6C67DE26C4E58BF131B1789CFC1A /* SocketParsable.swift */,
+				332C98F16261DD0FB0CD16D2E7B3AAFC /* SocketRawView.swift */,
+				4F22481970A9F655789C7B98B88364AA /* SocketStringReader.swift */,
+				17CD5774AA072693775BE3B4F0997689 /* SocketTypes.swift */,
+				693051A7B15B31B1AA0243297300AC6A /* SSLSecurity.swift */,
+				45E9BDAF6D9A2D2938A5987967AEFBFB /* Support Files */,
 			);
 			name = "Socket.IO-Client-Swift";
 			path = "Socket.IO-Client-Swift";
@@ -460,20 +487,6 @@
 			path = "Target Support Files/Pods-AutismTests";
 			sourceTree = "<group>";
 		};
-		5D365A8307DB0974DCB61A502DAF1F0B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0ABF9273628B8C2ECD98E25DA02F7CDA /* Info.plist */,
-				3D055FE36788C8E4613B3BE24DBFD311 /* Starscream.modulemap */,
-				B0167E3CA621E73D6B27C454DBBB29E7 /* Starscream.xcconfig */,
-				DFE71ADBAAE43C49666886D81A51C334 /* Starscream-dummy.m */,
-				9FF65D3ECB70E12E863C4AE327F65EC3 /* Starscream-prefix.pch */,
-				AB526C0D666DA4086C2B3D207FC89B7E /* Starscream-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Starscream";
-			sourceTree = "<group>";
-		};
 		64DA8623362F02C53392E400A32CE32B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -492,83 +505,96 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6E0B7B58E473105809F0D4D7BBC4AA3D /* Starscream */ = {
+			isa = PBXGroup;
+			children = (
+				5C9260E2C4B7A93E49870A00E1BE5A97 /* Compression.swift */,
+				40575678EC458FE6D1708921A86009D4 /* SSLClientCertificate.swift */,
+				CA64E0903410EFA20463A9E3B40CEA17 /* SSLSecurity.swift */,
+				DD7AD9443727A791613DE0498002BE29 /* WebSocket.swift */,
+				340585B21A50939CC03B9DAB1874A995 /* Support Files */,
+			);
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				C6C6CF85326A60B112CC4A77BAD281D7 /* Frameworks */,
-				97FA7E11200179D2940CF6D224CBEEB1 /* Pods */,
-				BF1455EF0FB83BA2949108BD8DC47AD0 /* Products */,
+				9779E9C221D2D4572B49EABCD6427879 /* Pods */,
+				8EEF9538D82211F2A1E9CE867A4BFFB5 /* Products */,
 				64DA8623362F02C53392E400A32CE32B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8BEB662823A1C9C181132834DA28F5AD /* Support Files */ = {
+		8D01837A1E64AA7336E6D7D4E2870997 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E561A84F98A29C6AC585B550B7B388AA /* Info.plist */,
-				9AD9A08078717406395691B1D18CDEA1 /* SwiftVideoBackground.modulemap */,
-				4DDEE36B6E6B0EF1DA984F3EF4D8B308 /* SwiftVideoBackground.xcconfig */,
-				6F18EE17E30384D1ED9D0D74B7B29A92 /* SwiftVideoBackground-dummy.m */,
-				22437992BEC4CD05952D3A67EA57FBE1 /* SwiftVideoBackground-prefix.pch */,
-				99B9EC3E654347304771A1A735003E4E /* SwiftVideoBackground-umbrella.h */,
+				590C37F25A2878479E19DA48EAF6F7F1 /* Info.plist */,
+				1627283CD9CBF1739A9FB85DE59CA9BF /* Sketch.modulemap */,
+				A45F74E5627ABDEB2F7FEE34E98B4704 /* Sketch.xcconfig */,
+				3B6E661575C4FB92A5E9392E0F512962 /* Sketch-dummy.m */,
+				08D25CE5163F43F61A7C41805AA001CC /* Sketch-prefix.pch */,
+				29CB41371A0F9E7AD16234441372C71A /* Sketch-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SwiftVideoBackground";
+			path = "../Target Support Files/Sketch";
 			sourceTree = "<group>";
 		};
-		97FA7E11200179D2940CF6D224CBEEB1 /* Pods */ = {
+		8EEF9538D82211F2A1E9CE867A4BFFB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47AFF147FA6662A71B7E68CDE50FB746 /* Socket.IO-Client-Swift */,
-				D2ECBD0CBC6134DDEAAE4295DA7FAF59 /* Starscream */,
-				34CB1914863A64D854123A348523CF84 /* SwiftVideoBackground */,
-				A9DC121212C32F0F0BA47CC0440C0638 /* SwiftyJSON */,
-				A177FCB7659C0529F5D699593A8B00C6 /* ViewAnimator */,
+				46BC6DE8B365C41F6932221C873D1AF1 /* Pods_Autism.framework */,
+				82197E5B0657054D062C597B82151EB6 /* Pods_AutismTests.framework */,
+				7A752C8E030AEC6C4614CFEDFE0CDADF /* Pods_AutismUITests.framework */,
+				876612A7D8858A06864AD2E8DA9030C8 /* Sketch.framework */,
+				6F3E18CE8F98CC08AA0489875F7567AE /* SocketIO.framework */,
+				5477DC9FDF4C101E4630999241065F3A /* Starscream.framework */,
+				2CE6A5CCCDA2F8C34C62D26EAA23342D /* SwiftVideoBackground.framework */,
+				7BEEFA326C34C6B61787CC105081B3DA /* SwiftyJSON.framework */,
+				1617AE4ADC795D61734433D614809C5D /* ViewAnimator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9779E9C221D2D4572B49EABCD6427879 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9D05273C79AA9A40F2996CC67B226BB /* Sketch */,
+				504F5C7A10EFF5A63610FF84399D9DD2 /* Socket.IO-Client-Swift */,
+				6E0B7B58E473105809F0D4D7BBC4AA3D /* Starscream */,
+				FF78CDAA82F299BBFD6D026EC69E114F /* SwiftVideoBackground */,
+				06B7FBB5218583C8B229DF8FD9B2FC26 /* SwiftyJSON */,
+				FD57E87CDD8AE95D1540B5A0C1EBB81C /* ViewAnimator */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A177FCB7659C0529F5D699593A8B00C6 /* ViewAnimator */ = {
+		A9601D4094C5D8926C1A5A05670A1007 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				30DAAA57FA841D8C55C3EF6C351B6F96 /* Animation.swift */,
-				825C19DA364F30A05ACABA4BB6E37DEE /* AnimationType.swift */,
-				051A5E32FF6631C31E7A5CBE54B6DDE0 /* Direction.swift */,
-				CF57F212D984A37BDFE75426BBA2FC27 /* UICollectionView + ViewAnimator.swift */,
-				A3B455233C30A44D7A8EF4A406E18E66 /* UITableView + ViewAnimator.swift */,
-				840E3CDF1C8D57E6C7EEDBA1DBA2911C /* Utilities.swift */,
-				8D21E332202854FFD97518CE0BE66107 /* ViewAnimator.swift */,
-				9FDC94317CF6157B4A3FAE28FB0AE390 /* ViewAnimatorConfig.swift */,
-				430190417DB618537717F5361B124211 /* Support Files */,
+				C02B7A132BB5D889B2521F2E795FFD8C /* Info.plist */,
+				D13D7094BA2690B4C3C39EB3E9FEA891 /* ViewAnimator.modulemap */,
+				0B313CDB5728C0734CF31D645C0C8F94 /* ViewAnimator.xcconfig */,
+				815E1E82B49DCF2A917B95143B3F21F5 /* ViewAnimator-dummy.m */,
+				1D94FA1FD6DCDA8FE89D63AE17AC2CA0 /* ViewAnimator-prefix.pch */,
+				20678CD994645429BEB8C6C8205574E2 /* ViewAnimator-umbrella.h */,
 			);
-			name = ViewAnimator;
-			path = ViewAnimator;
+			name = "Support Files";
+			path = "../Target Support Files/ViewAnimator";
 			sourceTree = "<group>";
 		};
-		A9DC121212C32F0F0BA47CC0440C0638 /* SwiftyJSON */ = {
+		B9D05273C79AA9A40F2996CC67B226BB /* Sketch */ = {
 			isa = PBXGroup;
 			children = (
-				64DC4CD5F6324CB0346D716885CD78F7 /* SwiftyJSON.swift */,
-				2E4B02D19FDC58655BFC3F278B6739A1 /* Support Files */,
+				ACE8FDF97E95E659C8C859DEFFBD2F17 /* SketchTool.swift */,
+				46342DF8168F466CB2609348DFEA5729 /* SketchView.swift */,
+				8D01837A1E64AA7336E6D7D4E2870997 /* Support Files */,
 			);
-			name = SwiftyJSON;
-			path = SwiftyJSON;
-			sourceTree = "<group>";
-		};
-		BF1455EF0FB83BA2949108BD8DC47AD0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DDA5A48FB43E3E7E1F7A040E5D504722 /* Pods_Autism.framework */,
-				D1D92FB028D4D7A23C310971E14B8636 /* Pods_AutismTests.framework */,
-				625B75ADB9076B52192F151ED7CF8B92 /* Pods_AutismUITests.framework */,
-				5C17519AAC4E2F4BE3993A776194CC4D /* SocketIO.framework */,
-				0D3FCCB8939F5A83820745AF61ECE627 /* Starscream.framework */,
-				CB6A144A22CD2F26EDCA82B715B061F4 /* SwiftVideoBackground.framework */,
-				48240EDD59DF1A1002BC900FEE4C893A /* SwiftyJSON.framework */,
-				0CAFFEAA39D96E07EE63C2364CAC8462 /* ViewAnimator.framework */,
-			);
-			name = Products;
+			name = Sketch;
+			path = Sketch;
 			sourceTree = "<group>";
 		};
 		C6C6CF85326A60B112CC4A77BAD281D7 /* Frameworks */ = {
@@ -580,30 +606,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D2ECBD0CBC6134DDEAAE4295DA7FAF59 /* Starscream */ = {
+		F87BB79ECD0198F9F037B8E9A05F8F3B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E731884FE378AFAFC65A172C7856A8E2 /* Compression.swift */,
-				F576C97132CA596DA0B0F58B07BEB29D /* SSLClientCertificate.swift */,
-				ADAF5926A92B59D0522573029A84879D /* SSLSecurity.swift */,
-				8A4D79F475777012E1F8F5AC6382AB19 /* WebSocket.swift */,
-				5D365A8307DB0974DCB61A502DAF1F0B /* Support Files */,
+				CADBA2BF4AA70F4A6582AFA1935379CD /* Info.plist */,
+				C24F4CF1052CC7296BFDFE316EA38076 /* SwiftyJSON.modulemap */,
+				431BF370F878967717F8145EEFB3A064 /* SwiftyJSON.xcconfig */,
+				A7C0EA96AFDE288EC45CF2A37C2B78A2 /* SwiftyJSON-dummy.m */,
+				331E2D56B574CAF28AA0526613B5463D /* SwiftyJSON-prefix.pch */,
+				A7CCFABC80C6853122583D752F805D2A /* SwiftyJSON-umbrella.h */,
 			);
-			name = Starscream;
-			path = Starscream;
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		FD57E87CDD8AE95D1540B5A0C1EBB81C /* ViewAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				9FA83892C557BA56C627D17141AE26C5 /* Animation.swift */,
+				F526BAE649326A1A1C6748B41BA3CB30 /* AnimationType.swift */,
+				C9FDC56F56F3FC9BE7B39784A1BA86CF /* Direction.swift */,
+				C83D265DA9BD092AD16A053C2D844C7F /* UICollectionView + ViewAnimator.swift */,
+				3E4E89F2179380D2F758CD014ABB7825 /* UITableView + ViewAnimator.swift */,
+				3AF911E20A6F42319D790E727E5BF138 /* Utilities.swift */,
+				D42F0C3FE3B696A6797B7F795C416B48 /* ViewAnimator.swift */,
+				A9C480D60F64D7348932127540992F48 /* ViewAnimatorConfig.swift */,
+				A9601D4094C5D8926C1A5A05670A1007 /* Support Files */,
+			);
+			name = ViewAnimator;
+			path = ViewAnimator;
+			sourceTree = "<group>";
+		};
+		FF78CDAA82F299BBFD6D026EC69E114F /* SwiftVideoBackground */ = {
+			isa = PBXGroup;
+			children = (
+				EDED572263024A9CCF23620C053F37CB /* SwiftVideoBackground.h */,
+				3B8685CB0751453289F36355C146778A /* VideoBackground.swift */,
+				B47F45C5951F99D5209C029D73E062E0 /* VideoBackgroundError.swift */,
+				257BBE5A90CCEE08A7DE68796A93292A /* Support Files */,
+			);
+			name = SwiftVideoBackground;
+			path = SwiftVideoBackground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C846244EB7631742937E9119370DA8B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50072E029D5955D7BD9308920D1BCAAC /* SwiftyJSON-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		185A4D8000972F8075C22AC8A8E858D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -612,36 +660,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		661CAC900DA5E8826E5E59C5C08F3F86 /* Headers */ = {
+		20E5526E64FB538F860C6100AB5C3CD3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				418EF5ED6214F2381811DE61B9B8BF0A /* SwiftVideoBackground-umbrella.h in Headers */,
-				6F1F7DE030D034492A04088E0933980D /* SwiftVideoBackground.h in Headers */,
+				AC4068F1799F50B5066336EC516865F8 /* SwiftVideoBackground-umbrella.h in Headers */,
+				8C719D4AA45E5BC6546C82898065C673 /* SwiftVideoBackground.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE9FE9C7CAE550CB0396EA983410BE54 /* Headers */ = {
+		3B5CCC70F9443F037B5F9814AA314419 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D261AB72FE2B02B47BE09F9C9116450 /* Pods-Autism-umbrella.h in Headers */,
+				756AFF60A8CD7CDEEB6356B4DA8FF89A /* Sketch-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE04D4CCDFCC9B705FD96ABBF80DA7AD /* Headers */ = {
+		6CEBD06A9D2F360F426BEADAD1F920A7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A29FC06CF409006261F02C0FE4345BA4 /* Socket.IO-Client-Swift-umbrella.h in Headers */,
+				EEDBF58DBDF93AF49981BBBF65C67568 /* Socket.IO-Client-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5F38306608DD577881F00351C9CC40C /* Headers */ = {
+		A3384AA43A0B33470B175C006BC494FA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEA88140EA94854A23291ECE845447F4 /* Starscream-umbrella.h in Headers */,
+				6D07BE392C1158C4A710F458B2361E11 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB63EB58F5900EAE9CDDA624AA635571 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57B293232FF7C76E00EAFAA087C9435 /* ViewAnimator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41F38F7ACA166CE19BF3E514183F102 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB4083F912FB7282727A3AE7B5653C4 /* Starscream-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D691D7035631F7D21409FFE01DD0E28E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487D54D09FCB0949811E12EF01D26F82 /* Pods-Autism-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,32 +725,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF908B5E27AABF21F18EEBDDDE1BB49E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7FB52ACE1C5BDFCB5B8DB0765A57DE19 /* ViewAnimator-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2685A9CAF46B88771DAC79FBD1B1EA6F /* SwiftyJSON */ = {
+		64A2EDBD87948195B01FF9BE554B5858 /* Pods-Autism */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A795E8278F8E3B64A674DE6E5642C28C /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildConfigurationList = 7E7CC5EAB2855A1309AB019838B7E99F /* Build configuration list for PBXNativeTarget "Pods-Autism" */;
 			buildPhases = (
-				E3BD1F3FF54053CB70A0CD8A54414EA8 /* Sources */,
-				F1E875F5497C7BB0D8697625F9B90CA1 /* Frameworks */,
-				0C846244EB7631742937E9119370DA8B /* Headers */,
+				57F5803D2D0A171C5D1C84ECD86F343B /* Sources */,
+				264C782E0849559FB2600060C8384DF9 /* Frameworks */,
+				D691D7035631F7D21409FFE01DD0E28E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8790B132C05EFDC9F8C628610BF0E0F6 /* PBXTargetDependency */,
+				DB5BB8971EE8FF6BBDF35EB8975DC4C1 /* PBXTargetDependency */,
+				386598876A0DDA3A7C9ABDD925EAE828 /* PBXTargetDependency */,
+				DEC2AFB13C12F1D439F5FBB4D3C115BC /* PBXTargetDependency */,
+				26F2A3F1143AF162538E0B0151614B9E /* PBXTargetDependency */,
+				5B519405FDCB6A8ECE1752E0688CF571 /* PBXTargetDependency */,
 			);
-			name = SwiftyJSON;
-			productName = SwiftyJSON;
-			productReference = 48240EDD59DF1A1002BC900FEE4C893A /* SwiftyJSON.framework */;
+			name = "Pods-Autism";
+			productName = "Pods-Autism";
+			productReference = 46BC6DE8B365C41F6932221C873D1AF1 /* Pods_Autism.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6D02B5161078F2DBDBB528057B951EF9 /* Pods-AutismTests */ = {
@@ -696,55 +766,16 @@
 			);
 			name = "Pods-AutismTests";
 			productName = "Pods-AutismTests";
-			productReference = D1D92FB028D4D7A23C310971E14B8636 /* Pods_AutismTests.framework */;
+			productReference = 82197E5B0657054D062C597B82151EB6 /* Pods_AutismTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6D1E19AEF7A63BE533BD181A9BF31B9A /* Pods-Autism */ = {
+		8D1BD944B40E3411288080571E551F37 /* ViewAnimator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A4D70968D57F9C1EA30557823D3CBA7 /* Build configuration list for PBXNativeTarget "Pods-Autism" */;
+			buildConfigurationList = F8A3A38A56AEF51AD8E1C6EBBDAA508F /* Build configuration list for PBXNativeTarget "ViewAnimator" */;
 			buildPhases = (
-				2E89B2122439C85D2CD7410F8842EAAC /* Sources */,
-				DC76D03D42499C33721309A989A01FD4 /* Frameworks */,
-				AE9FE9C7CAE550CB0396EA983410BE54 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F2706CB43F69D1516E6127808A637674 /* PBXTargetDependency */,
-				9A167572C0FD2A8DD6EDC2CD9ABF9AA3 /* PBXTargetDependency */,
-				AFC2A15671BDF5C1081EAB784F6D9AB9 /* PBXTargetDependency */,
-				AF809710B0E6110FB4AA67DADCA97C0D /* PBXTargetDependency */,
-				1B9E350EAA445B13D788BAEF1C892509 /* PBXTargetDependency */,
-			);
-			name = "Pods-Autism";
-			productName = "Pods-Autism";
-			productReference = DDA5A48FB43E3E7E1F7A040E5D504722 /* Pods_Autism.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9614BD921D7E4C67A347081CEFD280E3 /* SwiftVideoBackground */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DEF86F9F6DDB3C0F3278CF544CD6AE0B /* Build configuration list for PBXNativeTarget "SwiftVideoBackground" */;
-			buildPhases = (
-				8DDD6AC5A2763EA59BD8D091028ACAD8 /* Sources */,
-				92B2CC35AD93A358386993AACA0F27C0 /* Frameworks */,
-				661CAC900DA5E8826E5E59C5C08F3F86 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftVideoBackground;
-			productName = SwiftVideoBackground;
-			productReference = CB6A144A22CD2F26EDCA82B715B061F4 /* SwiftVideoBackground.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A84F0939A17FFE5A90C2B4AF7508A2E0 /* ViewAnimator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 56A574C13D71D40B753302D10D84BED0 /* Build configuration list for PBXNativeTarget "ViewAnimator" */;
-			buildPhases = (
-				CE1D5589DBC083540DDC75449E9AC58C /* Sources */,
-				3D7461DDC83B567BD8714E93CB024E50 /* Frameworks */,
-				FF908B5E27AABF21F18EEBDDDE1BB49E /* Headers */,
+				FAC0823CDFF054429F426B7C7CC12529 /* Sources */,
+				36BA9386F0E26D14ACE8802B9EF73FB1 /* Frameworks */,
+				BB63EB58F5900EAE9CDDA624AA635571 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -752,7 +783,41 @@
 			);
 			name = ViewAnimator;
 			productName = ViewAnimator;
-			productReference = 0CAFFEAA39D96E07EE63C2364CAC8462 /* ViewAnimator.framework */;
+			productReference = 1617AE4ADC795D61734433D614809C5D /* ViewAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96A06A12243E5E5E0C94C216FC9C7732 /* SwiftVideoBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4536CAAF8A4427DE4C180875E66E7176 /* Build configuration list for PBXNativeTarget "SwiftVideoBackground" */;
+			buildPhases = (
+				FFDA09264E4E683025F282C5F7F21E22 /* Sources */,
+				39F0973E097B510BC211A7B50C2E9017 /* Frameworks */,
+				20E5526E64FB538F860C6100AB5C3CD3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftVideoBackground;
+			productName = SwiftVideoBackground;
+			productReference = 2CE6A5CCCDA2F8C34C62D26EAA23342D /* SwiftVideoBackground.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B621CFC2865D6FDCA8CAD8EF7318302 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10D6A32AC4A399ECB6958F421EEC0433 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				DF6A8EDBF8EF863B7A5CF1A19B1F3505 /* Sources */,
+				0601F722BC45CF6764C8543A76D34289 /* Frameworks */,
+				A3384AA43A0B33470B175C006BC494FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 7BEEFA326C34C6B61787CC105081B3DA /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AD3C4787FBA1F74CE845027D424556CD /* Pods-AutismUITests */ = {
@@ -770,16 +835,16 @@
 			);
 			name = "Pods-AutismUITests";
 			productName = "Pods-AutismUITests";
-			productReference = 625B75ADB9076B52192F151ED7CF8B92 /* Pods_AutismUITests.framework */;
+			productReference = 7A752C8E030AEC6C4614CFEDFE0CDADF /* Pods_AutismUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BAA91187E1B5EFA47B4C25F4FC0883FF /* Starscream */ = {
+		CC29DAAC844DC1A0A630B1539E92BD35 /* Starscream */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A3AF7D47647243E609DF846F72D7911 /* Build configuration list for PBXNativeTarget "Starscream" */;
+			buildConfigurationList = 8E934CE3267275F45580E71113CADF3B /* Build configuration list for PBXNativeTarget "Starscream" */;
 			buildPhases = (
-				411911D542FA5C7352F9158C2F0652FE /* Sources */,
-				9BEC9EBF6C8FDAA35A799FC27E669EA3 /* Frameworks */,
-				C5F38306608DD577881F00351C9CC40C /* Headers */,
+				3E6304C5608FF036E3636F1F497BE221 /* Sources */,
+				D765596A6DFD92A3F334BDA46136A573 /* Frameworks */,
+				D41F38F7ACA166CE19BF3E514183F102 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -787,25 +852,42 @@
 			);
 			name = Starscream;
 			productName = Starscream;
-			productReference = 0D3FCCB8939F5A83820745AF61ECE627 /* Starscream.framework */;
+			productReference = 5477DC9FDF4C101E4630999241065F3A /* Starscream.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C8D50E3E65327368F8C18311ADBBE6AB /* Socket.IO-Client-Swift */ = {
+		D937364EDB2A42857F7F27203C840E31 /* Sketch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F81E6F99F0B47C01AF6F99B771AF45B /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */;
+			buildConfigurationList = 750195BF7FFAFAC1CFAA4C9EF656DC91 /* Build configuration list for PBXNativeTarget "Sketch" */;
 			buildPhases = (
-				395D06E92D5E19F96F9F31178C7F27A7 /* Sources */,
-				164771C602CA57353954626E94331A2C /* Frameworks */,
-				BE04D4CCDFCC9B705FD96ABBF80DA7AD /* Headers */,
+				E3E045DE50986A3A5133B2A84E30489D /* Sources */,
+				100445B0FBDEE66E01C5394F6D8DD19D /* Frameworks */,
+				3B5CCC70F9443F037B5F9814AA314419 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				250C611B70D90B3EBAFD023425111C82 /* PBXTargetDependency */,
+			);
+			name = Sketch;
+			productName = Sketch;
+			productReference = 876612A7D8858A06864AD2E8DA9030C8 /* Sketch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F573C40BE372D18817DD506940AE215E /* Socket.IO-Client-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40020C92493B47365139A0544D6CD982 /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */;
+			buildPhases = (
+				C4CE9C7806E6C890912A446D432F7B3B /* Sources */,
+				4277A1CF5A5E6DE7F31BF06F827E7768 /* Frameworks */,
+				6CEBD06A9D2F360F426BEADAD1F920A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				595B6E848E6F114F60A2943EB81B556D /* PBXTargetDependency */,
 			);
 			name = "Socket.IO-Client-Swift";
 			productName = "Socket.IO-Client-Swift";
-			productReference = 5C17519AAC4E2F4BE3993A776194CC4D /* SocketIO.framework */;
+			productReference = 6F3E18CE8F98CC08AA0489875F7567AE /* SocketIO.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -825,83 +907,41 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BF1455EF0FB83BA2949108BD8DC47AD0 /* Products */;
+			productRefGroup = 8EEF9538D82211F2A1E9CE867A4BFFB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D1E19AEF7A63BE533BD181A9BF31B9A /* Pods-Autism */,
+				64A2EDBD87948195B01FF9BE554B5858 /* Pods-Autism */,
 				6D02B5161078F2DBDBB528057B951EF9 /* Pods-AutismTests */,
 				AD3C4787FBA1F74CE845027D424556CD /* Pods-AutismUITests */,
-				C8D50E3E65327368F8C18311ADBBE6AB /* Socket.IO-Client-Swift */,
-				BAA91187E1B5EFA47B4C25F4FC0883FF /* Starscream */,
-				9614BD921D7E4C67A347081CEFD280E3 /* SwiftVideoBackground */,
-				2685A9CAF46B88771DAC79FBD1B1EA6F /* SwiftyJSON */,
-				A84F0939A17FFE5A90C2B4AF7508A2E0 /* ViewAnimator */,
+				D937364EDB2A42857F7F27203C840E31 /* Sketch */,
+				F573C40BE372D18817DD506940AE215E /* Socket.IO-Client-Swift */,
+				CC29DAAC844DC1A0A630B1539E92BD35 /* Starscream */,
+				96A06A12243E5E5E0C94C216FC9C7732 /* SwiftVideoBackground */,
+				9B621CFC2865D6FDCA8CAD8EF7318302 /* SwiftyJSON */,
+				8D1BD944B40E3411288080571E551F37 /* ViewAnimator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2E89B2122439C85D2CD7410F8842EAAC /* Sources */ = {
+		3E6304C5608FF036E3636F1F497BE221 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A355912E769F214D85216BFA7E20981 /* Pods-Autism-dummy.m in Sources */,
+				E3A0FCACCA1D1E2A58C60D312512CF95 /* Compression.swift in Sources */,
+				008EE3AD613B83EA705C283E6119BBA3 /* SSLClientCertificate.swift in Sources */,
+				16B7232AE0397E9170F333D1782B2239 /* SSLSecurity.swift in Sources */,
+				9B6D9112BE292F15ECE62EE6F977AAC2 /* Starscream-dummy.m in Sources */,
+				6817C8A77AB3563EADAFC6E36C770487 /* WebSocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		395D06E92D5E19F96F9F31178C7F27A7 /* Sources */ = {
+		57F5803D2D0A171C5D1C84ECD86F343B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CCB12AFE7448399C3B43FD941F566AF /* Socket.IO-Client-Swift-dummy.m in Sources */,
-				2B6FA1A2C67FE0F90C448962F8290897 /* SocketAckEmitter.swift in Sources */,
-				A46331D35FAE798DD668787E4715C414 /* SocketAckManager.swift in Sources */,
-				7CF5BDFCA17137DB47BBC71FBA3A3256 /* SocketAnyEvent.swift in Sources */,
-				D16B3D9E485A4E35148024A1DAC56266 /* SocketEngine.swift in Sources */,
-				6EA865FDA28E4F733506A9AFB454C2BD /* SocketEngineClient.swift in Sources */,
-				F009B7215B4FF3E6FAFBEF79AC1AA682 /* SocketEnginePacketType.swift in Sources */,
-				A0E3D44654177378E41B9AD68B6BE5DA /* SocketEnginePollable.swift in Sources */,
-				66921F2CCC3B1072C8DE3A2E9F26D2C4 /* SocketEngineSpec.swift in Sources */,
-				6A94ACB7594309E86E4E66008DD0E243 /* SocketEngineWebsocket.swift in Sources */,
-				161213CA48BC5C785B2DA1983BC50AC7 /* SocketEventHandler.swift in Sources */,
-				0966465B48EB12F0F5BD6E80EA55DA47 /* SocketExtensions.swift in Sources */,
-				767B218CD9565F63A513BCA5E0A7CD13 /* SocketIOClient.swift in Sources */,
-				BC637F3F943834D347936F074476D603 /* SocketIOClientConfiguration.swift in Sources */,
-				AFBEAE97772FBEEEC6E5C9942BBCB1C1 /* SocketIOClientOption.swift in Sources */,
-				59D00E955C14BF19156A23BA83DCC382 /* SocketIOClientSpec.swift in Sources */,
-				FD218BD693FCBCAC2F184E715E41E27D /* SocketIOStatus.swift in Sources */,
-				32779DE26D76B6FF7AF4A43E50839B5B /* SocketLogger.swift in Sources */,
-				2FB408F672783EEE7C12A477583A5451 /* SocketManager.swift in Sources */,
-				F2FF926D3AB5214BD0176DF151E999FD /* SocketManagerSpec.swift in Sources */,
-				6E069DFAC0B25D06C05C0692850CBBDA /* SocketPacket.swift in Sources */,
-				1505728636667D49267B314FA08B832E /* SocketParsable.swift in Sources */,
-				C25298E5154CBF689CE9571B30FA1F10 /* SocketRawView.swift in Sources */,
-				63F60456FA4CC883FB21604904D31536 /* SocketStringReader.swift in Sources */,
-				A80F0D5BBAB92DB906BF485F33CCC0D3 /* SocketTypes.swift in Sources */,
-				5937907EC1B06B5174B421C2E7C6DCF3 /* SSLSecurity.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		411911D542FA5C7352F9158C2F0652FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				255AF4BF5EF309497B491069C787137E /* Compression.swift in Sources */,
-				3D364238D832E21C5457EB172C671FD3 /* SSLClientCertificate.swift in Sources */,
-				ADECA54AC3D05D627544F871FB823C9B /* SSLSecurity.swift in Sources */,
-				3BEF3261EE665F27016CED5947B5290F /* Starscream-dummy.m in Sources */,
-				43C5F33730E01CD06325B2E7E3284558 /* WebSocket.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8DDD6AC5A2763EA59BD8D091028ACAD8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A99BC99D69FE2891509F76999E0F8F01 /* SwiftVideoBackground-dummy.m in Sources */,
-				6576650490475A1D81D950C029012002 /* VideoBackground.swift in Sources */,
-				785732B42A5924CF1A232570553F8B18 /* VideoBackgroundError.swift in Sources */,
+				09B4B22DFB5DC50AFA393C9EF995C8D2 /* Pods-Autism-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -921,28 +961,81 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE1D5589DBC083540DDC75449E9AC58C /* Sources */ = {
+		C4CE9C7806E6C890912A446D432F7B3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				588B62690D453EAEC0C3398A12926691 /* Animation.swift in Sources */,
-				0BDD4DD8B9E3E4F4DC54A0BF5697DB9F /* AnimationType.swift in Sources */,
-				14B57C226B9C9CDF51D03C025405DA72 /* Direction.swift in Sources */,
-				A361D0FF7605D292B97D976822508E61 /* UICollectionView + ViewAnimator.swift in Sources */,
-				40D17DE8C01C7D498064F0F4F75950F3 /* UITableView + ViewAnimator.swift in Sources */,
-				A115825D42911B8C2D79CC6563C0F0F4 /* Utilities.swift in Sources */,
-				3A7F909D78794E93BA065D02E937819D /* ViewAnimator-dummy.m in Sources */,
-				ED5005AFE6322312E2DDE17BDD6027FF /* ViewAnimator.swift in Sources */,
-				147807850D220ADA7D697E97CF79D737 /* ViewAnimatorConfig.swift in Sources */,
+				BB1ED76AEC67E4D61C3B2EA344F22A84 /* Socket.IO-Client-Swift-dummy.m in Sources */,
+				FD89418CAEAAF5E0C49B2FBE1D00811E /* SocketAckEmitter.swift in Sources */,
+				C3C4498AC466D74240F3B31817964E38 /* SocketAckManager.swift in Sources */,
+				C93686C734B9401AC853EEE67C119FFD /* SocketAnyEvent.swift in Sources */,
+				05A709C26B11E242F7650F7E8E649A60 /* SocketEngine.swift in Sources */,
+				F63A9712DFFE6CB3BB259763EC941284 /* SocketEngineClient.swift in Sources */,
+				EF6CE79F8CD3944AE6A7C97A4E999997 /* SocketEnginePacketType.swift in Sources */,
+				877C79C0522A8DD0B4F0FBF5C76C7576 /* SocketEnginePollable.swift in Sources */,
+				887C12CA7B7FB32466C8F2293DC185BE /* SocketEngineSpec.swift in Sources */,
+				8F7888CF562572D4029DB5AC9A33C723 /* SocketEngineWebsocket.swift in Sources */,
+				D393041925118CF21D1E27CBDFF6B528 /* SocketEventHandler.swift in Sources */,
+				682A733FED54D3BECE1DCA4FA7BA2C16 /* SocketExtensions.swift in Sources */,
+				DF71A5C0B6A1AAC8D41CE01AA571E753 /* SocketIOClient.swift in Sources */,
+				7132127B82F2E6E2142806229BFF5110 /* SocketIOClientConfiguration.swift in Sources */,
+				B2943364201925B7811CFA8E91299A6C /* SocketIOClientOption.swift in Sources */,
+				B0D344ABB71152594F1893B4615309E4 /* SocketIOClientSpec.swift in Sources */,
+				31D8B2DEBF343378CC2044DC737370FF /* SocketIOStatus.swift in Sources */,
+				A6EF896BDFA0E492F4232095279ADDB5 /* SocketLogger.swift in Sources */,
+				B6DAC2BD0F7E7B0F97CFD4A6AE30A645 /* SocketManager.swift in Sources */,
+				214120C261DC7779A2475D055A2878A7 /* SocketManagerSpec.swift in Sources */,
+				453B4876EB1A22145B9E0F961B1EA814 /* SocketPacket.swift in Sources */,
+				5EE0DC435CAC0055290D25D459F47379 /* SocketParsable.swift in Sources */,
+				AA72E2265B1362E4BA6A7023CCCC0CC1 /* SocketRawView.swift in Sources */,
+				129CE1BFA2DD486BC9DCD500F3BB1F61 /* SocketStringReader.swift in Sources */,
+				FF4C5D44424FB7AE9E04C8176EB7D1C8 /* SocketTypes.swift in Sources */,
+				A6EF2091A9AC072882EC102726D3BACE /* SSLSecurity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3BD1F3FF54053CB70A0CD8A54414EA8 /* Sources */ = {
+		DF6A8EDBF8EF863B7A5CF1A19B1F3505 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CE2073480BEF02E58ADD11DA1921BCB /* SwiftyJSON-dummy.m in Sources */,
-				05FEEAC5BB19215A528B42D18C74759C /* SwiftyJSON.swift in Sources */,
+				DFFFE23AF802E5DEE4BD5402F4620138 /* SwiftyJSON-dummy.m in Sources */,
+				9D747023E42A8F8E4D177E06A7EFF8FA /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E045DE50986A3A5133B2A84E30489D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283DD57501AB47C1A57AAF0EB9FA964E /* Sketch-dummy.m in Sources */,
+				19F02A21CCF441A4375D3C89B04F1B2B /* SketchTool.swift in Sources */,
+				D82C6C7D47C9593FA3DF415E5C1E0870 /* SketchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC0823CDFF054429F426B7C7CC12529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC228592A6D5FAFC1E17DFC295055149 /* Animation.swift in Sources */,
+				A57905A9379F93A236D5E33C48831231 /* AnimationType.swift in Sources */,
+				D52525DFC0F2A1FFB93DFBAD41DA24C1 /* Direction.swift in Sources */,
+				E1C72D095D6757E83C1BA787687B1108 /* UICollectionView + ViewAnimator.swift in Sources */,
+				99F23D218F794E261866DE7D06FF86AD /* UITableView + ViewAnimator.swift in Sources */,
+				20C27C3E558EB867EB5CCDA28883A14E /* Utilities.swift in Sources */,
+				06EC2626A61110700787A63E9D696367 /* ViewAnimator-dummy.m in Sources */,
+				E8A900CAA78DE13841C21F99CBB13F5D /* ViewAnimator.swift in Sources */,
+				74F8382B0239333790F351C73D661FFC /* ViewAnimatorConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDA09264E4E683025F282C5F7F21E22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C11A20300000A21B75995E10638B8A5 /* SwiftVideoBackground-dummy.m in Sources */,
+				790E68DA4AF4CFC080BCCF45982B5979 /* VideoBackground.swift in Sources */,
+				02BAB8D9DB7D67F4D7DA56FA4D7F9A38 /* VideoBackgroundError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -952,90 +1045,61 @@
 		004BF388FEB5C945E338650005A59C5C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Autism";
-			target = 6D1E19AEF7A63BE533BD181A9BF31B9A /* Pods-Autism */;
+			target = 64A2EDBD87948195B01FF9BE554B5858 /* Pods-Autism */;
 			targetProxy = FD400A79F152C43C6A2DBABB420FAD48 /* PBXContainerItemProxy */;
 		};
 		1451EE08F15A21FC33DDAEA63FE22C1B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Autism";
-			target = 6D1E19AEF7A63BE533BD181A9BF31B9A /* Pods-Autism */;
+			target = 64A2EDBD87948195B01FF9BE554B5858 /* Pods-Autism */;
 			targetProxy = 7A276928D603422595A973483E327819 /* PBXContainerItemProxy */;
 		};
-		1B9E350EAA445B13D788BAEF1C892509 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ViewAnimator;
-			target = A84F0939A17FFE5A90C2B4AF7508A2E0 /* ViewAnimator */;
-			targetProxy = 8AAFEC3FB1184ADC36F11F7E0380C404 /* PBXContainerItemProxy */;
-		};
-		250C611B70D90B3EBAFD023425111C82 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Starscream;
-			target = BAA91187E1B5EFA47B4C25F4FC0883FF /* Starscream */;
-			targetProxy = 620218018FAB7218C1306DF09543EA7F /* PBXContainerItemProxy */;
-		};
-		9A167572C0FD2A8DD6EDC2CD9ABF9AA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Starscream;
-			target = BAA91187E1B5EFA47B4C25F4FC0883FF /* Starscream */;
-			targetProxy = 3CE3342DA979F60A27EDB147C78518CD /* PBXContainerItemProxy */;
-		};
-		AF809710B0E6110FB4AA67DADCA97C0D /* PBXTargetDependency */ = {
+		26F2A3F1143AF162538E0B0151614B9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyJSON;
-			target = 2685A9CAF46B88771DAC79FBD1B1EA6F /* SwiftyJSON */;
-			targetProxy = 7B26EDA18F286D967F521222C511C446 /* PBXContainerItemProxy */;
+			target = 9B621CFC2865D6FDCA8CAD8EF7318302 /* SwiftyJSON */;
+			targetProxy = FB740C4D561E9C2F35B879306CDBA9EA /* PBXContainerItemProxy */;
 		};
-		AFC2A15671BDF5C1081EAB784F6D9AB9 /* PBXTargetDependency */ = {
+		386598876A0DDA3A7C9ABDD925EAE828 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SwiftVideoBackground;
-			target = 9614BD921D7E4C67A347081CEFD280E3 /* SwiftVideoBackground */;
-			targetProxy = FA671D68A5BECAB0B40ABDBB432A7DFF /* PBXContainerItemProxy */;
+			name = Starscream;
+			target = CC29DAAC844DC1A0A630B1539E92BD35 /* Starscream */;
+			targetProxy = A468688750A78B723FF7D48CC52E6608 /* PBXContainerItemProxy */;
 		};
-		F2706CB43F69D1516E6127808A637674 /* PBXTargetDependency */ = {
+		595B6E848E6F114F60A2943EB81B556D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Starscream;
+			target = CC29DAAC844DC1A0A630B1539E92BD35 /* Starscream */;
+			targetProxy = BAC176759EA10DD7C7E6569A3AE55FAE /* PBXContainerItemProxy */;
+		};
+		5B519405FDCB6A8ECE1752E0688CF571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ViewAnimator;
+			target = 8D1BD944B40E3411288080571E551F37 /* ViewAnimator */;
+			targetProxy = 619B605C9FDD83CA50434B5FDA071160 /* PBXContainerItemProxy */;
+		};
+		8790B132C05EFDC9F8C628610BF0E0F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sketch;
+			target = D937364EDB2A42857F7F27203C840E31 /* Sketch */;
+			targetProxy = 73F0A9C79E4C2F3E35D7EDA9BCDB1304 /* PBXContainerItemProxy */;
+		};
+		DB5BB8971EE8FF6BBDF35EB8975DC4C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Socket.IO-Client-Swift";
-			target = C8D50E3E65327368F8C18311ADBBE6AB /* Socket.IO-Client-Swift */;
-			targetProxy = 32170036C50925886A6B42DC54447094 /* PBXContainerItemProxy */;
+			target = F573C40BE372D18817DD506940AE215E /* Socket.IO-Client-Swift */;
+			targetProxy = B854F9094A9E1E7C0900980805F7E98A /* PBXContainerItemProxy */;
+		};
+		DEC2AFB13C12F1D439F5FBB4D3C115BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftVideoBackground;
+			target = 96A06A12243E5E5E0C94C216FC9C7732 /* SwiftVideoBackground */;
+			targetProxy = 61241BACCF7AE8CCCE36487871D66578 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		173305FB62C90E992FEC5B52842379B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E8A0D1CDC11700C0648A22C05DD0271 /* Pods-Autism.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Autism/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Autism/Pods-Autism.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+		0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1088,7 +1152,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1098,11 +1162,77 @@
 			};
 			name = Debug;
 		};
-		417FFDB07E6D49EE38A36A29B746B95A /* Release */ = {
+		135D365E36363649A07073845722350E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431BF370F878967717F8145EEFB3A064 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2316B4CDA47F06A444D0716682DFD7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45F74E5627ABDEB2F7FEE34E98B4704 /* Sketch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sketch/Sketch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sketch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sketch/Sketch.modulemap";
+				PRODUCT_MODULE_NAME = Sketch;
+				PRODUCT_NAME = Sketch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2AEB549BD473FEE9AC83A6A2985314C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C01FEE942C2614DE997C2CA445FB090 /* Pods-AutismUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1114,7 +1244,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AutismUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AutismUITests/Pods-AutismUITests.modulemap";
@@ -1132,436 +1262,12 @@
 			};
 			name = Release;
 		};
-		433C612346EA433A095DFC77376B8F90 /* Debug */ = {
+		33DD9EC53ECC6577655106515E881163 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4D6510CC8B8728179D703544AB65BEE /* ViewAnimator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ViewAnimator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ViewAnimator/ViewAnimator.modulemap";
-				PRODUCT_MODULE_NAME = ViewAnimator;
-				PRODUCT_NAME = ViewAnimator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4DBC869699D17B783D7E4AEF7C8BF2AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4D6510CC8B8728179D703544AB65BEE /* ViewAnimator.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ViewAnimator/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ViewAnimator/ViewAnimator.modulemap";
-				PRODUCT_MODULE_NAME = ViewAnimator;
-				PRODUCT_NAME = ViewAnimator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		548FC0A29E14DE7AB10A73EC1A3974FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0167E3CA621E73D6B27C454DBBB29E7 /* Starscream.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
-				PRODUCT_MODULE_NAME = Starscream;
-				PRODUCT_NAME = Starscream;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		63494B847F96997C47D071F4B4E828F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CDCC06ACA6E651521A8DE519BB60915 /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6958B80590DF5D570CB92CB5DE0FE9D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9FB98B792CE441725EEC63335A93F63 /* Socket.IO-Client-Swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
-				PRODUCT_MODULE_NAME = SocketIO;
-				PRODUCT_NAME = SocketIO;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6B159AD1E52CAF30E91AB018E3BFD2EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DDEE36B6E6B0EF1DA984F3EF4D8B308 /* SwiftVideoBackground.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftVideoBackground/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground.modulemap";
-				PRODUCT_MODULE_NAME = SwiftVideoBackground;
-				PRODUCT_NAME = SwiftVideoBackground;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A64554EE3C95D6907041F608CCF9C74C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CDCC06ACA6E651521A8DE519BB60915 /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B5439FBCD33410BBFA6F4F970E50ED9D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DDEE36B6E6B0EF1DA984F3EF4D8B308 /* SwiftVideoBackground.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftVideoBackground/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground.modulemap";
-				PRODUCT_MODULE_NAME = SwiftVideoBackground;
-				PRODUCT_NAME = SwiftVideoBackground;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CDF46DBF8357F3F951D82360A49C96F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50A4C5CED1403EE1B4798A0D675FFE0E /* Pods-AutismTests.release.xcconfig */;
+			baseConfigurationReference = 3E8A0D1CDC11700C0648A22C05DD0271 /* Pods-Autism.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AutismTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AutismTests/Pods-AutismTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D2462D31B524136170E5FFC9B2048FC6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 764AC5A85D0A1DDE495FDE1411073DB0 /* Pods-AutismTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AutismTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AutismTests/Pods-AutismTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D8DB064E0DFD591E510CB66FAC997C9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E68D56DA3B5D7AAF53F0B9026C023051 /* Pods-AutismUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AutismUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AutismUITests/Pods-AutismUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DCE824EFEA0576E473D32134E8EBF62C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9FB98B792CE441725EEC63335A93F63 /* Socket.IO-Client-Swift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
-				PRODUCT_MODULE_NAME = SocketIO;
-				PRODUCT_NAME = SocketIO;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E1074DAC7C00AA7FB93AD80EC21342C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0167E3CA621E73D6B27C454DBBB29E7 /* Starscream.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
-				PRODUCT_MODULE_NAME = Starscream;
-				PRODUCT_NAME = Starscream;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E9C6E5706BA54F460B10AA02F7ED6EC4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEAD0BCBB04A51D27FC4A91C5098B122 /* Pods-Autism.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1573,7 +1279,142 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Autism/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Autism/Pods-Autism.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F721D982F6C33176A61A9A17799403A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D04236F036BF05A47709AE7FA2E863 /* SwiftVideoBackground.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftVideoBackground/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground.modulemap";
+				PRODUCT_MODULE_NAME = SwiftVideoBackground;
+				PRODUCT_NAME = SwiftVideoBackground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F18EF49EDE88AC910D3385FD30297E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D04236F036BF05A47709AE7FA2E863 /* SwiftVideoBackground.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftVideoBackground/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground.modulemap";
+				PRODUCT_MODULE_NAME = SwiftVideoBackground;
+				PRODUCT_NAME = SwiftVideoBackground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673B59A5F98B5D667FCFE8BF964BFB90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68D56DA3B5D7AAF53F0B9026C023051 /* Pods-AutismUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutismUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutismUITests/Pods-AutismUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CAEDEF917B182258199636533DA9DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEAD0BCBB04A51D27FC4A91C5098B122 /* Pods-Autism.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Autism/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Autism/Pods-Autism.modulemap";
@@ -1592,7 +1433,270 @@
 			};
 			name = Debug;
 		};
-		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+		8549ABEB22C6BCCF41FBC226D9771068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431BF370F878967717F8145EEFB3A064 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		858AC3F253002C46CB0A49BF86562475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EBA3E0B17B84945285831F309B9F57 /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D77BF46FCE8DC9C13D8B847B24BD485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B313CDB5728C0734CF31D645C0C8F94 /* ViewAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViewAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ViewAnimator/ViewAnimator.modulemap";
+				PRODUCT_MODULE_NAME = ViewAnimator;
+				PRODUCT_NAME = ViewAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9ABBE2E61C78807E0AD33964B58B2794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3794332634871D2E6975AC234E6FD1D /* Socket.IO-Client-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
+				PRODUCT_MODULE_NAME = SocketIO;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD16FD5B06DD8EB0E78618C54C34CA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A4C5CED1403EE1B4798A0D675FFE0E /* Pods-AutismTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutismTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutismTests/Pods-AutismTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B34B623475662BEBBAFAC297582A6DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45F74E5627ABDEB2F7FEE34E98B4704 /* Sketch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sketch/Sketch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sketch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sketch/Sketch.modulemap";
+				PRODUCT_MODULE_NAME = Sketch;
+				PRODUCT_NAME = Sketch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B499205D8AF20E598702B3E1E2B37749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3794332634871D2E6975AC234E6FD1D /* Socket.IO-Client-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Socket.IO-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift.modulemap";
+				PRODUCT_MODULE_NAME = SocketIO;
+				PRODUCT_NAME = SocketIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BCFD1FF6752763E79C6C66B0914A9ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B313CDB5728C0734CF31D645C0C8F94 /* ViewAnimator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViewAnimator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ViewAnimator/ViewAnimator.modulemap";
+				PRODUCT_MODULE_NAME = ViewAnimator;
+				PRODUCT_NAME = ViewAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD8324D57CD462761E218EEA4EA91EC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1642,7 +1746,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -1650,14 +1754,80 @@
 			};
 			name = Release;
 		};
+		E365106A741202E31296C93D9031246D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764AC5A85D0A1DDE495FDE1411073DB0 /* Pods-AutismTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AutismTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AutismTests/Pods-AutismTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4DE2915EEADD7793384FB4FCE7006E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82EBA3E0B17B84945285831F309B9F57 /* Starscream.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Starscream/Starscream-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Starscream/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Starscream/Starscream.modulemap";
+				PRODUCT_MODULE_NAME = Starscream;
+				PRODUCT_NAME = Starscream;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A4D70968D57F9C1EA30557823D3CBA7 /* Build configuration list for PBXNativeTarget "Pods-Autism" */ = {
+		10D6A32AC4A399ECB6958F421EEC0433 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9C6E5706BA54F460B10AA02F7ED6EC4 /* Debug */,
-				173305FB62C90E992FEC5B52842379B8 /* Release */,
+				135D365E36363649A07073845722350E /* Debug */,
+				8549ABEB22C6BCCF41FBC226D9771068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1665,17 +1835,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
-				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+				0E12B7268EF0862DFEEB8B6B0BD7C9F4 /* Debug */,
+				CD8324D57CD462761E218EEA4EA91EC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F81E6F99F0B47C01AF6F99B771AF45B /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */ = {
+		40020C92493B47365139A0544D6CD982 /* Build configuration list for PBXNativeTarget "Socket.IO-Client-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCE824EFEA0576E473D32134E8EBF62C /* Debug */,
-				6958B80590DF5D570CB92CB5DE0FE9D7 /* Release */,
+				B499205D8AF20E598702B3E1E2B37749 /* Debug */,
+				9ABBE2E61C78807E0AD33964B58B2794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4536CAAF8A4427DE4C180875E66E7176 /* Build configuration list for PBXNativeTarget "SwiftVideoBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F18EF49EDE88AC910D3385FD30297E2 /* Debug */,
+				4F721D982F6C33176A61A9A17799403A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1683,35 +1862,35 @@
 		47AEF5DA8D2BB96C257EF6367A82FCC4 /* Build configuration list for PBXNativeTarget "Pods-AutismUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8DB064E0DFD591E510CB66FAC997C9A /* Debug */,
-				417FFDB07E6D49EE38A36A29B746B95A /* Release */,
+				673B59A5F98B5D667FCFE8BF964BFB90 /* Debug */,
+				2AEB549BD473FEE9AC83A6A2985314C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56A574C13D71D40B753302D10D84BED0 /* Build configuration list for PBXNativeTarget "ViewAnimator" */ = {
+		750195BF7FFAFAC1CFAA4C9EF656DC91 /* Build configuration list for PBXNativeTarget "Sketch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				433C612346EA433A095DFC77376B8F90 /* Debug */,
-				4DBC869699D17B783D7E4AEF7C8BF2AC /* Release */,
+				B34B623475662BEBBAFAC297582A6DB4 /* Debug */,
+				2316B4CDA47F06A444D0716682DFD7DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A3AF7D47647243E609DF846F72D7911 /* Build configuration list for PBXNativeTarget "Starscream" */ = {
+		7E7CC5EAB2855A1309AB019838B7E99F /* Build configuration list for PBXNativeTarget "Pods-Autism" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				548FC0A29E14DE7AB10A73EC1A3974FB /* Debug */,
-				E1074DAC7C00AA7FB93AD80EC21342C6 /* Release */,
+				7CAEDEF917B182258199636533DA9DEB /* Debug */,
+				33DD9EC53ECC6577655106515E881163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A795E8278F8E3B64A674DE6E5642C28C /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+		8E934CE3267275F45580E71113CADF3B /* Build configuration list for PBXNativeTarget "Starscream" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A64554EE3C95D6907041F608CCF9C74C /* Debug */,
-				63494B847F96997C47D071F4B4E828F8 /* Release */,
+				F4DE2915EEADD7793384FB4FCE7006E8 /* Debug */,
+				858AC3F253002C46CB0A49BF86562475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1719,17 +1898,17 @@
 		D56CA4445301B8E8AD7A9183D0CC27A2 /* Build configuration list for PBXNativeTarget "Pods-AutismTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2462D31B524136170E5FFC9B2048FC6 /* Debug */,
-				CDF46DBF8357F3F951D82360A49C96F7 /* Release */,
+				E365106A741202E31296C93D9031246D /* Debug */,
+				AD16FD5B06DD8EB0E78618C54C34CA6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEF86F9F6DDB3C0F3278CF544CD6AE0B /* Build configuration list for PBXNativeTarget "SwiftVideoBackground" */ = {
+		F8A3A38A56AEF51AD8E1C6EBBDAA508F /* Build configuration list for PBXNativeTarget "ViewAnimator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B5439FBCD33410BBFA6F4F970E50ED9D /* Debug */,
-				6B159AD1E52CAF30E91AB018E3BFD2EC /* Release */,
+				BCFD1FF6752763E79C6C66B0914A9ABE /* Debug */,
+				8D77BF46FCE8DC9C13D8B847B24BD485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

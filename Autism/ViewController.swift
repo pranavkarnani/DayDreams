@@ -10,7 +10,7 @@ import UIKit
 import Speech
 import ViewAnimator
 
-var lessons : [String] = ["New Lesson","Independent-India","Avengers Endgame","Democracy"]
+var lessons : [String] = ["New Lesson","Independent-India","Avengers Endgame","Democracy","French Revolution"]
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, SFSpeechRecognizerDelegate {
     
     private let animations = [AnimationType.from(direction: .left, offset: 30.0),AnimationType.from(direction: .right, offset: 30.0), AnimationType.zoom(scale: 1.3)]
@@ -52,6 +52,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         let zoomAnimation = AnimationType.zoom(scale: 0.2)
         let rotateAnimation = AnimationType.rotate(angle: CGFloat.pi/6)
         UIView.animate(views: cells, animations: [rotateAnimation, zoomAnimation])
+        lessonImages = []
     }
     
     override func viewDidLayoutSubviews() {
@@ -63,13 +64,18 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             var isButtonEnabled = true
             switch authStatus {
             case .authorized:
+                
                 isButtonEnabled = true
                 if indexPath.item != 0 {
-                    DataHandler.shared.sendMessage(text: lessons[indexPath.row], completion: { (status) in
+                    DispatchQueue.main.async {
+                        lessonImages = []
+                    DataHandler.shared.getMessageData(text: lessons[indexPath.row], completion: { (status) in
                         if status == 0 {
+                           // lessonImages = []
                             self.performSegue(withIdentifier: "newLesson", sender: Any?.self)
                         }
                     })
+                    }
                 }
                 else {
                     self.performSegue(withIdentifier: "newLesson", sender: Any?.self)

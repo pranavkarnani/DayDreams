@@ -1,4 +1,4 @@
-platform :ios, '9.0'
+platform :ios, '12.0'
 
 target 'Autism' do
   use_frameworks!
@@ -6,6 +6,7 @@ target 'Autism' do
 pod 'SwiftyJSON'
 pod 'Socket.IO-Client-Swift', '~> 14.0.0'
 pod 'SwiftVideoBackground', '~> 3.0'
+pod 'Sketch'
 pod "ViewAnimator"
   target 'AutismTests' do
     inherit! :search_paths
