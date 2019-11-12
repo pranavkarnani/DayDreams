@@ -1,0 +1,38 @@
+PODS:
+  - Kingfisher (5.9.0):
+    - Kingfisher/Core (= 5.9.0)
+  - Kingfisher/Core (5.9.0)
+  - PinterestLayout (1.0.3)
+  - Sketch (2.0)
+  - Socket.IO-Client-Swift (14.0.0):
+    - Starscream (~> 3.0.6)
+  - Starscream (3.0.6)
+  - SwiftVideoBackground (3.4.0)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.9)
+  - PinterestLayout (~> 1.0)
+  - Sketch
+  - Socket.IO-Client-Swift (~> 14.0.0)
+  - SwiftVideoBackground (~> 3.0)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - PinterestLayout
+    - Sketch
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftVideoBackground
+
+SPEC CHECKSUMS:
+  Kingfisher: ff98240aebb7302bdc4f1ecd701761030ce18b16
+  PinterestLayout: f1c7ec0254ffa842d69f1b43e4436c8ded4359b9
+  Sketch: c54b898799ba34cb282b57ff42b5d0a6071e855f
+  Socket.IO-Client-Swift: 21e6a8a23a7d367d5ddfab6cbbd3c679cf3c25d6
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SwiftVideoBackground: 826e0567c737ded2a211aa309e9951c643695e8f
+
+PODFILE CHECKSUM: 06dafa2ea5e0b70538f38718645b1cd2adddaad6
+
+COCOAPODS: 1.8.4

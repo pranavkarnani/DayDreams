@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15A3EF5FFB16AC541715B22F /* Pods_DayDreamsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99EBC3A5AB4C910A202523C /* Pods_DayDreamsTests.framework */; };
+		8118F1B5231D43510044A074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8118F1B4231D43510044A074 /* AppDelegate.swift */; };
+		8118F1B7231D43510044A074 /* LiveLessonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8118F1B6231D43510044A074 /* LiveLessonViewController.swift */; };
+		8118F1BA231D43510044A074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8118F1B8231D43510044A074 /* Main.storyboard */; };
+		8118F1BD231D43510044A074 /* DayDreams.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8118F1BB231D43510044A074 /* DayDreams.xcdatamodeld */; };
+		8118F1BF231D43530044A074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8118F1BE231D43530044A074 /* Assets.xcassets */; };
+		8118F1C2231D43530044A074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8118F1C0231D43530044A074 /* LaunchScreen.storyboard */; };
+		8118F1CD231D43530044A074 /* DayDreamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8118F1CC231D43530044A074 /* DayDreamsTests.swift */; };
+		8118F1D8231D43530044A074 /* DayDreamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8118F1D7231D43530044A074 /* DayDreamsUITests.swift */; };
+		815C9876231D4BF100AC10A6 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C9875231D4BF100AC10A6 /* DrawViewController.swift */; };
+		8163760A236D1405008D5ECB /* Final Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81637609236D1405008D5ECB /* Final Video.mp4 */; };
+		8163760C236D2D26008D5ECB /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8163760B236D2D26008D5ECB /* DashboardViewController.swift */; };
+		8163760E236D60A7008D5ECB /* LessonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8163760D236D60A7008D5ECB /* LessonsCollectionViewCell.swift */; };
+		8186F4B4236F074B00E664F6 /* LessonACollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186F4B3236F074B00E664F6 /* LessonACollectionViewCell.swift */; };
+		8186F4B6236F076100E664F6 /* LessonBCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8186F4B5236F076100E664F6 /* LessonBCollectionViewCell.swift */; };
+		81FFCFB8236C363000191CA1 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FFCFB7236C363000191CA1 /* LandingViewController.swift */; };
+		81FFCFBA236C36A700191CA1 /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FFCFB9236C36A700191CA1 /* DataHandler.swift */; };
+		875081750A98CDD7CC1E01E8 /* Pods_DayDreamsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0759E894203900E2F616431 /* Pods_DayDreamsUITests.framework */; };
+		D10A401EC27A5BD48A8F8B96 /* Pods_DayDreams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF69FC52CC50938568E7A16 /* Pods_DayDreams.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8118F1C9231D43530044A074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8118F1A9231D43510044A074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8118F1B0231D43510044A074;
+			remoteInfo = DayDreams;
+		};
+		8118F1D4231D43530044A074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8118F1A9231D43510044A074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8118F1B0231D43510044A074;
+			remoteInfo = DayDreams;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F4CB7FEFF15DA688282889 /* Pods-DayDreams.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayDreams.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DayDreams/Pods-DayDreams.debug.xcconfig"; sourceTree = "<group>"; };
+		4CCF4B23289382EC64E04369 /* Pods-DayDreams.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayDreams.release.xcconfig"; path = "Pods/Target Support Files/Pods-DayDreams/Pods-DayDreams.release.xcconfig"; sourceTree = "<group>"; };
+		6BF69FC52CC50938568E7A16 /* Pods_DayDreams.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayDreams.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		718C36BD4C24C7561C8D37F2 /* Pods-DayDreamsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayDreamsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DayDreamsTests/Pods-DayDreamsTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D4661B51E4460F3CD9AD7BE /* Pods-DayDreamsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayDreamsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DayDreamsUITests/Pods-DayDreamsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8118F1B1231D43510044A074 /* DayDreams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayDreams.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8118F1B4231D43510044A074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8118F1B6231D43510044A074 /* LiveLessonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLessonViewController.swift; sourceTree = "<group>"; };
+		8118F1B9231D43510044A074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8118F1BC231D43510044A074 /* DayDreams.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DayDreams.xcdatamodel; sourceTree = "<group>"; };
+		8118F1BE231D43530044A074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8118F1C1231D43530044A074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8118F1C3231D43530044A074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8118F1C8231D43530044A074 /* DayDreamsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayDreamsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8118F1CC231D43530044A074 /* DayDreamsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDreamsTests.swift; sourceTree = "<group>"; };
+		8118F1CE231D43530044A074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8118F1D3231D43530044A074 /* DayDreamsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayDreamsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8118F1D7231D43530044A074 /* DayDreamsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDreamsUITests.swift; sourceTree = "<group>"; };
+		8118F1D9231D43530044A074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815C9875231D4BF100AC10A6 /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		81637609236D1405008D5ECB /* Final Video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Final Video.mp4"; sourceTree = "<group>"; };
+		8163760B236D2D26008D5ECB /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		8163760D236D60A7008D5ECB /* LessonsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsCollectionViewCell.swift; sourceTree = "<group>"; };
+		8186F4B3236F074B00E664F6 /* LessonACollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonACollectionViewCell.swift; sourceTree = "<group>"; };
+		8186F4B5236F076100E664F6 /* LessonBCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonBCollectionViewCell.swift; sourceTree = "<group>"; };
+		81FFCFB7236C363000191CA1 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		81FFCFB9236C36A700191CA1 /* DataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		A0967E0F40201DABF13FF3BC /* Pods-DayDreamsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayDreamsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DayDreamsUITests/Pods-DayDreamsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0759E894203900E2F616431 /* Pods_DayDreamsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayDreamsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39AC7F8C42EE1073B283C4E /* Pods-DayDreamsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayDreamsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DayDreamsTests/Pods-DayDreamsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F99EBC3A5AB4C910A202523C /* Pods_DayDreamsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayDreamsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8118F1AE231D43510044A074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10A401EC27A5BD48A8F8B96 /* Pods_DayDreams.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8118F1C5231D43530044A074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A3EF5FFB16AC541715B22F /* Pods_DayDreamsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8118F1D0231D43530044A074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875081750A98CDD7CC1E01E8 /* Pods_DayDreamsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8118F1A8231D43510044A074 = {
+			isa = PBXGroup;
+			children = (
+				8118F1B3231D43510044A074 /* DayDreams */,
+				8118F1CB231D43530044A074 /* DayDreamsTests */,
+				8118F1D6231D43530044A074 /* DayDreamsUITests */,
+				8118F1B2231D43510044A074 /* Products */,
+				E6276B6746AC7B5565355332 /* Pods */,
+				A93086138BF4F497856E1A7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8118F1B2231D43510044A074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8118F1B1231D43510044A074 /* DayDreams.app */,
+				8118F1C8231D43530044A074 /* DayDreamsTests.xctest */,
+				8118F1D3231D43530044A074 /* DayDreamsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8118F1B3231D43510044A074 /* DayDreams */ = {
+			isa = PBXGroup;
+			children = (
+				8118F1B4231D43510044A074 /* AppDelegate.swift */,
+				81FFCFB7236C363000191CA1 /* LandingViewController.swift */,
+				81FFCFB9236C36A700191CA1 /* DataHandler.swift */,
+				815C9875231D4BF100AC10A6 /* DrawViewController.swift */,
+				8118F1B6231D43510044A074 /* LiveLessonViewController.swift */,
+				8163760D236D60A7008D5ECB /* LessonsCollectionViewCell.swift */,
+				8163760B236D2D26008D5ECB /* DashboardViewController.swift */,
+				8118F1B8231D43510044A074 /* Main.storyboard */,
+				8186F4B3236F074B00E664F6 /* LessonACollectionViewCell.swift */,
+				8186F4B5236F076100E664F6 /* LessonBCollectionViewCell.swift */,
+				8118F1BE231D43530044A074 /* Assets.xcassets */,
+				8118F1C0231D43530044A074 /* LaunchScreen.storyboard */,
+				8118F1C3231D43530044A074 /* Info.plist */,
+				81637609236D1405008D5ECB /* Final Video.mp4 */,
+				8118F1BB231D43510044A074 /* DayDreams.xcdatamodeld */,
+			);
+			path = DayDreams;
+			sourceTree = "<group>";
+		};
+		8118F1CB231D43530044A074 /* DayDreamsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8118F1CC231D43530044A074 /* DayDreamsTests.swift */,
+				8118F1CE231D43530044A074 /* Info.plist */,
+			);
+			path = DayDreamsTests;
+			sourceTree = "<group>";
+		};
+		8118F1D6231D43530044A074 /* DayDreamsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8118F1D7231D43530044A074 /* DayDreamsUITests.swift */,
+				8118F1D9231D43530044A074 /* Info.plist */,
+			);
+			path = DayDreamsUITests;
+			sourceTree = "<group>";
+		};
+		A93086138BF4F497856E1A7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BF69FC52CC50938568E7A16 /* Pods_DayDreams.framework */,
+				F99EBC3A5AB4C910A202523C /* Pods_DayDreamsTests.framework */,
+				B0759E894203900E2F616431 /* Pods_DayDreamsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6276B6746AC7B5565355332 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05F4CB7FEFF15DA688282889 /* Pods-DayDreams.debug.xcconfig */,
+				4CCF4B23289382EC64E04369 /* Pods-DayDreams.release.xcconfig */,
+				C39AC7F8C42EE1073B283C4E /* Pods-DayDreamsTests.debug.xcconfig */,
+				718C36BD4C24C7561C8D37F2 /* Pods-DayDreamsTests.release.xcconfig */,
+				A0967E0F40201DABF13FF3BC /* Pods-DayDreamsUITests.debug.xcconfig */,
+				7D4661B51E4460F3CD9AD7BE /* Pods-DayDreamsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8118F1B0231D43510044A074 /* DayDreams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8118F1DC231D43530044A074 /* Build configuration list for PBXNativeTarget "DayDreams" */;
+			buildPhases = (
+				56BD97C5CFF8C48B12A80635 /* [CP] Check Pods Manifest.lock */,
+				8118F1AD231D43510044A074 /* Sources */,
+				8118F1AE231D43510044A074 /* Frameworks */,
+				8118F1AF231D43510044A074 /* Resources */,
+				C7CE6EDE6A13E11537450A1D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayDreams;
+			productName = DayDreams;
+			productReference = 8118F1B1231D43510044A074 /* DayDreams.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8118F1C7231D43530044A074 /* DayDreamsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8118F1DF231D43530044A074 /* Build configuration list for PBXNativeTarget "DayDreamsTests" */;
+			buildPhases = (
+				9C2B825C08F57459CF72F152 /* [CP] Check Pods Manifest.lock */,
+				8118F1C4231D43530044A074 /* Sources */,
+				8118F1C5231D43530044A074 /* Frameworks */,
+				8118F1C6231D43530044A074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8118F1CA231D43530044A074 /* PBXTargetDependency */,
+			);
+			name = DayDreamsTests;
+			productName = DayDreamsTests;
+			productReference = 8118F1C8231D43530044A074 /* DayDreamsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8118F1D2231D43530044A074 /* DayDreamsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8118F1E2231D43530044A074 /* Build configuration list for PBXNativeTarget "DayDreamsUITests" */;
+			buildPhases = (
+				358AB08D2298EE2AFB6AE762 /* [CP] Check Pods Manifest.lock */,
+				8118F1CF231D43530044A074 /* Sources */,
+				8118F1D0231D43530044A074 /* Frameworks */,
+				8118F1D1231D43530044A074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8118F1D5231D43530044A074 /* PBXTargetDependency */,
+			);
+			name = DayDreamsUITests;
+			productName = DayDreamsUITests;
+			productReference = 8118F1D3231D43530044A074 /* DayDreamsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8118F1A9231D43510044A074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Pranav Karnani";
+				TargetAttributes = {
+					8118F1B0231D43510044A074 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8118F1C7231D43530044A074 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8118F1B0231D43510044A074;
+					};
+					8118F1D2231D43530044A074 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8118F1B0231D43510044A074;
+					};
+				};
+			};
+			buildConfigurationList = 8118F1AC231D43510044A074 /* Build configuration list for PBXProject "DayDreams" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8118F1A8231D43510044A074;
+			productRefGroup = 8118F1B2231D43510044A074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8118F1B0231D43510044A074 /* DayDreams */,
+				8118F1C7231D43530044A074 /* DayDreamsTests */,
+				8118F1D2231D43530044A074 /* DayDreamsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8118F1AF231D43510044A074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8118F1C2231D43530044A074 /* LaunchScreen.storyboard in Resources */,
+				8118F1BF231D43530044A074 /* Assets.xcassets in Resources */,
+				8118F1BA231D43510044A074 /* Main.storyboard in Resources */,
+				8163760A236D1405008D5ECB /* Final Video.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8118F1C6231D43530044A074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8118F1D1231D43530044A074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		358AB08D2298EE2AFB6AE762 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayDreamsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56BD97C5CFF8C48B12A80635 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayDreams-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C2B825C08F57459CF72F152 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayDreamsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7CE6EDE6A13E11537450A1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DayDreams/Pods-DayDreams-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DayDreams/Pods-DayDreams-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DayDreams/Pods-DayDreams-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8118F1AD231D43510044A074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8163760E236D60A7008D5ECB /* LessonsCollectionViewCell.swift in Sources */,
+				815C9876231D4BF100AC10A6 /* DrawViewController.swift in Sources */,
+				8163760C236D2D26008D5ECB /* DashboardViewController.swift in Sources */,
+				8118F1B7231D43510044A074 /* LiveLessonViewController.swift in Sources */,
+				8118F1B5231D43510044A074 /* AppDelegate.swift in Sources */,
+				8186F4B4236F074B00E664F6 /* LessonACollectionViewCell.swift in Sources */,
+				81FFCFB8236C363000191CA1 /* LandingViewController.swift in Sources */,
+				81FFCFBA236C36A700191CA1 /* DataHandler.swift in Sources */,
+				8118F1BD231D43510044A074 /* DayDreams.xcdatamodeld in Sources */,
+				8186F4B6236F076100E664F6 /* LessonBCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8118F1C4231D43530044A074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8118F1CD231D43530044A074 /* DayDreamsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8118F1CF231D43530044A074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8118F1D8231D43530044A074 /* DayDreamsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8118F1CA231D43530044A074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8118F1B0231D43510044A074 /* DayDreams */;
+			targetProxy = 8118F1C9231D43530044A074 /* PBXContainerItemProxy */;
+		};
+		8118F1D5231D43530044A074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8118F1B0231D43510044A074 /* DayDreams */;
+			targetProxy = 8118F1D4231D43530044A074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8118F1B8231D43510044A074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8118F1B9231D43510044A074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8118F1C0231D43530044A074 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8118F1C1231D43530044A074 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8118F1DA231D43530044A074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8118F1DB231D43530044A074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8118F1DD231D43530044A074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F4CB7FEFF15DA688282889 /* Pods-DayDreams.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7Q45HP436;
+				INFOPLIST_FILE = DayDreams/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pk.DayDreams;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8118F1DE231D43530044A074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CCF4B23289382EC64E04369 /* Pods-DayDreams.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7Q45HP436;
+				INFOPLIST_FILE = DayDreams/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pk.DayDreams;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8118F1E0231D43530044A074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39AC7F8C42EE1073B283C4E /* Pods-DayDreamsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7Q45HP436;
+				INFOPLIST_FILE = DayDreamsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pk.DayDreamsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayDreams.app/DayDreams";
+			};
+			name = Debug;
+		};
+		8118F1E1231D43530044A074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 718C36BD4C24C7561C8D37F2 /* Pods-DayDreamsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7Q45HP436;
+				INFOPLIST_FILE = DayDreamsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pk.DayDreamsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayDreams.app/DayDreams";
+			};
+			name = Release;
+		};
+		8118F1E3231D43530044A074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0967E0F40201DABF13FF3BC /* Pods-DayDreamsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7Q45HP436;
+				INFOPLIST_FILE = DayDreamsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pk.DayDreamsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DayDreams;
+			};
+			name = Debug;
+		};
+		8118F1E4231D43530044A074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4661B51E4460F3CD9AD7BE /* Pods-DayDreamsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7Q45HP436;
+				INFOPLIST_FILE = DayDreamsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pk.DayDreamsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DayDreams;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8118F1AC231D43510044A074 /* Build configuration list for PBXProject "DayDreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8118F1DA231D43530044A074 /* Debug */,
+				8118F1DB231D43530044A074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8118F1DC231D43530044A074 /* Build configuration list for PBXNativeTarget "DayDreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8118F1DD231D43530044A074 /* Debug */,
+				8118F1DE231D43530044A074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8118F1DF231D43530044A074 /* Build configuration list for PBXNativeTarget "DayDreamsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8118F1E0231D43530044A074 /* Debug */,
+				8118F1E1231D43530044A074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8118F1E2231D43530044A074 /* Build configuration list for PBXNativeTarget "DayDreamsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8118F1E3231D43530044A074 /* Debug */,
+				8118F1E4231D43530044A074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8118F1BB231D43510044A074 /* DayDreams.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8118F1BC231D43510044A074 /* DayDreams.xcdatamodel */,
+			);
+			currentVersion = 8118F1BC231D43510044A074 /* DayDreams.xcdatamodel */;
+			path = DayDreams.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8118F1A9231D43510044A074 /* Project object */;
+}
